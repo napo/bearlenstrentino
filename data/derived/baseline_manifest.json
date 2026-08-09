@@ -1,0 +1,22 @@
+{
+  "method": "uniform_random_rejection_sampling",
+  "n_requested": 10000,
+  "n_sampled": 10000,
+  "seed": 42,
+  "crs": "EPSG:4326",
+  "attempts": -1,
+  "study_area": {
+    "source": "Nominatim (OpenStreetMap)",
+    "osm_type": "relation",
+    "osm_id": 45756,
+    "display_name": "Provincia di Trento, Trentino-Alto Adige/Südtirol, Italia",
+    "query": "Provincia Autonoma di Trento",
+    "fetched_at": "2026-08-09T06:58:46.424033+00:00"
+  },
+  "generated_at": "2026-08-09T06:58:46.694126+00:00",
+  "known_limitations": [
+    "Uniform random sampling, not environmentally or accessibility-stratified (see REFERENCES.md, Steen et al. 2024 / Whitford et al. 2024 for alternatives).",
+    "Study area is OSM's administrative boundary via Nominatim, not the authoritative ISTAT statistical boundary (see pipeline/baseline/study_area.py).",
+    "OSM enrichment of these points (Milestone 10) is expected to operate on a documented subset, not all 10,000, due to Overpass scaling limits found in Milestone 8."
+  ]
+}

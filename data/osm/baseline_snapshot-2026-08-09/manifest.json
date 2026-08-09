@@ -1,0 +1,20 @@
+{
+  "fetched_at": "2026-08-09T08:15:07.382708+00:00",
+  "source": "Overpass API (overpass-api.de)",
+  "license": "© OpenStreetMap contributors, ODbL: https://opendatacommons.org/licenses/odbl/",
+  "point_count": 40,
+  "road_radius_m": 350.0,
+  "building_radius_m": 300.0,
+  "settlement_radius_m": 8000,
+  "tourism_radius_m": 1200,
+  "note": "Per-point radius union fetch, not a regional bounding-box extract — see pipeline/enrichment/osm_source.py docstring.",
+  "counts": {
+    "roads": 0,
+    "buildings": 0,
+    "settlements": 5857,
+    "tourism": 0
+  },
+  "subset_n": 40,
+  "subset_seed": 7,
+  "baseline_total_n": 10000
+}

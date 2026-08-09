@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa di test</name>
+    <Folder>
+      <name>Avvistamento a distanza</name>
+      <Placemark>
+        <name>Bosco Alto</name>
+        <description><![CDATA[12/05/2024 - Un orso è stato avvistato ai margini del bosco.]]></description>
+        <Point>
+          <coordinates>11.1234,46.1234,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

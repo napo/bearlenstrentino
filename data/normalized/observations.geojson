@@ -1,0 +1,2271 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.046342,
+          46.108322
+        ]
+      },
+      "properties": {
+        "id": "obs_7d45221ae74ec213",
+        "source_layer": "Presso le case",
+        "name_public": "Vallene",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6FkevdJIjsmXE3HEx-9rS0gm3DWE6cUrMY3AuNVvMe8VfbluCYbFZEey6HTXA2A1OtyZ5rPupH07n93cN5hNsoAYhn00Uuog7JA3PxFTnjK2aAaC3xS36rtBZ12YVZESDuPjFXjqyY96ZW34ePhHc2sR-Gb-37bWWWMkROLJdybPQrT60lO7ltJMXrAu9vEctcA_VchvhBCVg7FvVVKALnMxRO1meEr7V-QkQjoSze4_52sH9T58udU7E?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>1/06/2026 - Vallene di Terlago (Vallelaghi),  giugno: un orso è fotografato mentre cammina a fianco di un’abitazione prossima al bosco",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6FkevdJIjsmXE3HEx-9rS0gm3DWE6cUrMY3AuNVvMe8VfbluCYbFZEey6HTXA2A1OtyZ5rPupH07n93cN5hNsoAYhn00Uuog7JA3PxFTnjK2aAaC3xS36rtBZ12YVZESDuPjFXjqyY96ZW34ePhHc2sR-Gb-37bWWWMkROLJdybPQrT60lO7ltJMXrAu9vEctcA_VchvhBCVg7FvVVKALnMxRO1meEr7V-QkQjoSze4_52sH9T58udU7E?fife=s16383"
+        ],
+        "media_local": [
+          "media/f6722bf533afa153c74a.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-01",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 1,
+        "date_text_raw": "1/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "unknown",
+        "classification_method": "unknown",
+        "classification_confidence": "unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0661725,
+          46.0864405
+        ]
+      },
+      "properties": {
+        "id": "obs_7365c50d657f628c",
+        "source_layer": "Presso le case",
+        "name_public": "Cadine",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR46yC3G8FbRIYbhtBE_UNeRa3Ko9nUWdbxnXNE_sRDbvFIszLuxBBmIhgkC0sCfndOzK2m91ewc8DqzO1wch_yYGtQPcWmByOrwSzBBRhfJ-XlOSChsU3U73oK8nxOjgbWyjd7cGfb9GI6uzhKi_4LJCI3Wpk3WAmob1Y_gsPJQefgQucSTOtm_pDjBRJhogIbsAscIQHYTl9D2UGrjuIYHGKpCY5d5GP8OuxH3JjhYSWZqTdp6OcRaMiA?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>27/05/2026 - Una donna, PERSON_0001, ai bordi del paese riprende un orso nell'orto sottostante casa sua. La forestale, solo dopo che il video è finito sui social e dai social è rimbalzato sui quotidiani trentini comunica ufficialmente (ma erano passate due settimane) che l'orso era apparso nello stesso posto anche il 30/05/2026. Ma se è problematico cosa hanno fatto?",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR46yC3G8FbRIYbhtBE_UNeRa3Ko9nUWdbxnXNE_sRDbvFIszLuxBBmIhgkC0sCfndOzK2m91ewc8DqzO1wch_yYGtQPcWmByOrwSzBBRhfJ-XlOSChsU3U73oK8nxOjgbWyjd7cGfb9GI6uzhKi_4LJCI3Wpk3WAmob1Y_gsPJQefgQucSTOtm_pDjBRJhogIbsAscIQHYTl9D2UGrjuIYHGKpCY5d5GP8OuxH3JjhYSWZqTdp6OcRaMiA?fife=s16383"
+        ],
+        "media_local": [
+          "media/cafa4c05dfa0882c0276.png"
+        ],
+        "redaction_applied": true,
+        "redaction_codes": [
+          "PERSON_0001"
+        ],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-27",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 27,
+        "date_text_raw": "27/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "text_heuristic",
+        "classification_confidence": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0666219,
+          46.0388012
+        ]
+      },
+      "properties": {
+        "id": "obs_45476eebe33329d7",
+        "source_layer": "Presso le case",
+        "name_public": "Vason 3",
+        "description_public": "09/08/2026. Orso avvistato all'arrivo della seggiovia  alle 06:30",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-09T15:26:00.374995+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-09T15:26:00.374995+00:00",
+        "event_date": "2026-08-09",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 9,
+        "date_text_raw": "09/08/2026",
+        "date_parse_status": "full",
+        "event_hour": 6,
+        "event_minute": 30,
+        "time_text_raw": "alle 06:30",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "text_heuristic",
+        "classification_confidence": "low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0811956,
+          46.0712809
+        ]
+      },
+      "properties": {
+        "id": "obs_069b9a1aea3af9a6",
+        "source_layer": "Incontri ravvicinati e falsi attacchi",
+        "name_public": "Camponzin",
+        "description_public": "09/07/2026. Sopramonte di Trento. Alle 11.00  un ragazzino di 14 anni che si allenava correndo ha avuto un incontro ravvicinato con un orso. Il ragazzo, che proveniva da Sopramonte lungo la strada provinciale 85, si imbatteva nel plantigrado poco dopo aver imboccato la strada forestale per il Maso Camponzin (Fattoria didattica con campi estivi per bambini). L'orso, nell'attraversare la strada ha scorto il ragazzo e si è fermato. Dopo averlo fissato ha proseguito. Il ragazzo è rimasto scosso e ha chiamato la madre che è arrivata sul posto. ",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-09",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 9,
+        "date_text_raw": "09/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 11,
+        "event_minute": 0,
+        "time_text_raw": "Alle 11.00",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2235303,
+          46.446269
+        ]
+      },
+      "properties": {
+        "id": "obs_384ee33ba540698f",
+        "source_layer": "Incontri ravvicinati e falsi attacchi",
+        "name_public": "Predonico",
+        "description_public": "17/07/2026. Padre e figlio notano a breve distanza un cucciolo sul sentiero. Temendo la presenza dell'orsa chiamano i soccorsi.",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-17",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 17,
+        "date_text_raw": "17/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.848516,
+          46.0722796
+        ]
+      },
+      "properties": {
+        "id": "obs_39acfcf3fe354e61",
+        "source_layer": "Incontri ravvicinati e falsi attacchi",
+        "name_public": "Arca di Fraporte ",
+        "description_public": "Stenico (26/06/2026). Un escursionista attaccato su un sentiero da un'orsa con i cuccioli. La carica si è arrestata a poca distanza dall'uomo che è rientrato autonomamente",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-26",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 26,
+        "date_text_raw": "26/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063631,
+          46.098884
+        ]
+      },
+      "properties": {
+        "id": "obs_e2cbfc30fc81d6d9",
+        "source_layer": "Incontri ravvicinati e falsi attacchi",
+        "name_public": "Fontana Filia",
+        "description_public": "17/05/2026 - Un'impiegata della PAT di 30 anni che correva tra Cadine e Terlago su un sentiero chiama i soccorsi in stato di grande agitazione in zona Fontana Filia. Il comandante dei vigili del fuoco, arrivato sul posto, successivamente intervistato riferisce che la donna soccorsa era molto scossa essendo stata seguita da un orso. La trentenne, che non rivela il nome, poi riferisce di essere stata calma, di essersi allontanata come da protocolli e di non essere stata seguita. La PAT ufficializza la versione \"tranquillizzante\". Caso eloquente. ",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-17",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 17,
+        "date_text_raw": "17/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.934807,
+          46.074808
+        ]
+      },
+      "properties": {
+        "id": "obs_18d7f28d0ba46c44",
+        "source_layer": "Incontri ravvicinati e falsi attacchi",
+        "name_public": "San Lorenzo Dorsino",
+        "description_public": "21/06/2026 - \"Falso attacco\" finito a un metro di distanza da due malcapitati escursionisti locali che percorrevano la forestale del Bael tra Ranzo e Nembia (a circa 3 km da Ranzo). La PAT ha cercato di sminuire la portata dell'accaduto parlando id un \"avvertimento\" da parte di un'orsa con tre cuccioli",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-21",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 21,
+        "date_text_raw": "21/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0195311,
+          46.0764608
+        ]
+      },
+      "properties": {
+        "id": "obs_341bb81b777b93f6",
+        "source_layer": "Incidenti stradali",
+        "name_public": "Vecchio Mulino",
+        "description_public": "31/07/2026. Nella mattinata a Vezzano (Vallelaghi) sulla SS 45 , all'altezza del Vecchio Mulino, un orso ha urtato un auto in transito. E' però fuggito verso la vegetazione",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-31",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 31,
+        "date_text_raw": "31/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "vehicle_collision",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.71553,
+          46.303621
+        ]
+      },
+      "properties": {
+        "id": "obs_f255660a841034ed",
+        "source_layer": "Incidenti stradali",
+        "name_public": "VERMIGLIO",
+        "description_public": "26/05/2026 - Scontro con un orso con gravi danni alla vettura. Mattina.",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-26",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 26,
+        "date_text_raw": "26/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "vehicle_collision",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9302963,
+          46.2261203
+        ]
+      },
+      "properties": {
+        "id": "obs_7c8b93a36c299b61",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Flavona",
+        "description_public": "27/07/2026. Comune di Ville d'Anaunia. Carcassa di un cavallo semiconsumata avvistata da escursionisti.",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-27",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 27,
+        "date_text_raw": "27/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0280627,
+          46.2279821
+        ]
+      },
+      "properties": {
+        "id": "obs_98ee212e0c160156",
+        "source_layer": "Predazioni",
+        "name_public": "Sporminore",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR52sca5VC02TQsQe5AunGOvks5Ujb1IYj1s0qE7tj9CVPeeQJa70c8nF9rAR-dy5Om2DK0C-71YRNnne1KFBcyTGmLcApn16RbQdiE41082vZ-hAbItkTWtW0EJHB1LDu6p3DxrNMwVIeyBM2FSNt61KmTQE3GZXujb9ryhhzRFKFtcCD84k9tKh52rekQuxv_QCYdUU_6-_-wzUMPXysUFjHx7mj-qkmgvnCX7iYCyMil59TKLiP-NJsc?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>31/07/2026. A Sporminore una capra uccisa dall'orso nonostante recinzioni a cani da protezione",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR52sca5VC02TQsQe5AunGOvks5Ujb1IYj1s0qE7tj9CVPeeQJa70c8nF9rAR-dy5Om2DK0C-71YRNnne1KFBcyTGmLcApn16RbQdiE41082vZ-hAbItkTWtW0EJHB1LDu6p3DxrNMwVIeyBM2FSNt61KmTQE3GZXujb9ryhhzRFKFtcCD84k9tKh52rekQuxv_QCYdUU_6-_-wzUMPXysUFjHx7mj-qkmgvnCX7iYCyMil59TKLiP-NJsc?fife=s16383"
+        ],
+        "media_local": [
+          "media/9e9b3cdf0b2c3390cacc.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-31",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 31,
+        "date_text_raw": "31/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6756878,
+          46.0461084
+        ]
+      },
+      "properties": {
+        "id": "obs_0255f4dbb3f54e05",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Cengledino",
+        "description_public": "18/07/2026. Predazione di una vacca gravida sopra Malga Cengledino (molto frequentata dai turisti). ",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-18",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 18,
+        "date_text_raw": "18/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7415001,
+          45.9605398
+        ]
+      },
+      "properties": {
+        "id": "obs_d3fb62af329f8603",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Guì",
+        "description_public": "16/07/2026. A Malga Guì, in val Concei (comune di Ledro) una vacca gravida è stata predata dall'orso. La carcssa recuperata con un elicottero. Un altro capo risulta disperso",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-16",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 16,
+        "date_text_raw": "16/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8666646,
+          46.4032129
+        ]
+      },
+      "properties": {
+        "id": "obs_6af5420caee3e178",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Zoccol",
+        "description_public": "27/07/2026. Alla Malga Zoccol in comune di Rabbi due asini gravemente feriti nella notte hanno dovuto essere successivamente soppressi",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-27",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 27,
+        "date_text_raw": "27/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6672115,
+          46.3353309
+        ]
+      },
+      "properties": {
+        "id": "obs_a916d4aff6a14afb",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Val Comasine",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4TC6tVE8DL3mKYw8MGHQf6J8ZF-SZRSD2TOMDg-hfo5A53f4H8UYD52eMfHCVE4Oc-EYhrMWVPL7SmF3nC9lhjBoEhQK7Q13L2iL-eu5N8CBNaIiiLJ5pmLSJgxXj8kX3didX9aTl8UxL49W9tRnSGKXdJnhYgpQdTdaifCs7KtGxo42HFCWTTciS05lDMqiZKA1AU0gXdA0uowGomyKEmSW40UYDa8wMhie5qz42S-VkerU6ghP5Dytw?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>07/07/2026- Predazione di cinque bovini. A seguito di questo grave episodio la forestale ha piazzato una trappola a tubo per radiocollarare il l'orso che aveva precedentemente attaccato alla Malga Saviana di Vermiglio",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4TC6tVE8DL3mKYw8MGHQf6J8ZF-SZRSD2TOMDg-hfo5A53f4H8UYD52eMfHCVE4Oc-EYhrMWVPL7SmF3nC9lhjBoEhQK7Q13L2iL-eu5N8CBNaIiiLJ5pmLSJgxXj8kX3didX9aTl8UxL49W9tRnSGKXdJnhYgpQdTdaifCs7KtGxo42HFCWTTciS05lDMqiZKA1AU0gXdA0uowGomyKEmSW40UYDa8wMhie5qz42S-VkerU6ghP5Dytw?fife=s16383"
+        ],
+        "media_local": [
+          "media/c62d53c099c412a24d2f.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-07",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 7,
+        "date_text_raw": "07/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6668231,
+          46.3081291
+        ]
+      },
+      "properties": {
+        "id": "obs_2b63ac32e14e3bd3",
+        "source_layer": "Predazioni",
+        "name_public": "Val Saviana",
+        "description_public": "Azienda di bovini da latte Sablum sui pascoli della Val Saviana. Tre vitelle predate da orso nella notte del 26/06/2o26",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": null,
+        "event_year": null,
+        "event_month": 6,
+        "event_day": 26,
+        "date_text_raw": "26/06",
+        "date_parse_status": "day_month_no_year",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7428253,
+          46.2897275
+        ]
+      },
+      "properties": {
+        "id": "obs_d7bfae6065205147",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Valpiana",
+        "description_public": "01/07/2026 - Comune di Ossana. Predazione su bovini. ",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-01",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 1,
+        "date_text_raw": "01/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8708619,
+          46.354783
+        ]
+      },
+      "properties": {
+        "id": "obs_1265a2dba2aa93a3",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Bolentina",
+        "description_public": "24/07/2026. Malga Bolentina, comune di Malè. Attaccate 4 bovine.",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-24",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 24,
+        "date_text_raw": "24/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8056657,
+          46.1583974
+        ]
+      },
+      "properties": {
+        "id": "obs_a321715c09804089",
+        "source_layer": "Predazioni",
+        "name_public": "Malga Brandalors",
+        "description_public": "02/08/2026. Malga Brandalors in comune di Giustino. Una vitella sbranata dall'orso",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-02",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 2,
+        "date_text_raw": "02/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "predation_evidence",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1388763,
+          46.2457224
+        ]
+      },
+      "properties": {
+        "id": "obs_5841a0cac5442ca5",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Malga Kraun",
+        "description_public": "05/08/2026. Mezzocorona. Avvistato orso su sentiero per Malga Kraun",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-05",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 5,
+        "date_text_raw": "05/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0315438,
+          46.4866673
+        ]
+      },
+      "properties": {
+        "id": "obs_691c2b211a2367d3",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Proves",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42WidZ32LB5uodpGqdej9z_E9_JEsIPTSL0uYg-dKrFxRG5QCuEdWKbn_i0MBQRRfyic7pjzBn3ag5ng4NlxeVgYXq7rMRccBKaP2H6K9CmYlW-OCfb4sf8-GGcdaB2rDyxNkaFS7MqeZOos7_p_iRJkIjlvTOJknG4z885NM8luuIlrsPmDVue9u-cNqcOAooYeGNOVcixcZ0SK4fg4Y2pd4dbQ57P1VDqzdwT1ujo7wEVK21YiWXgS4?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>08/04/2026. Loc. Matzlaun. Orso ripreso al mattino da operai ",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42WidZ32LB5uodpGqdej9z_E9_JEsIPTSL0uYg-dKrFxRG5QCuEdWKbn_i0MBQRRfyic7pjzBn3ag5ng4NlxeVgYXq7rMRccBKaP2H6K9CmYlW-OCfb4sf8-GGcdaB2rDyxNkaFS7MqeZOos7_p_iRJkIjlvTOJknG4z885NM8luuIlrsPmDVue9u-cNqcOAooYeGNOVcixcZ0SK4fg4Y2pd4dbQ57P1VDqzdwT1ujo7wEVK21YiWXgS4?fife=s16383"
+        ],
+        "media_local": [
+          "media/71b70fef5748294b74f2.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-04-08",
+        "event_year": 2026,
+        "event_month": 4,
+        "event_day": 8,
+        "date_text_raw": "08/04/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.148847,
+          46.4824354
+        ]
+      },
+      "properties": {
+        "id": "obs_670f06ea33d146e2",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Tret",
+        "description_public": "28/07/2026. Orso avvistato da molti turisti sopra il parcheggio presso Hotel Scoiattolo",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-28",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 28,
+        "date_text_raw": "28/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0476531,
+          46.0515106
+        ]
+      },
+      "properties": {
+        "id": "obs_86012404ea9a4924",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Strada Brigolina",
+        "description_public": "03/08/2026. Orso adulto sulla strada di Malga Brigolina, incrocio per Lavè. ore 19:00",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-03",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 3,
+        "date_text_raw": "03/08/2026",
+        "date_parse_status": "full",
+        "event_hour": 19,
+        "event_minute": 0,
+        "time_text_raw": "ore 19:00",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0647757,
+          46.0483658
+        ]
+      },
+      "properties": {
+        "id": "obs_e7928fd4cbacb1f7",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Norge",
+        "description_public": "17/07/2026. alle 7:00 un cucciolotto ha attraversato la provinciale 85 in loc. Norge (poco a monte dell'Hotel Norge). Proveniva dal bosco. Evidentemente la madre era nella vicinanze",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-17",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 17,
+        "date_text_raw": "17/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 7,
+        "event_minute": 0,
+        "time_text_raw": "alle 7:00",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8428387,
+          46.2392917
+        ]
+      },
+      "properties": {
+        "id": "obs_db303dcdfb17ce3f",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Campo Carlo Magno",
+        "description_public": "(06/07/2026) . Verso le 13, una giovane turista con seconda casa si imbatte in una femmina con tre cuccioli a poca distanza. Resta impietrita dalla paura e l'orsa se ne va.",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-06",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 6,
+        "date_text_raw": "06/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 13,
+        "event_minute": null,
+        "time_text_raw": "Verso le 13",
+        "time_parse_status": "approximate",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1291613,
+          46.2347174
+        ]
+      },
+      "properties": {
+        "id": "obs_65fdcdf46897fc5b",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Monte di Mezzocorona",
+        "description_public": "12/07/2026. Un ragazzo in MTB, che saliva da Monte di Mezzocorona alla malga Kraun si è imbattuto in un orso a circa 2 km di distanza da Monte. Spaventato tornava indietro e allertava l'albrergo Ai Spiazzi Mountain Living Lodge",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-12",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 12,
+        "date_text_raw": "12/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9833857,
+          46.3307439
+        ]
+      },
+      "properties": {
+        "id": "obs_92544fa271a5cc71",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Tuenno",
+        "description_public": "<a href=\"https://www.youtube.com/watch?v=emlZoHNTucE\"><img src=\"https://img.youtube.com/vi/emlZoHNTucE/hqdefault.jpg\" height=\"200\" width=\"auto\" /></a><br><br><a href=\"https://www.youtube.com/embed/emlZoHNTucE\">https://www.youtube.com/embed/emlZoHNTucE</a><br><br>10/07/2026. Ai bordi di una strada forestale. Ripreso da un auto. Dal fermo immagine si nota come l'orso ha guardato in direzione dell'automobilista. Per vedere bene il video aprire YOU TUBE!",
+        "coordinate_error": null,
+        "media_links": [
+          "https://www.youtube.com/embed/emlZoHNTucE"
+        ],
+        "media_local": [
+          null
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-10",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 10,
+        "date_text_raw": "10/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0188368,
+          45.9534308
+        ]
+      },
+      "properties": {
+        "id": "obs_4dc377dd7aad6d79",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Lago di Cei?",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4b067RKtUGmzL7ZynGhKCSrguY2RuhPn5PiWePeeqwIcIKVbyPqw04c8ceDnPjaCoZjrB4IkCrSZvELHV71Io2hG36Vg0_TYAaog7d3Pb3k3t4Q4SuhWHAgfRxF7XEbpKADgNlB0hdFdf3G3e8S2zB8-bFVFahkGY7N3YzdzRBtGbS6WwVdc-eRL6_0i_EJpodmOww6ji_XnM8H9WqS5G205LZp3YeBE9ibhjt1Vyx59JNisK_WXD1bBI?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>17/05/2026 - alle 17:45 un orso è stato ripreso mentre camminava su una forestale in zona Lago di Cei.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4b067RKtUGmzL7ZynGhKCSrguY2RuhPn5PiWePeeqwIcIKVbyPqw04c8ceDnPjaCoZjrB4IkCrSZvELHV71Io2hG36Vg0_TYAaog7d3Pb3k3t4Q4SuhWHAgfRxF7XEbpKADgNlB0hdFdf3G3e8S2zB8-bFVFahkGY7N3YzdzRBtGbS6WwVdc-eRL6_0i_EJpodmOww6ji_XnM8H9WqS5G205LZp3YeBE9ibhjt1Vyx59JNisK_WXD1bBI?fife=s16383"
+        ],
+        "media_local": [
+          "media/3b8b8866c031c1a19676.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-17",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 17,
+        "date_text_raw": "17/05/2026",
+        "date_parse_status": "full",
+        "event_hour": 17,
+        "event_minute": 45,
+        "time_text_raw": "alle 17:45",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7874337,
+          46.0503343
+        ]
+      },
+      "properties": {
+        "id": "obs_3ce7b0499ecdfd5b",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Ponte di Ragoli",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5QOtFyMDUWHPjfi_5qfcc1pILiunvONcQyk-RNYly4ZLOO4FQ1OLt_vBkNGT1ZLKsanxBCLcWrtB6lhe4_gWWSvCM2o7VONYCUYTS317Ir3CTLXt2VwANQzpA7wo2UDoMS4q_Bq_hXA2j2yMzfBJc3tEkyfqbufNAXInzEsOmpRzgMfsbV35WH7HaJO3eeyr1LgD_rCJuLOX_tX78fq-dt8W7lfTDQCDTag81weIm2HcqCNns6wUsPXfg?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>14/05/2026. Avvistato a lato statale alle ore 20",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5QOtFyMDUWHPjfi_5qfcc1pILiunvONcQyk-RNYly4ZLOO4FQ1OLt_vBkNGT1ZLKsanxBCLcWrtB6lhe4_gWWSvCM2o7VONYCUYTS317Ir3CTLXt2VwANQzpA7wo2UDoMS4q_Bq_hXA2j2yMzfBJc3tEkyfqbufNAXInzEsOmpRzgMfsbV35WH7HaJO3eeyr1LgD_rCJuLOX_tX78fq-dt8W7lfTDQCDTag81weIm2HcqCNns6wUsPXfg?fife=s16383"
+        ],
+        "media_local": [
+          "media/0f0a801dbb069aae8c68.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-14",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 14,
+        "date_text_raw": "14/05/2026",
+        "date_parse_status": "full",
+        "event_hour": 20,
+        "event_minute": null,
+        "time_text_raw": "alle ore 20",
+        "time_parse_status": "approximate",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5866603,
+          45.8961224
+        ]
+      },
+      "properties": {
+        "id": "obs_32e5700160090602",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Brione",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5DJolwmwKJYbNlkwWE9fZyO7BOV2FSKt44twpkjVRRss5-JPdDBYmtq6QyiFokbTkFp93kCyc2QL5psrx3mUQxBLe82hFeL6N9RABtnPTS4ker4rMu0PqktRD-iB5XI-trTZRYhaG6XFNmEjJqNjRnr8vGGtyC36kKcnCWsdhIvQrpcvjz2A4jIAAdazFKLukd9TiTdNe89OJqj10CmOEzZwfhmyjGLN5z94DcxuXQCNqZ94ynGqfjkRc?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>Primi di luglio 2026, mattino, bordo strada",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5DJolwmwKJYbNlkwWE9fZyO7BOV2FSKt44twpkjVRRss5-JPdDBYmtq6QyiFokbTkFp93kCyc2QL5psrx3mUQxBLe82hFeL6N9RABtnPTS4ker4rMu0PqktRD-iB5XI-trTZRYhaG6XFNmEjJqNjRnr8vGGtyC36kKcnCWsdhIvQrpcvjz2A4jIAAdazFKLukd9TiTdNe89OJqj10CmOEzZwfhmyjGLN5z94DcxuXQCNqZ94ynGqfjkRc?fife=s16383"
+        ],
+        "media_local": [
+          "media/49570765ad2957357ff7.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": null,
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": null,
+        "date_text_raw": "luglio 2026",
+        "date_parse_status": "year_month",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.961789,
+          46.0646333
+        ]
+      },
+      "properties": {
+        "id": "obs_386ff60d546e12ba",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Ranzo",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6hmlcNfwV8o4BOdQIfQ2WUXJMgZlGVWtNo5nPCZvC_YmE4i3Z41gz3ZAx6bVv7aYCL9t-8D7rvVXwJkcNSEmuSMTy2tUsrcSzjI0NB_FFUaxssqmVRHcrqWguI2k9bsFQ3pRJz3dgahLEIfo2wDBmZArL8gySidfPjKi93GF-DOER91OfiSDGOodJMk5oVNNHNDqLeJL_uhIGpQpgcZmWwjvSmu1fBVzYIn0PexEL5NENi4Gh2gOWu0LE?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>29/05/2026 - un orso è stato ripreso in piemo giorno mentre correva sulla provinciale 18 dir. che sale a Ranzo da Lon.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6hmlcNfwV8o4BOdQIfQ2WUXJMgZlGVWtNo5nPCZvC_YmE4i3Z41gz3ZAx6bVv7aYCL9t-8D7rvVXwJkcNSEmuSMTy2tUsrcSzjI0NB_FFUaxssqmVRHcrqWguI2k9bsFQ3pRJz3dgahLEIfo2wDBmZArL8gySidfPjKi93GF-DOER91OfiSDGOodJMk5oVNNHNDqLeJL_uhIGpQpgcZmWwjvSmu1fBVzYIn0PexEL5NENi4Gh2gOWu0LE?fife=s16383"
+        ],
+        "media_local": [
+          "media/144f42d210f6e934c52b.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-29",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 29,
+        "date_text_raw": "29/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0270305,
+          46.1061585
+        ]
+      },
+      "properties": {
+        "id": "obs_deec0bac94c9fa11",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Maso Ariol2",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4oY1eR9MoAhF9jq5l30nrrF3axvywRWWqy87VeoFfLLAkrlACRJh9vTQo2SVjCuiwuNWlI4hllT7X7SbCbcbpRdVgZ05PttB74OfK-K4mgrYBKZuKBYmje0bKxMOt_-CPvZc_Q-Og4skCMSf-iKuFohiK4gwufC_wpLmdz09mLk1j9a3jlfZ0PMAilDacR8d6oKb9J_WXgfdpVV4MAs6L1NPfn0VP9e_1QuGweaNu20HE2_JwEmfcN-Tw?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>03/06/2026. Alcuni ragazzi che si recano a scuola vedono dallo scuolabus un giovane orso. Ore 06:30 del mattino. Nello stesso giorno quello o un altro orso entra nel cancello di una casa. ",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4oY1eR9MoAhF9jq5l30nrrF3axvywRWWqy87VeoFfLLAkrlACRJh9vTQo2SVjCuiwuNWlI4hllT7X7SbCbcbpRdVgZ05PttB74OfK-K4mgrYBKZuKBYmje0bKxMOt_-CPvZc_Q-Og4skCMSf-iKuFohiK4gwufC_wpLmdz09mLk1j9a3jlfZ0PMAilDacR8d6oKb9J_WXgfdpVV4MAs6L1NPfn0VP9e_1QuGweaNu20HE2_JwEmfcN-Tw?fife=s16383"
+        ],
+        "media_local": [
+          "media/81a3e9f7b749621c1576.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-03",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 3,
+        "date_text_raw": "03/06/2026",
+        "date_parse_status": "full",
+        "event_hour": 6,
+        "event_minute": 30,
+        "time_text_raw": "Ore 06:30",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.010906,
+          46.392339
+        ]
+      },
+      "properties": {
+        "id": "obs_203152bce2a08528",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Mostizzolo",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4b9p8j5LROwxrQ3480QZ498nJo9sgT9J8xGEUzkdMAXI4zybYxw-WvceMCCcvbaKfnop2rodeYrHBHsfW2uukHoIAHtkaNsJbqW36t6EUnTWYmTiVYi87PNk22cblwYX-wum3-DZXJ_SUUoEUjfxIOGPfute-4P3rAYr45ZYF0rkK9aojuSMp6X-Qoq_G-hxcUnfzMo5puKyF6I_PmDC3pZXxD4IjsLgna42U1Vw_eJXAhqEbyQxicBU4?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>22/06/2026 - Orso ripreso mentre cammina sulla ciclabile della Val di Sole presso Mostizzolo",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4b9p8j5LROwxrQ3480QZ498nJo9sgT9J8xGEUzkdMAXI4zybYxw-WvceMCCcvbaKfnop2rodeYrHBHsfW2uukHoIAHtkaNsJbqW36t6EUnTWYmTiVYi87PNk22cblwYX-wum3-DZXJ_SUUoEUjfxIOGPfute-4P3rAYr45ZYF0rkK9aojuSMp6X-Qoq_G-hxcUnfzMo5puKyF6I_PmDC3pZXxD4IjsLgna42U1Vw_eJXAhqEbyQxicBU4?fife=s16383"
+        ],
+        "media_local": [
+          "media/d8988a08c5e4ac68e568.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-22",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 22,
+        "date_text_raw": "22/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.965094,
+          46.363345
+        ]
+      },
+      "properties": {
+        "id": "obs_ffba42a94c62c535",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Cavizzana",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6CjS4zbi2-Fp_OhR_2Q1BESOpMoywaUiie-lI5J_4LnHMDryMT96aHfRJZwUtvSuKqF4r_4dT_YnsyGrksYVsK3nIuDb_WkeVuvDLmwTJQnmz-8uoZJwC9wuXJ3kFPVZiF2fGKocM0otxx5zQZajKhhXd0ZG9bFqo_VIuEYNb9iQWtb4ChgRhF_T4iwTtIOP-5_JfTxvjRW5RlmyOkV4OoSjA21H-0KEK-fzEBe67jUxpnzBV2G1r2LVU?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>21/05/2026 : un orso viene ripreso mentre cammina lungo una strada forestale sopra l'abitato",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6CjS4zbi2-Fp_OhR_2Q1BESOpMoywaUiie-lI5J_4LnHMDryMT96aHfRJZwUtvSuKqF4r_4dT_YnsyGrksYVsK3nIuDb_WkeVuvDLmwTJQnmz-8uoZJwC9wuXJ3kFPVZiF2fGKocM0otxx5zQZajKhhXd0ZG9bFqo_VIuEYNb9iQWtb4ChgRhF_T4iwTtIOP-5_JfTxvjRW5RlmyOkV4OoSjA21H-0KEK-fzEBe67jUxpnzBV2G1r2LVU?fife=s16383"
+        ],
+        "media_local": [
+          "media/ece2b8e7fd34f3b24952.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-21",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 21,
+        "date_text_raw": "21/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.591817,
+          45.934712
+        ]
+      },
+      "properties": {
+        "id": "obs_3d72ed55dd1041af",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Borgo Valle Chiese",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57zkSsjXD5Lfyjsu6An7JS7FE6khoKslAoSvcmD_HguRz1eR114OLjbyNP6WfF4cmplv7__s4FG9Dr6Paenh9WbcHq4_EUo-AF58RlSldbQBs0ypuOUmSTbx-oImDpkhiQi5nv81kCI2QeUTnhNMdmFBGcjxRTxhPvpwt2IIELxatbUtlkoSkZwqKWbbHXleiDNMS1SRP2Z0ZDct0tZrpUjLDpQcjjtpwm7kH-wrHdF0CblWuiJlJoGSk?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>31/05/2026 - Un orso è stato ripreso accanto a un rustico ai bordi di una strada asfaltata che conduce verso il Broffione. Nel video si osserva anche una casa di abitazione. Di giorno.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57zkSsjXD5Lfyjsu6An7JS7FE6khoKslAoSvcmD_HguRz1eR114OLjbyNP6WfF4cmplv7__s4FG9Dr6Paenh9WbcHq4_EUo-AF58RlSldbQBs0ypuOUmSTbx-oImDpkhiQi5nv81kCI2QeUTnhNMdmFBGcjxRTxhPvpwt2IIELxatbUtlkoSkZwqKWbbHXleiDNMS1SRP2Z0ZDct0tZrpUjLDpQcjjtpwm7kH-wrHdF0CblWuiJlJoGSk?fife=s16383"
+        ],
+        "media_local": [
+          "media/ec267d70f82e0965ec35.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-31",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 31,
+        "date_text_raw": "31/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063495,
+          46.130129
+        ]
+      },
+      "properties": {
+        "id": "obs_970cd71ebb3f65d3",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Lamar",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Aw3myPxrBSJisJXUKevvB9nXlz3MMy81Cf_zpim3dAvTQsXE2ANY4ULLadnVmcOvATI-y5yd06M6HVPB-BmiGfjJJONT9a7S8x1CGw7I8KnNi4u8qBDwf-T00jZHdPD2Heszrn5jBk6aroCrxcurSejbORRzh9U9voiq-6WatmZMPRSd7csNaREI7ueGxNXcGVDODi90uLsrO3S_y6jSHCfTalpT7kuMH9LJB5aDMmIHKkPOZydu1owk?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>PHONE_0001 - Turisti veneti riprendono in pieno giorno un orso che nuota",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Aw3myPxrBSJisJXUKevvB9nXlz3MMy81Cf_zpim3dAvTQsXE2ANY4ULLadnVmcOvATI-y5yd06M6HVPB-BmiGfjJJONT9a7S8x1CGw7I8KnNi4u8qBDwf-T00jZHdPD2Heszrn5jBk6aroCrxcurSejbORRzh9U9voiq-6WatmZMPRSd7csNaREI7ueGxNXcGVDODi90uLsrO3S_y6jSHCfTalpT7kuMH9LJB5aDMmIHKkPOZydu1owk?fife=s16383"
+        ],
+        "media_local": [
+          "media/1d3b362a48734912363c.png"
+        ],
+        "redaction_applied": true,
+        "redaction_codes": [
+          "PHONE_0001"
+        ],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": null,
+        "event_year": null,
+        "event_month": 4,
+        "event_day": 28,
+        "date_text_raw": "28/04",
+        "date_parse_status": "day_month_no_year",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.05876,
+          46.123943
+        ]
+      },
+      "properties": {
+        "id": "obs_f115cb0d4ce4904f",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Lamar2",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7atO8ijX0swZHZ8g2vpFRuG2WTyrMjIXq1OsnRRsB8ufEdt7OuO9BJq4q70ls7vxUo0IyY_X0jyhnKx9fLrowBvg1apMkNwndRW5o8ob-57wi1iIjg5ZIJ-4PDgZNXawWGP_nivf1qTC4i8aFsJg1vZojTGWVf7dVDTspZ4gs9KHcTFN9oj6vKRU1c1S04IY-vI2oed9rHS6dtns0rVIkQAgs2BQDSgm9GWvvuqsHqsmKvtUveuu4TKFw?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>Lago di Lamar (Terlago, Vallelaghi), 16 maggio, ore 8: un orso viene fotografato nel bosco ai bordi della strada ",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7atO8ijX0swZHZ8g2vpFRuG2WTyrMjIXq1OsnRRsB8ufEdt7OuO9BJq4q70ls7vxUo0IyY_X0jyhnKx9fLrowBvg1apMkNwndRW5o8ob-57wi1iIjg5ZIJ-4PDgZNXawWGP_nivf1qTC4i8aFsJg1vZojTGWVf7dVDTspZ4gs9KHcTFN9oj6vKRU1c1S04IY-vI2oed9rHS6dtns0rVIkQAgs2BQDSgm9GWvvuqsHqsmKvtUveuu4TKFw?fife=s16383"
+        ],
+        "media_local": [
+          "media/2a56c6fd6c6737001ec6.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": null,
+        "event_year": null,
+        "event_month": null,
+        "event_day": null,
+        "date_text_raw": null,
+        "date_parse_status": "not_present",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.976558,
+          46.147976
+        ]
+      },
+      "properties": {
+        "id": "obs_399b841d10d7d1ec",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Molveno",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57rAJjy0zjo7P_HSbDSKqNFXP0r_GNjKuA2QHd3W7k0M22pYSkduOq-mWbpc3X9n8acuGeBUkmLmQcLEQqizB3E2SkpUoWJtT8jo3SNGjMO1E31NvJfmSozmNOYbm-R94owNXTzK1RrxXry9eojXP_LolycUPIEDEJaBQNWtMfnuNBO3Dhq7bVFxkjWPixQVy2di_ZujGs2M8zY9ZOxo7BzbmORoMqkLqhqJqNrmhE12S5lZW_MhsYYa8?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>4/06/2026. Due orsi giovani (probabilmente in procinto di separarsi) sono stati fotografati a tarda sera ai bordi della ss 421, al km 18 (zona artigianale).  a meno di 200 m dall’Agritur Ai Castioni, a 400 m dal Bar La Perla.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57rAJjy0zjo7P_HSbDSKqNFXP0r_GNjKuA2QHd3W7k0M22pYSkduOq-mWbpc3X9n8acuGeBUkmLmQcLEQqizB3E2SkpUoWJtT8jo3SNGjMO1E31NvJfmSozmNOYbm-R94owNXTzK1RrxXry9eojXP_LolycUPIEDEJaBQNWtMfnuNBO3Dhq7bVFxkjWPixQVy2di_ZujGs2M8zY9ZOxo7BzbmORoMqkLqhqJqNrmhE12S5lZW_MhsYYa8?fife=s16383"
+        ],
+        "media_local": [
+          "media/ad753f0ce18b8af0bf95.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-04",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 4,
+        "date_text_raw": "4/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0724482,
+          46.0534204
+        ]
+      },
+      "properties": {
+        "id": "obs_b56a43eeef17d4d6",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Vaneze",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6gJt1L_9eGZC7Dq6kU8M1sqw1O17_Hz9Sq8Et6E5sWlMoD1VOKokcZcvoN05ZnYRPa60yZGxbp_SXShulEE_UEh95Jdr5kfU2j4XXslHoHJYQAykALcjTJ1Rx5QizjqyIy1nE6k28eZO1zdRNrD9ENkVi1cBq11FaCKXN3oStTu5y1zjEFb0fvBMT0PNNCGfzK88gtnDsqBWbhzVtganFI0RktURFjZltdPCv5oGKfqW9yYj9Bnj15b_g?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>(06/07/2026). In via dei Daini a Vaneze, località turistica del Bondone in comune di Trento. Ore 15:00, pieno giorno. E' nell'abitato (case e alberghi sono immersi nel verde).",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6gJt1L_9eGZC7Dq6kU8M1sqw1O17_Hz9Sq8Et6E5sWlMoD1VOKokcZcvoN05ZnYRPa60yZGxbp_SXShulEE_UEh95Jdr5kfU2j4XXslHoHJYQAykALcjTJ1Rx5QizjqyIy1nE6k28eZO1zdRNrD9ENkVi1cBq11FaCKXN3oStTu5y1zjEFb0fvBMT0PNNCGfzK88gtnDsqBWbhzVtganFI0RktURFjZltdPCv5oGKfqW9yYj9Bnj15b_g?fife=s16383"
+        ],
+        "media_local": [
+          "media/02d7c369cbe5d57bc34b.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-06",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 6,
+        "date_text_raw": "06/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 15,
+        "event_minute": 0,
+        "time_text_raw": "Ore 15:00",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0407197,
+          46.2058892
+        ]
+      },
+      "properties": {
+        "id": "obs_a70e3b5a0c617f9b",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Castel Belfort",
+        "description_public": "02/07/2026.  Visto attraversare la strada da automobilista alle 21 circa",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-02",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 2,
+        "date_text_raw": "02/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 21,
+        "event_minute": null,
+        "time_text_raw": "alle 21",
+        "time_parse_status": "approximate",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0325955,
+          46.1066377
+        ]
+      },
+      "properties": {
+        "id": "obs_f06697a7c307fc1f",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Maso Ariol",
+        "description_public": "30/06/2026 - Orso avvistato nel campo al bivio tra Monte Terlago e Maso Ariol, ore 12:30",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-30",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 30,
+        "date_text_raw": "30/06/2026",
+        "date_parse_status": "full",
+        "event_hour": 12,
+        "event_minute": 30,
+        "time_text_raw": "ore 12:30",
+        "time_parse_status": "exact",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0131882,
+          46.3908389
+        ]
+      },
+      "properties": {
+        "id": "obs_dc499c5b55fbea80",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "SS43 km 0,2",
+        "description_public": "<a href=\"https://www.youtube.com/watch?v=W-Uqz_Xs2kw\"><img src=\"https://img.youtube.com/vi/W-Uqz_Xs2kw/hqdefault.jpg\" height=\"200\" width=\"auto\" /></a><br><br><a href=\"https://www.youtube.com/embed/W-Uqz_Xs2kw\">https://www.youtube.com/embed/W-Uqz_Xs2kw</a><br><br>Al km 0,2 della SS43 all'uscita della galleria ferroviaria. Avvistato un orso a monte della strada",
+        "coordinate_error": null,
+        "media_links": [
+          "https://www.youtube.com/embed/W-Uqz_Xs2kw"
+        ],
+        "media_local": [
+          null
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": null,
+        "event_year": null,
+        "event_month": null,
+        "event_day": null,
+        "date_text_raw": null,
+        "date_parse_status": "not_present",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0093812,
+          46.0689522
+        ]
+      },
+      "properties": {
+        "id": "obs_59c034c357c490d6",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Vezzano",
+        "description_public": "02/08/2026. Vezzani (Vallelaghi). Avvistato cucciolo su sentiero sotto pilone elettrodotto, quasi all'inizio di Strada forestale Spigozaia",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-02",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 2,
+        "date_text_raw": "02/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1030488,
+          46.2307706
+        ]
+      },
+      "properties": {
+        "id": "obs_621cc44397bf61f8",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Baita dei Manzi",
+        "description_public": "05/08/2026. Mezzacorona. Avvistato orso nei pressi di Baita dei Manzi",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-05",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 5,
+        "date_text_raw": "05/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0680021,
+          46.0420747
+        ]
+      },
+      "properties": {
+        "id": "obs_fad8ed9689431054",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Vason 2",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6xfmBZcwc-QTh4sOgl11DJ0VokvRSlSM5nwJ7RWGvUkwE5kJ1PPgNOyyTp2mrmWcIfd_Ew8zOS_S-vd0GBBforWf0DUVyj1Bj2C1qy_YWIScQos_-7KozAqIQ2Hq6R0KuYMXFUzb4P04Fd5NjgGpvojOI0c2awi8fSEzQH4j6wzPDSK-Lo8ffA1XZE9tMFNi6zKUyyhoiRaIkuCIzGF-DHH5Z-MHDSFV4z7iZ3T7WDOdAUZGPL8nBdGjs?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>05/08/2026. Vason del Monte Bondone. Orso passeggiava sulla Pista Lavaman",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6xfmBZcwc-QTh4sOgl11DJ0VokvRSlSM5nwJ7RWGvUkwE5kJ1PPgNOyyTp2mrmWcIfd_Ew8zOS_S-vd0GBBforWf0DUVyj1Bj2C1qy_YWIScQos_-7KozAqIQ2Hq6R0KuYMXFUzb4P04Fd5NjgGpvojOI0c2awi8fSEzQH4j6wzPDSK-Lo8ffA1XZE9tMFNi6zKUyyhoiRaIkuCIzGF-DHH5Z-MHDSFV4z7iZ3T7WDOdAUZGPL8nBdGjs?fife=s16383"
+        ],
+        "media_local": [
+          "media/e67c0d0d7abc40ae097f.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-05",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 5,
+        "date_text_raw": "05/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0467034,
+          46.0371097
+        ]
+      },
+      "properties": {
+        "id": "obs_fd94d9a57cd82909",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Vason",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5JR182RABKwb9ci2aTRXnIfVDwVsQVherFU_luU_-ieHMOOiGiywxziUSELIgx4JJofTvNOHXx02U4zam09RWY325Do19pNnXtquVcS_Y0sF8FS4lNGmdbhtOdfhx7iSwP6S0lYx-eNRrEn4hrCF5Qn_3uZlib9D6Mw_rfNWIK6MrwpOylYahYN0B0Zba4n6Zd0E6Lwr_vj-0x_KOXIMm07yllHBTyWZU8LQ4KsR_tITVB4_igufHjHqI?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>03/08/2026. Sul sentiero che da Vason scende alle Viote è stato avvistato un orso",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5JR182RABKwb9ci2aTRXnIfVDwVsQVherFU_luU_-ieHMOOiGiywxziUSELIgx4JJofTvNOHXx02U4zam09RWY325Do19pNnXtquVcS_Y0sF8FS4lNGmdbhtOdfhx7iSwP6S0lYx-eNRrEn4hrCF5Qn_3uZlib9D6Mw_rfNWIK6MrwpOylYahYN0B0Zba4n6Zd0E6Lwr_vj-0x_KOXIMm07yllHBTyWZU8LQ4KsR_tITVB4_igufHjHqI?fife=s16383"
+        ],
+        "media_local": [
+          "media/1b16d9dd162d6d6f2445.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-03",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 3,
+        "date_text_raw": "03/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0767763,
+          45.981709
+        ]
+      },
+      "properties": {
+        "id": "obs_838bf82bc78fcb59",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Aldeno",
+        "description_public": "06/08/2026. Aldeno. Salendo a Cimone sulla SP",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-06",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 6,
+        "date_text_raw": "06/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8434563,
+          46.1956004
+        ]
+      },
+      "properties": {
+        "id": "obs_487e01e5940b0608",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Val Brenta",
+        "description_public": "20/07/2026.  Pinzolo. A una ragazza di 17 che camminava da sola nella valle un orso ha attraversato la strada",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-20",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 20,
+        "date_text_raw": "20/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.072122,
+          46.0527897
+        ]
+      },
+      "properties": {
+        "id": "obs_f3d32276185ce3ce",
+        "source_layer": "Avvistamento a distanza",
+        "name_public": "Vanese 2",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4GJNvrCzpKdB886y82vFb4t4kqbIvhHKOYJscUmBTNZajrV4t5nw_mwEzz2CTprZ-Lt3HZLQWS7EmuP3WtJUP7UdHxbdQaVo7CfplbUg_IKBQpnwlmQtKFj_qGlpDFfh-qYp61UHWwJgNPiLciF9nLukXYo1hmSywH9e1EoEXAHbOgsUnXV8MN4Y9G6d_WvNea5GoWZqQmPLauwEY7nOIJW9hwaptyycsOKl-Zq_2bwK3G8dH7dIBT1aI?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>(08/08/2026). 19:00. Orso avvistato a Vaneze",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4GJNvrCzpKdB886y82vFb4t4kqbIvhHKOYJscUmBTNZajrV4t5nw_mwEzz2CTprZ-Lt3HZLQWS7EmuP3WtJUP7UdHxbdQaVo7CfplbUg_IKBQpnwlmQtKFj_qGlpDFfh-qYp61UHWwJgNPiLciF9nLukXYo1hmSywH9e1EoEXAHbOgsUnXV8MN4Y9G6d_WvNea5GoWZqQmPLauwEY7nOIJW9hwaptyycsOKl-Zq_2bwK3G8dH7dIBT1aI?fife=s16383"
+        ],
+        "media_local": [
+          "media/2eea8cb42e8c4e78bad5.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-08-08",
+        "event_year": 2026,
+        "event_month": 8,
+        "event_day": 8,
+        "date_text_raw": "08/08/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.851535,
+          46.0682366
+        ]
+      },
+      "properties": {
+        "id": "obs_f66f201a1fa9ef64",
+        "source_layer": "Avvistamento orsa + cuccioli",
+        "name_public": "Val Angone",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR45b4b8lMwh9A4PARVFbBnAbponvA7fo7UJShe-8eCMYHE-ZUWEdiLEHjzVd2-EMYE6eG4bDlscQa0vTapRZuck0Er-HT8p2008T3CVT5EgjmjXW7iGuBRCtX2WZ65qlfr1Kn3dyVJNm-qbDNswBSxtXTc8dFrso6BVIxUG03zcYNFAxeFcZRHQmBJtAwDnLmnltOcg7_qy3c07IqA46riKs8U6RIPbkoQzFed5WMydKe95j8tqDckBVfQ?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>07/07/2026. Orsa con due cuccioli avvistata a distanza",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR45b4b8lMwh9A4PARVFbBnAbponvA7fo7UJShe-8eCMYHE-ZUWEdiLEHjzVd2-EMYE6eG4bDlscQa0vTapRZuck0Er-HT8p2008T3CVT5EgjmjXW7iGuBRCtX2WZ65qlfr1Kn3dyVJNm-qbDNswBSxtXTc8dFrso6BVIxUG03zcYNFAxeFcZRHQmBJtAwDnLmnltOcg7_qy3c07IqA46riKs8U6RIPbkoQzFed5WMydKe95j8tqDckBVfQ?fife=s16383"
+        ],
+        "media_local": [
+          "media/99358297c062e2e15d2c.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-07",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 7,
+        "date_text_raw": "07/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.053267,
+          46.116094
+        ]
+      },
+      "properties": {
+        "id": "obs_9e8cd6e7f5e0f822",
+        "source_layer": "Avvistamento orsa + cuccioli",
+        "name_public": "Fogolari - Terlago - Vallelaghi",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4eKI0wMF_O9JCbxKBaovzah7LhiSNkrUpeRWhylnp95egXC8s4FVKhgpIVEH1pjbl-oZDqhtKI0wqeo61dkkeENzLAlDnQZKimQwfOq7zCeN5OAzz19EooPd2xrCrSulAT2A_yK3JJIjoLUKoAtdho2-5f7k-4MgD0ZguzJVqPysLwHw47rafzAJXotaGjMJQIjTNRdUF0xsfAwhzCGhUYUr7WxhFT5FWy-t6uo2Gb_tQMQ_IeF6M4E4Q?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>17/05/2026 - Orsa con due cuccioli fotografata in località Fogolari",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4eKI0wMF_O9JCbxKBaovzah7LhiSNkrUpeRWhylnp95egXC8s4FVKhgpIVEH1pjbl-oZDqhtKI0wqeo61dkkeENzLAlDnQZKimQwfOq7zCeN5OAzz19EooPd2xrCrSulAT2A_yK3JJIjoLUKoAtdho2-5f7k-4MgD0ZguzJVqPysLwHw47rafzAJXotaGjMJQIjTNRdUF0xsfAwhzCGhUYUr7WxhFT5FWy-t6uo2Gb_tQMQ_IeF6M4E4Q?fife=s16383"
+        ],
+        "media_local": [
+          "media/223492c95fff3abb4d2f.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-05-17",
+        "event_year": 2026,
+        "event_month": 5,
+        "event_day": 17,
+        "date_text_raw": "17/05/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7825771,
+          46.0280277
+        ]
+      },
+      "properties": {
+        "id": "obs_81cd571714d98f53",
+        "source_layer": "Avvistamento orsa + cuccioli",
+        "name_public": "Malga Stabio",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7bICVeQMqg7MAVvpMOaUuPLasvaDbStjXEXeY1KkDd5fPmdiLf5yDO9I6YHFlIQQHrFhyYuDuXRiGI3j-TEO2qT0PBBiARkmeMzIHlIY79QmrmbCbhAwqaYtFjxXtuzhQ92BqDTtz372FIH9b2qMMgOKgdFLQlvGTcnCjUMjFXelBvppV5iHSqatnslLrPU4gQvrKta-SHOBSk5qepky30joVPDyUqKUqXEfib6dLo-e5GE1CJUBbcYyQ?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>30/06/2026 Orsa con due cucciolo avvistata a lato strada forestale per Malga Stabio",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7bICVeQMqg7MAVvpMOaUuPLasvaDbStjXEXeY1KkDd5fPmdiLf5yDO9I6YHFlIQQHrFhyYuDuXRiGI3j-TEO2qT0PBBiARkmeMzIHlIY79QmrmbCbhAwqaYtFjxXtuzhQ92BqDTtz372FIH9b2qMMgOKgdFLQlvGTcnCjUMjFXelBvppV5iHSqatnslLrPU4gQvrKta-SHOBSk5qepky30joVPDyUqKUqXEfib6dLo-e5GE1CJUBbcYyQ?fife=s16383"
+        ],
+        "media_local": [
+          "media/8b5c8dc3478b9f7846cd.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-06-30",
+        "event_year": 2026,
+        "event_month": 6,
+        "event_day": 30,
+        "date_text_raw": "30/06/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "sighting_direct",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9444755,
+          46.3657547
+        ]
+      },
+      "properties": {
+        "id": "obs_d08c7eab61bb3a42",
+        "source_layer": "Escrementi ambito abitato",
+        "name_public": "Caldes",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6FNoltS9rygIZu7HKN2kvn-6qwz7rCPHFlDZBpanblKth7ylx-xMKr1xJYRLo0ysgTMlLsAXVhJ16e5LTLH6HTO5Q7d1q_Brk0Juj1XiAW1OuUzD6IJ6y5gIN3wOpF9YH7Zx5JsBdMPZzfJiTAONyRF1vFkNRk1EKMf8v09ET6YMRR5kEfc3-MNqTiSOh9-sdYtUzePwbz8volu-j9v4_wRYI_EOa_3WQSyd6I1GZKM48VZFdlNq8KWKg?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>25/07/2026. Caldes. Di fronte alle scuole elementari alla base della scalinata della chiesa, alle 7:30 una signora con un cane trova fatte freschissime d'orso.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6FNoltS9rygIZu7HKN2kvn-6qwz7rCPHFlDZBpanblKth7ylx-xMKr1xJYRLo0ysgTMlLsAXVhJ16e5LTLH6HTO5Q7d1q_Brk0Juj1XiAW1OuUzD6IJ6y5gIN3wOpF9YH7Zx5JsBdMPZzfJiTAONyRF1vFkNRk1EKMf8v09ET6YMRR5kEfc3-MNqTiSOh9-sdYtUzePwbz8volu-j9v4_wRYI_EOa_3WQSyd6I1GZKM48VZFdlNq8KWKg?fife=s16383"
+        ],
+        "media_local": [
+          "media/c3d23f7a0ff8b4c54b10.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-25",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 25,
+        "date_text_raw": "25/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 7,
+        "event_minute": 30,
+        "time_text_raw": "alle 7:30",
+        "time_parse_status": "exact",
+        "observation_type": "scat",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1543675,
+          46.4205813
+        ]
+      },
+      "properties": {
+        "id": "obs_19736355f7d44f6a",
+        "source_layer": "Escrementi ambito abitato",
+        "name_public": "Ronzone",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4PR34IYbyoCyhZDJa7-YXQFE9MolsnZkir9VMwL-kcfR349YD6le76u4QsOKNuY3HIix_FxgLcIlVJ4XL4gtXgusN5y_XCszg4hI-wgrOK5bHfO1fa-XhUmAICDvm_0ov5nsI6Vj0YsKjXW7yHsJAlVrGzngu5078p5yDLLf2WvW-trVj4FpUvamZVguK-kmnVziRAeHRzBeXfM2e-aiTIRpqwiGDQR1_mCv-tw38ovM3F8r8Tsc6OMDQ?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>12/07/2026. Accanto alle case di via Toval rinvenute fatte fresche di orso ",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4PR34IYbyoCyhZDJa7-YXQFE9MolsnZkir9VMwL-kcfR349YD6le76u4QsOKNuY3HIix_FxgLcIlVJ4XL4gtXgusN5y_XCszg4hI-wgrOK5bHfO1fa-XhUmAICDvm_0ov5nsI6Vj0YsKjXW7yHsJAlVrGzngu5078p5yDLLf2WvW-trVj4FpUvamZVguK-kmnVziRAeHRzBeXfM2e-aiTIRpqwiGDQR1_mCv-tw38ovM3F8r8Tsc6OMDQ?fife=s16383"
+        ],
+        "media_local": [
+          "media/03026dbf2da6eef49dd3.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-12",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 12,
+        "date_text_raw": "12/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "scat",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9876316,
+          46.0754364
+        ]
+      },
+      "properties": {
+        "id": "obs_b804aaaccf6e966c",
+        "source_layer": "Fototrappolaggio",
+        "name_public": "Vezzano",
+        "description_public": "20/07/2026. Fototrappolaggio orsa con cuccioli",
+        "coordinate_error": null,
+        "media_links": [],
+        "media_local": [],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-20",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 20,
+        "date_text_raw": "20/07/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "camera_trap",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8106923,
+          46.0633451
+        ]
+      },
+      "properties": {
+        "id": "obs_dafa3384db738e71",
+        "source_layer": "Fototrappolaggio",
+        "name_public": "Iron",
+        "description_public": "<img src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR733YziM4LixuyGgiRYEhHJsClxe3Q3TrYWiGMiIlnoDRLaOJhGINCpJkyBmARyiC_OKfba1tpMQ4-h3x8yHU6s45ccamnXuY8OFgSL-kpsl8H5MM5-nu8KH0x0J9d9GJfPNHZJzAiufuLEDcffTfutvO_Zkl8df8FSXYEpeysw5NMJzOHrfHc1y-Sb-CJSkTqUqC7n4E0QIr0sTb0o9Jaz16QBOL4GzFgIfWwS6YbPD8EfjN8vhnLrCXo?fife=s16383\" height=\"200\" width=\"auto\" /><br><br>19/04/2026. Ore 23 Località Bagiron, presso il borgo di Iron.",
+        "coordinate_error": null,
+        "media_links": [
+          "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR733YziM4LixuyGgiRYEhHJsClxe3Q3TrYWiGMiIlnoDRLaOJhGINCpJkyBmARyiC_OKfba1tpMQ4-h3x8yHU6s45ccamnXuY8OFgSL-kpsl8H5MM5-nu8KH0x0J9d9GJfPNHZJzAiufuLEDcffTfutvO_Zkl8df8FSXYEpeysw5NMJzOHrfHc1y-Sb-CJSkTqUqC7n4E0QIr0sTb0o9Jaz16QBOL4GzFgIfWwS6YbPD8EfjN8vhnLrCXo?fife=s16383"
+        ],
+        "media_local": [
+          "media/99317603ae478a0cd38b.png"
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-04-19",
+        "event_year": 2026,
+        "event_month": 4,
+        "event_day": 19,
+        "date_text_raw": "19/04/2026",
+        "date_parse_status": "full",
+        "event_hour": null,
+        "event_minute": null,
+        "time_text_raw": null,
+        "time_parse_status": "not_present",
+        "observation_type": "camera_trap",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0681884,
+          46.0988343
+        ]
+      },
+      "properties": {
+        "id": "obs_273b702aef33627e",
+        "source_layer": "Fototrappolaggio",
+        "name_public": "Zona Fontana Fila",
+        "description_public": "<a href=\"https://www.youtube.com/watch?v=WaPOArGuZe0\"><img src=\"https://img.youtube.com/vi/WaPOArGuZe0/hqdefault.jpg\" height=\"200\" width=\"auto\" /></a><br><br><a href=\"https://www.youtube.com/embed/WaPOArGuZe0\">https://www.youtube.com/embed/WaPOArGuZe0</a><br><br>18/07/2026. Ore 19:47. Orso si serve in un frutteto in loc. Fontana Filia, fraz. Cadine, Comune di Trento",
+        "coordinate_error": null,
+        "media_links": [
+          "https://www.youtube.com/embed/WaPOArGuZe0"
+        ],
+        "media_local": [
+          null
+        ],
+        "redaction_applied": false,
+        "redaction_codes": [],
+        "first_seen_at": "2026-08-08T20:21:22.761374+00:00",
+        "last_seen_at": "2026-08-09T17:28:43.372795+00:00",
+        "source_changed_at": "2026-08-08T20:21:22.761374+00:00",
+        "event_date": "2026-07-18",
+        "event_year": 2026,
+        "event_month": 7,
+        "event_day": 18,
+        "date_text_raw": "18/07/2026",
+        "date_parse_status": "full",
+        "event_hour": 19,
+        "event_minute": 47,
+        "time_text_raw": "Ore 19:47",
+        "time_parse_status": "exact",
+        "observation_type": "camera_trap",
+        "classification_method": "source_layer",
+        "classification_confidence": "high"
+      }
+    }
+  ]
+}

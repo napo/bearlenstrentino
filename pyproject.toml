@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bearlenstrentino"
+version = "0.1.0"
+description = "Pipeline per l'acquisizione, normalizzazione e analisi critica delle segnalazioni di orsi in Trentino da Google My Maps."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "WTFPL" }
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+# Milestone 8+: OSM/geospatial enrichment. GeoPandas was considered but
+# is not needed: enrichment operates on ~57 observation points against a
+# per-point-radius OSM fetch (thousands, not millions, of features), for
+# which shapely's STRtree is sufficient and keeps the dependency surface
+# (and GDAL binary compatibility risk) smaller.
+enrichment = [
+    "shapely>=2.0",
+    "pyproj>=3.6",
+]
+# Milestone 8c: night-light (VIIRS/ALAN) raster proxy. Pillow, not
+# rasterio: NASA GIBS' WMS returns a plain RGB image for an arbitrary
+# bbox we already know, so there's no georeferenced-format/CRS parsing
+# to justify rasterio's much heavier GDAL dependency.
+raster = [
+    "Pillow>=10.0",
+]
+# Milestone 10b: exploratory used-available logistic regression (see
+# pipeline/analysis/logistic.py — roadmap-advanced, not MVP). Plain
+# NumPy IRLS rather than statsmodels/scikit-learn, so the algorithm
+# stays auditable line-by-line, appropriate for a component explicitly
+# flagged as needing independent review before any public claim.
+analysis = [
+    "numpy>=1.24",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

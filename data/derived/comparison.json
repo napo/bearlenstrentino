@@ -1,0 +1,223 @@
+{
+  "generated_at": "2026-08-09T18:50:38.155445+00:00",
+  "subset_n": 300,
+  "subset_seed": 7,
+  "baseline_total_n": 10000,
+  "observation_n": 58,
+  "osm_snapshot": "baseline_snapshot-2026-08-09",
+  "search_radii_m": {
+    "observations": {
+      "road_radius_m": 600,
+      "building_radius_m": 500,
+      "settlement_radius_m": 8000
+    },
+    "baseline": {
+      "road_radius_m": 350.0,
+      "building_radius_m": 300.0,
+      "settlement_radius_m": 8000
+    }
+  },
+  "metrics": {
+    "distance_to_any_road_m": [
+      {
+        "label": "0-100m",
+        "observation_count": 25,
+        "observation_pct": 43.103448275862064,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "100-250m",
+        "observation_count": 5,
+        "observation_pct": 8.620689655172415,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "250-500m",
+        "observation_count": 8,
+        "observation_pct": 13.793103448275861,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "500-1000m",
+        "observation_count": 1,
+        "observation_pct": 1.7241379310344827,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": ">1000m",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "sconosciuto (oltre il raggio di ricerca)",
+        "observation_count": 19,
+        "observation_pct": 32.758620689655174,
+        "baseline_count": 300,
+        "baseline_pct": 100.0
+      }
+    ],
+    "distance_to_building_m": [
+      {
+        "label": "0-100m",
+        "observation_count": 28,
+        "observation_pct": 48.275862068965516,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "100-250m",
+        "observation_count": 11,
+        "observation_pct": 18.96551724137931,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "250-500m",
+        "observation_count": 11,
+        "observation_pct": 18.96551724137931,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "500-1000m",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": ">1000m",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "sconosciuto (oltre il raggio di ricerca)",
+        "observation_count": 8,
+        "observation_pct": 13.793103448275861,
+        "baseline_count": 300,
+        "baseline_pct": 100.0
+      }
+    ],
+    "distance_to_settlement_m": [
+      {
+        "label": "0-100m",
+        "observation_count": 3,
+        "observation_pct": 5.172413793103448,
+        "baseline_count": 3,
+        "baseline_pct": 1.0
+      },
+      {
+        "label": "100-250m",
+        "observation_count": 10,
+        "observation_pct": 17.24137931034483,
+        "baseline_count": 12,
+        "baseline_pct": 4.0
+      },
+      {
+        "label": "250-500m",
+        "observation_count": 4,
+        "observation_pct": 6.896551724137931,
+        "baseline_count": 31,
+        "baseline_pct": 10.333333333333334
+      },
+      {
+        "label": "500-1000m",
+        "observation_count": 11,
+        "observation_pct": 18.96551724137931,
+        "baseline_count": 70,
+        "baseline_pct": 23.333333333333332
+      },
+      {
+        "label": ">1000m",
+        "observation_count": 30,
+        "observation_pct": 51.724137931034484,
+        "baseline_count": 184,
+        "baseline_pct": 61.33333333333333
+      },
+      {
+        "label": "sconosciuto (oltre il raggio di ricerca)",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      }
+    ],
+    "night_light_proxy": [
+      {
+        "label": "0-10",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      },
+      {
+        "label": "10-50",
+        "observation_count": 42,
+        "observation_pct": 72.41379310344827,
+        "baseline_count": 8247,
+        "baseline_pct": 82.47
+      },
+      {
+        "label": "50-120",
+        "observation_count": 12,
+        "observation_pct": 20.689655172413794,
+        "baseline_count": 1140,
+        "baseline_pct": 11.4
+      },
+      {
+        "label": "120-200",
+        "observation_count": 3,
+        "observation_pct": 5.172413793103448,
+        "baseline_count": 311,
+        "baseline_pct": 3.11
+      },
+      {
+        "label": ">200",
+        "observation_count": 1,
+        "observation_pct": 1.7241379310344827,
+        "baseline_count": 302,
+        "baseline_pct": 3.02
+      },
+      {
+        "label": "sconosciuto (fuori dal raster)",
+        "observation_count": 0,
+        "observation_pct": 0.0,
+        "baseline_count": 0,
+        "baseline_pct": 0.0
+      }
+    ]
+  },
+  "metrics_meta": {
+    "distance_to_any_road_m": {
+      "observation_n": 58,
+      "baseline_n": 300
+    },
+    "distance_to_building_m": {
+      "observation_n": 58,
+      "baseline_n": 300
+    },
+    "distance_to_settlement_m": {
+      "observation_n": 58,
+      "baseline_n": 300
+    },
+    "night_light_proxy": {
+      "observation_n": 58,
+      "baseline_n": 10000
+    }
+  },
+  "known_limitations": [
+    "Un divario tra segnalazioni e territorio circostante non dimostra che le persone vedano l'orso solo dove passano: puo' riflettere anche comportamento reale dell'orso (attrazione verso i margini abitati, specialmente in autunno, quando cerca di mangiare il piu' possibile prima del letargo) — è quanto suggeriscono più studi scientifici sul tema (Sikdokur et al. 2024, Wilson et al. 2005, McFadden-Hiller et al. 2016).",
+    "Il confronto e' descrittivo (percentuali per fascia di distanza): non è un test statistico né un modello predittivo.",
+    "Il campione di controllo arricchito qui e' un sottoinsieme di punti scelti a caso sul territorio, non l'intero campione — vedi 'subset_n' e 'subset_seed' sotto.",
+    "La luminosità artificiale notturna è qui un proxy visivo (un'immagine satellitare NASA, su una scala arbitraria da 0 a 255) e non una misura fisica calibrata della luce come quella usata in alcuni studi scientifici (Ditmer et al. 2021). È però calcolata su tutti i punti di controllo, non solo sul sottoinsieme usato per le altre metriche qui sopra.",
+    "I raggi di ricerca usati per segnalazioni e campione di controllo sono diversi (road_radius_m: segnalazioni=600m vs campione di controllo=350.0m; building_radius_m: segnalazioni=500m vs campione di controllo=300.0m), per limiti pratici del servizio pubblico condiviso usato per interrogare i dati territoriali. Questo significa che la fascia \"sconosciuto\" NON è direttamente comparabile tra i due gruppi: un punto di controllo può risultare 'sconosciuto' semplicemente perché cercato con un raggio più piccolo, non perché sia oggettivamente più lontano. Confronta con cautela soprattutto quella fascia; le fasce con distanza nota restano informative."
+  ]
+}

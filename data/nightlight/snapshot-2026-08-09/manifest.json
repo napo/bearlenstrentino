@@ -1,0 +1,15 @@
+{
+  "fetched_at": "2026-08-09T08:45:00.108252+00:00",
+  "source": "NASA GIBS WMS (gibs.earthdata.nasa.gov)",
+  "layer": "VIIRS_Black_Marble",
+  "time": "2016-01-01",
+  "bbox": [
+    10.407826852084296,
+    45.62656073561155,
+    12.011155573194987,
+    46.57876275378138
+  ],
+  "width": 1024,
+  "height": 1024,
+  "caveat": "Rendered visualization proxy (8-bit RGB), NOT calibrated VIIRS radiance — see pipeline/enrichment/nightlight.py docstring."
+}

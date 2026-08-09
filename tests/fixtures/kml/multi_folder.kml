@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa di test multi-folder</name>
+    <Folder>
+      <name>Fototrappolaggio</name>
+      <Placemark>
+        <name>Malga Bianca</name>
+        <description><![CDATA[<img src="https://example.org/photo.jpg" /><br>03/2024: fototrappola attiva.]]></description>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://example.org/photo.jpg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>10.9999,46.0001,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Incidenti stradali</name>
+      <Placemark>
+        <name>Ponte Vecchio</name>
+        <description><![CDATA[(15/07/2024). Incidente stradale, nessun ferito.]]></description>
+        <Point>
+          <coordinates>11.05,46.05,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Senza descrizione</name>
+        <Point>
+          <coordinates>11.06,46.06,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

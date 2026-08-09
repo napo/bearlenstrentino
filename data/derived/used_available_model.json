@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-09T15:28:20.057457+00:00",
+  "model": "used_available_logistic_regression_univariate",
+  "feature": "night_light_proxy",
+  "feature_names": [
+    "intercept",
+    "night_light_proxy"
+  ],
+  "coefficients": [
+    -5.155246943083718,
+    0.09871206725305824
+  ],
+  "standard_errors": [
+    0.13231982119404023,
+    0.11275437497937242
+  ],
+  "odds_ratios": [
+    0.005769055270882699,
+    1.1037484484785074
+  ],
+  "n_used": 58,
+  "n_available": 10000,
+  "n_dropped_missing": 0,
+  "n_iterations": 9,
+  "converged": true,
+  "roadmap_status": "esplorativo, non MVP: richiede revisione metodologica indipendente prima di qualunque pubblicazione o affermazione pubblica (vedi REFERENCES.md, M10b).",
+  "interpretive_caveats": [
+    "Questo modello e' esplorativo (Milestone 10b), non validato per pubblicazione: richiede revisione metodologica indipendente — vedi REFERENCES.md.",
+    "Un'associazione tra night_light_proxy e 'essere una segnalazione' non distingue un bias di osservazione da una reale selezione dell'habitat da parte dell'orso (vedi Sikdokur et al. 2024, Wilson et al. 2005, McFadden-Hiller et al. 2016).",
+    "night_light_proxy e' un proxy visivo NASA GIBS (0-255), non radianza VIIRS calibrata — vedi pipeline/enrichment/nightlight.py.",
+    "Il coefficiente e' per deviazione standard del covariata standardizzato, non per unita' grezza.",
+    "Un solo covariato: non e' un modello multivariato used-available completo (gli altri covariati OSM hanno raggi di ricerca disomogenei tra segnalazioni e baseline — vedi comparison.json — e non sono inclusi qui per questo motivo)."
+  ]
+}

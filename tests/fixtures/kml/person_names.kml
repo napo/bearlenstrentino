@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa di test - nomi propri</name>
+    <Folder>
+      <name>Incontri ravvicinati e falsi attacchi</name>
+      <Placemark>
+        <name>Cadine</name>
+        <description><![CDATA[Una donna, Mario Rossi, ai bordi del paese incontra un orso presso Maso Fienile. Per segnalazioni chiamare 351 123 4567.]]></description>
+        <Point>
+          <coordinates>11.02,46.02,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vallene</name>
+        <description><![CDATA[Mario Rossi conferma l'avvistamento anche il giorno seguente, vicino a Sopramonte di Trento.]]></description>
+        <Point>
+          <coordinates>11.03,46.03,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mappa di test - coordinate non valide</name>
+    <Folder>
+      <name>Test</name>
+      <Placemark>
+        <name>Coordinate mancanti</name>
+        <description><![CDATA[Nessun punto associato.]]></description>
+      </Placemark>
+      <Placemark>
+        <name>Coordinate malformate</name>
+        <description><![CDATA[Coordinate non numeriche.]]></description>
+        <Point>
+          <coordinates>non,valido,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coordinate fuori intervallo</name>
+        <description><![CDATA[Valori fuori range geografico.]]></description>
+        <Point>
+          <coordinates>200.0,46.0,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
