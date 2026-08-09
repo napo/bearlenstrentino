@@ -123,38 +123,45 @@ a {
 }
 
 .mental-model {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 0.85rem;
   margin: 1.5rem 0 0.6rem;
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem 1.75rem;
   background: var(--color-ivory);
-  border: 1px solid var(--color-sand);
-  border-radius: 10px;
+  border-left: 4px solid var(--color-ochre);
+  border-radius: 4px;
 }
 
-.mental-model .term {
-  background: white;
-  border: 1px solid var(--color-sand);
-  border-radius: 8px;
-  padding: 0.6rem 1rem;
-  font-size: 0.92rem;
-  color: var(--color-charcoal);
-  text-align: center;
+.mental-model-kicker {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-slate);
+  margin: 0 0 0.85rem;
 }
 
-.mental-model .term strong {
-  display: block;
-  color: var(--color-forest);
-  font-size: 0.98rem;
+.mental-model-factors {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
 }
 
-.mental-model .operator {
-  font-size: 1.3rem;
-  color: var(--color-ochre);
+.mental-model-factors li {
+  font-size: 1.2rem;
   font-weight: 600;
+  color: var(--color-forest);
+  padding: 0.15rem 0;
+}
+
+.mental-model-factors li:not(:first-child)::before {
+  content: "+ ";
+  color: var(--color-ochre);
+  font-weight: 700;
+}
+
+.mental-model-result {
+  font-size: 1.05rem;
+  color: var(--color-charcoal);
+  font-weight: 600;
+  margin: 0;
 }
 
 .mental-model-caption {

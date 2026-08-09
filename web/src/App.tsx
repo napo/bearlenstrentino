@@ -80,13 +80,10 @@ export default function App() {
       <div className="project-premise">
         <h2>Perché esiste questo sito</h2>
         <p>
-          Le segnalazioni di orso raccolte in Trentino raccontano qualcosa di reale, e
-          questo progetto non mette in discussione né gli avvistamenti né il fatto che
-          la convivenza con l'orso sia un problema concreto per chi vive e lavora sul
-          territorio. L'obiettivo è un altro: rendere questi dati più facili da leggere
-          e offrirne una lettura critica, appoggiata alla letteratura scientifica su
-          orsi e citizen science, per capire meglio cosa questi numeri possono
-          davvero dirci — e cosa no.
+          Le segnalazioni raccontano qualcosa di reale: questo progetto non mette in
+          discussione né gli avvistamenti né il problema della convivenza con l'orso.
+          Prova solo a capire cosa questi dati possono davvero dirci — e cosa no — con
+          l'aiuto della letteratura scientifica su orsi e citizen science.
         </p>
         <p className="disclaimer">
           BearLens Trentino non è un progetto della Fondazione Bruno Kessler: è
@@ -96,21 +93,13 @@ export default function App() {
       </div>
 
       <div className="mental-model">
-        <div className="term">
-          <strong>Segnalazione</strong>
-        </div>
-        <span className="operator">=</span>
-        <div className="term">
-          <strong>Presenza dell'orso</strong>
-        </div>
-        <span className="operator">×</span>
-        <div className="term">
-          <strong>Possibilità di osservarlo</strong>
-        </div>
-        <span className="operator">×</span>
-        <div className="term">
-          <strong>Propensione a segnalare</strong>
-        </div>
+        <p className="mental-model-kicker">Una segnalazione dipende da</p>
+        <ul className="mental-model-factors">
+          <li>Presenza dell'orso</li>
+          <li>Possibilità di osservarlo</li>
+          <li>Propensione a segnalarlo</li>
+        </ul>
+        <p className="mental-model-result">→ ciò che compare sulla mappa</p>
       </div>
       <p className="mental-model-caption">
         Non è una formula statistica: è il modo più semplice per tenere a mente perché
@@ -226,7 +215,7 @@ export default function App() {
           <div className="not-shows">
             <h4>Questa mappa NON mostra</h4>
             <ul>
-              <li>La posizione reale degli orsi.</li>
+              <li>La distribuzione reale degli orsi sul territorio.</li>
               <li>La densità della popolazione.</li>
               <li>Il rischio di incontro in un dato luogo.</li>
             </ul>
