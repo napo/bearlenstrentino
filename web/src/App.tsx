@@ -80,20 +80,10 @@ export default function App() {
       <div className="project-premise">
         <h2>Perché esiste questo sito</h2>
         <p>
-          Le segnalazioni raccontano qualcosa di reale: questo progetto non mette in
-          discussione né gli avvistamenti né il problema della convivenza con l'orso.
-          Prova solo a capire cosa questi dati possono davvero dirci - e cosa no - con
-          l'aiuto della letteratura scientifica su orsi e citizen science.
+	BearLens Trentino parte dalle segnalazioni della mappa collaborativa pubblica "<a href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.04601685463594%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4" target="_new">Mappa avvistamento orsi Trentino</a>" per esplorare come leggere e interpretare meglio questi dati.
         </p>
         <p className="disclaimer">
-          BearLens Trentino è un progetto personale di Maurizio “
-          <a href="https://github.com/napo" target="_blank" rel="noreferrer">
-            napo
-          </a>
-          ” Napolitano, nato per curiosità e portato avanti nel tempo libero. Non è
-          collegato né alla Provincia autonoma di Trento né alla Fondazione Bruno
-          Kessler, e non è stato realizzato nell'ambito di alcun incarico
-          istituzionale.
+          È un progetto personale di <a href="https://github.com/napo" target="_blank" rel="noreferrer">napo</a>, nato per curiosità e portato avanti nel tempo libero.<br/>Non è un progetto della Provincia autonoma di Trento né della Fondazione Bruno Kessler e non nasce da alcun incarico istituzionale.
         </p>
       </div>
 
@@ -116,22 +106,6 @@ export default function App() {
           </a>{" "}
           "Mappa orsi Trentino" - non una mappa di dove vivono gli orsi.
         </p>
-        <div className="map-shows-box">
-          <div className="shows">
-            <h4>Questa mappa mostra</h4>
-            <ul>
-              <li>Dove sono state raccolte le segnalazioni presenti in questo dataset.</li>
-            </ul>
-          </div>
-          <div className="not-shows">
-            <h4>Questa mappa NON mostra</h4>
-            <ul>
-              <li>La distribuzione reale degli orsi sul territorio.</li>
-              <li>La densità della popolazione.</li>
-              <li>Il rischio di incontro in un dato luogo.</li>
-            </ul>
-          </div>
-        </div>
         {loading && <p>Caricamento dati…</p>}
         {error && (
           <p className="callout attention">
@@ -140,20 +114,6 @@ export default function App() {
             <code>python scripts/acquire.py</code> nella root del progetto.
           </p>
         )}
-        <p style={{ textAlign: 'justify' }}>
-          La mappa mostra il terreno in 3D (valli, versanti, quota) solo per dare un
-          riferimento geografico reale - non per suggerire quantità: il rilievo non
-          cambia il significato dei punti.<br/>Clicca su un punto per vedere il dettaglio:
-          il testo della segnalazione così come è stato scritto, quando è successo, e
-          come l'abbiamo classificata. <br/>Clicca una voce della legenda per mostrare o
-          nascondere quel tipo di segnalazione.
-          {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
-        </p>
-        <MapView features={filteredFeatures} />
-      </section>
-
-      <section className="narrative">
-        <h2>Il dataset in cifre</h2>
         {!loading && !error && (
           <div className="stat-row">
             <div className="stat-tile">
@@ -170,6 +130,32 @@ export default function App() {
             </div>
           </div>
         )}
+        <div className="map-shows-box">
+          <div className="shows">
+            <h4>Questa mappa mostra</h4>
+            <ul>
+              <li>Dove sono state raccolte le segnalazioni presenti in questo dataset.</li>
+            </ul>
+          </div>
+          <div className="not-shows">
+            <h4>Questa mappa NON mostra</h4>
+            <ul>
+              <li>La distribuzione reale degli orsi sul territorio.</li>
+              <li>La densità della popolazione.</li>
+              <li>Il rischio di incontro in un dato luogo.</li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Il rilievo 3D è solo un riferimento geografico, non un indicatore di
+          quantità.
+          {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
+        </p>
+        <p className="legend-note">
+          Clicca su un punto per il dettaglio della segnalazione. Clicca una voce
+          della legenda per mostrare o nascondere quel tipo.
+        </p>
+        <MapView features={filteredFeatures} />
       </section>
 
       <div className="mental-model">
@@ -229,7 +215,7 @@ export default function App() {
           Aver visto l'orso con i propri occhi, aver trovato un'impronta o aver subito
           un danno a un allevamento non sono la stessa cosa: hanno un peso diverso come
           prova. Li distinguiamo sempre visivamente, anche sulla mappa (colore{" "}
-          <em>e</em> forma, mai uno solo).<br/>
+          <em>e</em> forma, mai uno solo).
           {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
         </p>
         <TypeBreakdownChart features={filteredFeatures} />
@@ -245,8 +231,11 @@ export default function App() {
         <h2>Come le mappe cambiano le percezioni</h2>
         <p>
           Le stesse identiche segnalazioni, rappresentate in modi diversi, possono
-          suggerire impressioni molto diverse.<br/>Prova a passare da una modalità
-          all'altra: i dati sotto non cambiano mai, cambia solo come vengono mostrati.
+          suggerire impressioni molto diverse.
+        </p>
+        <p>
+          Prova a passare da una modalità all'altra: i dati sotto non cambiano mai,
+          cambia solo come vengono mostrati.
         </p>
         <PerceptionMap features={features} />
       </section>
@@ -256,9 +245,12 @@ export default function App() {
         <p>
           Qualunque raccolta di segnalazioni fatte da persone, invece che da un
           monitoraggio scientifico organizzato, porta con sé alcune distorsioni note e
-          studiate.<br/>Elencarle non significa screditare i dati: serve a leggerli con gli
-          occhi giusti. Le fonti scientifiche citate qui sotto sono riportate per
-          intero, non solo linkate, nell'elenco pieghevole in fondo alla sezione.
+          studiate. Elencarle non significa screditare i dati: serve a leggerli con gli
+          occhi giusti.
+        </p>
+        <p>
+          Le fonti scientifiche citate qui sotto sono riportate per intero, non solo
+          linkate, nell'elenco pieghevole in fondo alla sezione.
         </p>
         <MethodologySection />
         <Bibliography />
