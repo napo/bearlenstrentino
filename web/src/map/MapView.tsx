@@ -92,6 +92,12 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
   const [visibleCategories, setVisibleCategories] = useState<Set<DisplayCategory>>(
     () => new Set(ALL_DISPLAY_CATEGORIES)
   );
+  // Fits the view to the data exactly once, the first time real
+  // coordinates arrive (features starts as [] while the fetch is still
+  // in flight) — not on every later change, or toggling a legend
+  // category / date filter would keep yanking the view back to "fit
+  // everything" instead of leaving the user's own pan/zoom alone.
+  const hasFitBoundsRef = useRef(false);
 
   // Map lifecycle: created once, independent of `features` (which arrives
   // asynchronously after the initial fetch).
@@ -234,6 +240,14 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
             "text-field": ["get", "point_count_abbreviated"],
             "text-font": ["literal", ["Noto Sans Bold"]],
             "text-size": 12,
+            // Without these, MapLibre's label collision system can drop
+            // the count whenever it overlaps a basemap place/road label
+            // or another cluster's count — silently, with no visual sign
+            // anything is missing. The count is not decorative, it's the
+            // only place the cluster's size is stated in numbers, so it
+            // always wins any collision.
+            "text-allow-overlap": true,
+            "text-ignore-placement": true,
           },
           paint: { "text-color": "#ffffff" },
         });
@@ -367,8 +381,18 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
     const map = mapRef.current;
     if (!map || !mapLoaded) return;
 
-    const allWithCoords = toFeatureCollection(features).features.length;
-    setSkippedCount(features.length - allWithCoords);
+    const withCoords = toFeatureCollection(features).features;
+    setSkippedCount(features.length - withCoords.length);
+
+    if (!hasFitBoundsRef.current && withCoords.length > 0) {
+      const coords = withCoords.map((f) => f.geometry.coordinates as [number, number]);
+      const bounds = coords.reduce(
+        (b, c) => b.extend(c),
+        new maplibregl.LngLatBounds(coords[0], coords[0])
+      );
+      map.fitBounds(bounds, { padding: 40, duration: 0, maxZoom: 13 });
+      hasFitBoundsRef.current = true;
+    }
 
     for (const cat of ALL_DISPLAY_CATEGORIES) {
       const source = map.getSource(sourceId(cat)) as maplibregl.GeoJSONSource | undefined;
