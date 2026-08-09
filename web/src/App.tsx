@@ -66,6 +66,17 @@ export default function App() {
     <div className="app-shell">
       <Header />
 
+      <div className="hero">
+        <h1>Una mappa delle segnalazioni non è una mappa degli orsi.</h1>
+        <p className="hero-tagline">
+          Gli stessi dati possono raccontare storie molto diverse, a seconda di come li
+          raccogliamo e li rappresentiamo.
+        </p>
+        <a className="hero-cta" href="#atto-1">
+          Esplora i dati ↓
+        </a>
+      </div>
+
       <div className="project-premise">
         <h2>Perché esiste questo sito</h2>
         <p>
@@ -84,8 +95,36 @@ export default function App() {
         </p>
       </div>
 
+      <div className="mental-model">
+        <div className="term">
+          <strong>Segnalazione</strong>
+        </div>
+        <span className="operator">=</span>
+        <div className="term">
+          <strong>Presenza dell'orso</strong>
+        </div>
+        <span className="operator">×</span>
+        <div className="term">
+          <strong>Possibilità di osservarlo</strong>
+        </div>
+        <span className="operator">×</span>
+        <div className="term">
+          <strong>Propensione a segnalare</strong>
+        </div>
+      </div>
+      <p className="mental-model-caption">
+        Non è una formula statistica: è il modo più semplice per tenere a mente perché
+        contare le segnalazioni non basta a contare gli orsi. Il resto di questa pagina
+        entra nel dettaglio di ciascuno di questi tre fattori.
+      </p>
+
+      <h2 className="act-title" id="atto-1">
+        <span className="act-kicker">Atto I</span>
+        I dati
+      </h2>
+
       <section className="narrative">
-        <h2>1. Cosa stai guardando?</h2>
+        <h2>Cosa stai guardando?</h2>
         <p>
           I punti che vedi in questa pagina sono <strong>segnalazioni</strong> relative
           alla presenza dell'orso in Trentino, raccolte dalla{" "}
@@ -127,7 +166,7 @@ export default function App() {
       </section>
 
       <section className="narrative">
-        <h2>2. Quando sono avvenuti?</h2>
+        <h2>Quando sono avvenuti?</h2>
         <p>
           Le date qui sotto sono estratte dal testo libero delle segnalazioni quando
           possibile — non tutte le segnalazioni includono una data interpretabile, e
@@ -163,7 +202,7 @@ export default function App() {
       </section>
 
       <section className="narrative">
-        <h2>3. Che tipo di segnalazione è?</h2>
+        <h2>Che tipo di segnalazione è?</h2>
         <p>
           Aver visto l'orso con i propri occhi, aver trovato un'impronta o aver subito
           un danno a un allevamento non sono la stessa cosa: hanno un peso diverso come
@@ -176,7 +215,23 @@ export default function App() {
       </section>
 
       <section className="narrative">
-        <h2>4. Dove vengono raccolte le segnalazioni?</h2>
+        <h2>Dove vengono raccolte le segnalazioni?</h2>
+        <div className="map-shows-box">
+          <div className="shows">
+            <h4>Questa mappa mostra</h4>
+            <ul>
+              <li>Dove sono state raccolte le segnalazioni presenti in questo dataset.</li>
+            </ul>
+          </div>
+          <div className="not-shows">
+            <h4>Questa mappa NON mostra</h4>
+            <ul>
+              <li>La posizione reale degli orsi.</li>
+              <li>La densità della popolazione.</li>
+              <li>Il rischio di incontro in un dato luogo.</li>
+            </ul>
+          </div>
+        </div>
         <p>
           La mappa sotto mostra il terreno in 3D (valli, versanti, quota) solo per dare
           un riferimento geografico reale — non per suggerire quantità: il rilievo non
@@ -189,8 +244,13 @@ export default function App() {
         <MapView features={filteredFeatures} />
       </section>
 
+      <h2 className="act-title" id="atto-2">
+        <span className="act-kicker">Atto II</span>
+        La lente
+      </h2>
+
       <section className="narrative">
-        <h2>5. Come le mappe cambiano le percezioni</h2>
+        <h2>Come le mappe cambiano le percezioni</h2>
         <p>
           Le stesse identiche segnalazioni, rappresentate in modi diversi, possono
           suggerire impressioni molto diverse. Prova a passare da una modalità
@@ -200,7 +260,7 @@ export default function App() {
       </section>
 
       <section className="narrative">
-        <h2>6. Cosa può ingannarci in questi dati</h2>
+        <h2>Cosa può ingannarci in questi dati</h2>
         <p>
           Qualunque raccolta di segnalazioni fatte da persone, invece che da un
           monitoraggio scientifico organizzato, porta con sé alcune distorsioni note e
@@ -212,8 +272,13 @@ export default function App() {
         <Bibliography />
       </section>
 
+      <h2 className="act-title" id="atto-3">
+        <span className="act-kicker">Atto III</span>
+        Le conclusioni
+      </h2>
+
       <section className="narrative">
-        <h2>7. Cosa possiamo concludere?</h2>
+        <h2>Cosa possiamo concludere?</h2>
         <ul>
           <li>Dove sono state registrate le segnalazioni presenti in questo dataset.</li>
           <li>Quando sono state registrate, quando il testo lo permette.</li>
@@ -223,7 +288,7 @@ export default function App() {
       </section>
 
       <section className="narrative">
-        <h2>8. Cosa NON possiamo concludere</h2>
+        <h2>Cosa NON possiamo concludere</h2>
         <ul>
           <li>Quanti orsi ci sono in Trentino, né dove si trovano tutti.</li>
           <li>La densità reale della popolazione di orsi.</li>
