@@ -4,7 +4,7 @@ export function Header() {
       <img src={`${import.meta.env.BASE_URL}logo.png`} alt="BearLens Trentino" />
       <div className="title-block">
         <h1>BearLens Trentino</h1>
-        <p>Segnalazioni di presenza dell'orso: cosa mostrano, e cosa no.</p>
+        <p>Una lente critica sulle segnalazioni di orso in Trentino.</p>
       </div>
     </header>
   );
