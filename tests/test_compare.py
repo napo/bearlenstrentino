@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import pytest
+
 from pipeline.analysis.compare import bin_label, compare_distributions
 
 EDGES = (100, 250, 500, 1000)
@@ -33,8 +35,12 @@ def test_compare_distributions_percentages_sum_to_100():
 
     result = compare_distributions(observations, baseline, edges=EDGES)
 
-    assert sum(b.observation_pct for b in result) == 100.0
-    assert sum(b.baseline_pct for b in result) == 100.0
+    # Percentages come from dividing by bucket counts (e.g. sixths for the
+    # 6-item baseline here), which isn't exactly representable in binary
+    # floating point — approx, not ==, is the correct check for a sum of
+    # such values.
+    assert sum(b.observation_pct for b in result) == pytest.approx(100.0)
+    assert sum(b.baseline_pct for b in result) == pytest.approx(100.0)
 
 
 def test_compare_distributions_counts_are_correct_per_bucket():
