@@ -5,7 +5,7 @@ import { Map as MapLibreMap, Popup, type MapLayerMouseEvent } from "maplibre-gl"
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./maplibreSetup";
 import type { ObservationFeature } from "../data/types";
-import { ALL_DISPLAY_CATEGORIES, toDisplayCategory, type DisplayCategory } from "../data/categories";
+import { ALL_DISPLAY_CATEGORIES, CATEGORY_HEX, toDisplayCategory, type DisplayCategory } from "../data/categories";
 import { daysSinceEvent } from "../data/useObservations";
 import { registerCategoryIcons } from "./markerIcons";
 import { PopupContent } from "./PopupContent";
@@ -33,6 +33,16 @@ const RECENT_OPACITY_FLOOR_DAYS = 3 * 365;
 const CLUSTER_MAX_ZOOM = 17;
 const CLUSTER_RADIUS = 50;
 const SPIDER_LEG_RADIUS_PX = 42;
+
+// One cluster per category (not one merged count across all types): a
+// location with 3 sightings and 2 tracks shows two distinctly colored
+// cluster circles, not one generic "5" — clustering must never collapse
+// the type distinction that the rest of the site treats as load-bearing
+// (see categories.ts).
+const sourceId = (cat: DisplayCategory) => `observations-${cat}`;
+const clusterCircleId = (cat: DisplayCategory) => `clusters-circle-${cat}`;
+const clusterCountId = (cat: DisplayCategory) => `clusters-count-${cat}`;
+const symbolId = (cat: DisplayCategory) => `observations-symbols-${cat}`;
 
 type Properties = ObservationFeature["properties"];
 
@@ -141,8 +151,8 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
       pointsSource?.setData({ type: "FeatureCollection", features: [] });
     }
 
-    async function spiderfyCluster(clusterId: number, center: [number, number]) {
-      const source = map.getSource("observations") as maplibregl.GeoJSONSource;
+    async function spiderfyCluster(clusterSourceId: string, clusterId: number, center: [number, number]) {
+      const source = map.getSource(clusterSourceId) as maplibregl.GeoJSONSource;
       const leaves = await source.getClusterLeaves(clusterId, Infinity, 0);
       const centerPx = map.project(center);
       const offsets = spiderOffsets(leaves.length);
@@ -192,71 +202,76 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
 
       registerCategoryIcons(map);
 
-      map.addSource("observations", {
-        type: "geojson",
-        data: { type: "FeatureCollection", features: [] },
-        cluster: true,
-        clusterRadius: CLUSTER_RADIUS,
-        clusterMaxZoom: CLUSTER_MAX_ZOOM,
-      });
+      // One clustered source + trio of layers per category, so clustering
+      // never merges what the rest of the site keeps visually distinct.
+      for (const cat of ALL_DISPLAY_CATEGORIES) {
+        map.addSource(sourceId(cat), {
+          type: "geojson",
+          data: { type: "FeatureCollection", features: [] },
+          cluster: true,
+          clusterRadius: CLUSTER_RADIUS,
+          clusterMaxZoom: CLUSTER_MAX_ZOOM,
+        });
 
-      map.addLayer({
-        id: "clusters-circle",
-        type: "circle",
-        source: "observations",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": ["step", ["get", "point_count"], "#8fb09d", 10, "#4f8a6c", 50, "#244a3a"],
-          "circle-radius": ["step", ["get", "point_count"], 16, 10, 20, 50, 26],
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#ffffff",
-        },
-      });
-      map.addLayer({
-        id: "clusters-count",
-        type: "symbol",
-        source: "observations",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["literal", ["Noto Sans Bold"]],
-          "text-size": 13,
-        },
-        paint: { "text-color": "#ffffff" },
-      });
-
-      map.addLayer({
-        id: "observations-symbols",
-        type: "symbol",
-        source: "observations",
-        filter: ["!", ["has", "point_count"]],
-        layout: {
-          "icon-image": ["concat", "marker-", ["get", "display_category"]],
-          "icon-size": 0.8,
-          "icon-allow-overlap": true,
-        },
-        paint: {
-          "icon-opacity": [
-            "case",
-            ["!", ["has", "days_since_event"]],
-            0.55,
-            [
-              "interpolate",
-              ["linear"],
-              ["get", "days_since_event"],
-              0,
-              1,
-              RECENT_OPACITY_FLOOR_DAYS,
-              0.35,
+        map.addLayer({
+          id: clusterCircleId(cat),
+          type: "circle",
+          source: sourceId(cat),
+          filter: ["has", "point_count"],
+          paint: {
+            "circle-color": CATEGORY_HEX[cat],
+            "circle-radius": ["step", ["get", "point_count"], 14, 10, 18, 50, 24],
+            "circle-stroke-width": 2,
+            "circle-stroke-color": "#ffffff",
+          },
+        });
+        map.addLayer({
+          id: clusterCountId(cat),
+          type: "symbol",
+          source: sourceId(cat),
+          filter: ["has", "point_count"],
+          layout: {
+            "text-field": ["get", "point_count_abbreviated"],
+            "text-font": ["literal", ["Noto Sans Bold"]],
+            "text-size": 12,
+          },
+          paint: { "text-color": "#ffffff" },
+        });
+        map.addLayer({
+          id: symbolId(cat),
+          type: "symbol",
+          source: sourceId(cat),
+          filter: ["!", ["has", "point_count"]],
+          layout: {
+            "icon-image": `marker-${cat}`,
+            "icon-size": 0.8,
+            "icon-allow-overlap": true,
+          },
+          paint: {
+            "icon-opacity": [
+              "case",
+              ["!", ["has", "days_since_event"]],
+              0.55,
+              [
+                "interpolate",
+                ["linear"],
+                ["get", "days_since_event"],
+                0,
+                1,
+                RECENT_OPACITY_FLOOR_DAYS,
+                0.35,
+              ],
             ],
-          ],
-        },
-      });
+          },
+        });
+      }
 
       // Spiderfy layers: same source of truth (the cluster's real leaves)
       // spread onto a small circle so overlapping points at ~the same
       // coordinate become individually clickable instead of hiding
-      // behind one cluster forever.
+      // behind one cluster forever. Shared across categories — a
+      // spiderfied cluster only ever contains leaves from the one
+      // category source it came from, so a plain data-driven icon works.
       map.addSource("spider-lines", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
       map.addLayer({
         id: "spider-lines",
@@ -276,7 +291,11 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
         },
       });
 
-      for (const layerId of ["clusters-circle", "observations-symbols", "spider-symbols"]) {
+      const clusterCircleLayers = ALL_DISPLAY_CATEGORIES.map(clusterCircleId);
+      const symbolLayers = ALL_DISPLAY_CATEGORIES.map(symbolId);
+      const interactiveLayers = [...clusterCircleLayers, ...symbolLayers, "spider-symbols"];
+
+      for (const layerId of interactiveLayers) {
         map.on("mouseenter", layerId, () => {
           map.getCanvas().style.cursor = "pointer";
         });
@@ -285,12 +304,12 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
         });
       }
 
-      map.on("click", "clusters-circle", async (e: MapLayerMouseEvent) => {
+      map.on("click", clusterCircleLayers, async (e: MapLayerMouseEvent) => {
         const feature = e.features?.[0];
-        if (!feature || feature.geometry.type !== "Point") return;
+        if (!feature || feature.geometry.type !== "Point" || !feature.source) return;
         const clusterId = feature.properties?.cluster_id as number;
         const center = feature.geometry.coordinates.slice() as [number, number];
-        const source = map.getSource("observations") as maplibregl.GeoJSONSource;
+        const source = map.getSource(feature.source) as maplibregl.GeoJSONSource;
 
         clearSpiderfy();
         const expansionZoom = await source.getClusterExpansionZoom(clusterId);
@@ -299,11 +318,11 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
         } else {
           // Zooming further would not separate these points (they're
           // effectively at the same spot) — spread them out instead.
-          spiderfyCluster(clusterId, center);
+          spiderfyCluster(feature.source, clusterId, center);
         }
       });
 
-      map.on("click", "observations-symbols", (e: MapLayerMouseEvent) => {
+      map.on("click", symbolLayers, (e: MapLayerMouseEvent) => {
         const feature = e.features?.[0];
         if (!feature || feature.geometry.type !== "Point") return;
         clearSpiderfy();
@@ -324,9 +343,7 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
       // basemap features) collapses any open spiderfy — otherwise the
       // spread-out legs would linger forever once you look elsewhere.
       map.on("click", (e: maplibregl.MapMouseEvent) => {
-        const hits = map.queryRenderedFeatures(e.point, {
-          layers: ["clusters-circle", "observations-symbols", "spider-symbols"],
-        });
+        const hits = map.queryRenderedFeatures(e.point, { layers: interactiveLayers });
         if (hits.length === 0) clearSpiderfy();
       });
       map.on("movestart", clearSpiderfy);
@@ -343,23 +360,24 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
 
   // Push observation data into the map once both the map and the fetch
   // are ready, and whenever `features` or the category filter changes.
-  // Filtering happens on the *input* data (not via a layer `filter`)
-  // because clustering is computed from the source's raw features: a
-  // layer-level filter would hide individual points but leave hidden
-  // categories still counted inside every cluster bubble.
+  // Each category's source only ever receives that category's own
+  // (filtered) points, which is what makes clustering happen per type
+  // instead of merging every type into one generic count.
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapLoaded) return;
 
-    const visible = features.filter((f) =>
-      visibleCategories.has(toDisplayCategory(f.properties.observation_type))
-    );
     const allWithCoords = toFeatureCollection(features).features.length;
-    const collection = toFeatureCollection(visible);
     setSkippedCount(features.length - allWithCoords);
 
-    const source = map.getSource("observations") as maplibregl.GeoJSONSource | undefined;
-    source?.setData(collection);
+    for (const cat of ALL_DISPLAY_CATEGORIES) {
+      const source = map.getSource(sourceId(cat)) as maplibregl.GeoJSONSource | undefined;
+      if (!source) continue;
+      const catFeatures = visibleCategories.has(cat)
+        ? features.filter((f) => toDisplayCategory(f.properties.observation_type) === cat)
+        : [];
+      source.setData(toFeatureCollection(catFeatures));
+    }
   }, [features, visibleCategories, mapLoaded]);
 
   function toggleCategory(category: DisplayCategory) {
@@ -405,8 +423,8 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
       <div ref={containerRef} className="maplibre-map" />
       <Legend visible={visibleCategories} onToggle={toggleCategory} />
       <p className="legend-note" style={{ padding: "0 1rem 0.75rem" }}>
-        I numeri raggruppano segnalazioni vicine tra loro: clicca per avvicinarti, o per
-        separarle se sono già alla massima vicinanza possibile.
+        I numeri raggruppano segnalazioni vicine tra loro e dello stesso tipo: clicca per
+        avvicinarti, o per separarle se sono già alla massima vicinanza possibile.
         {skippedCount > 0 &&
           ` ${skippedCount} segnalazion${skippedCount === 1 ? "e" : "i"} non mostrat${
             skippedCount === 1 ? "a" : "e"

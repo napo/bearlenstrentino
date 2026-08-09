@@ -51,9 +51,12 @@ export function Footer() {
         sul campo.
       </p>
       <p className="tagline">
-        BearLens Trentino — progetto open source, iniziativa personale portata avanti
-        nel tempo libero, non affiliata alla Fondazione Bruno Kessler né ad alcun
-        ente.
+        BearLens Trentino - progetto personale di Maurizio “
+        <a href="https://github.com/napo" target="_blank" rel="noreferrer">
+          napo
+        </a>
+        ” Napolitano, non affiliato alla Provincia autonoma di Trento né alla
+        Fondazione Bruno Kessler.
       </p>
     </footer>
   );
