@@ -82,30 +82,20 @@ export default function App() {
         <p>
           Le segnalazioni raccontano qualcosa di reale: questo progetto non mette in
           discussione né gli avvistamenti né il problema della convivenza con l'orso.
-          Prova solo a capire cosa questi dati possono davvero dirci — e cosa no — con
+          Prova solo a capire cosa questi dati possono davvero dirci - e cosa no - con
           l'aiuto della letteratura scientifica su orsi e citizen science.
         </p>
         <p className="disclaimer">
-          BearLens Trentino non è un progetto della Fondazione Bruno Kessler: è
-          un'iniziativa personale, nata per curiosità e portata avanti nel tempo
-          libero, senza alcun incarico né affiliazione istituzionale.
+          BearLens Trentino è un progetto personale di Maurizio “
+          <a href="https://github.com/napo" target="_blank" rel="noreferrer">
+            napo
+          </a>
+          ” Napolitano, nato per curiosità e portato avanti nel tempo libero. Non è
+          collegato né alla Provincia autonoma di Trento né alla Fondazione Bruno
+          Kessler, e non è stato realizzato nell'ambito di alcun incarico
+          istituzionale.
         </p>
       </div>
-
-      <div className="mental-model">
-        <p className="mental-model-kicker">Una segnalazione dipende da</p>
-        <ul className="mental-model-factors">
-          <li>Presenza dell'orso</li>
-          <li>Possibilità di osservarlo</li>
-          <li>Propensione a segnalarlo</li>
-        </ul>
-        <p className="mental-model-result">→ ciò che compare sulla mappa</p>
-      </div>
-      <p className="mental-model-caption">
-        Non è una formula statistica: è il modo più semplice per tenere a mente perché
-        contare le segnalazioni non basta a contare gli orsi. Il resto di questa pagina
-        entra nel dettaglio di ciascuno di questi tre fattori.
-      </p>
 
       <h2 className="act-title" id="atto-1">
         <span className="act-kicker">Atto I</span>
@@ -113,10 +103,10 @@ export default function App() {
       </h2>
 
       <section className="narrative">
-        <h2>Cosa stai guardando?</h2>
+        <h2>Cosa stai davvero guardando?</h2>
         <p>
-          I punti che vedi in questa pagina sono <strong>segnalazioni</strong> relative
-          alla presenza dell'orso in Trentino, raccolte dalla{" "}
+          I punti sulla mappa sotto sono <strong>segnalazioni</strong> - osservazioni
+          riportate da persone, raccolte dalla{" "}
           <a
             href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.046016854635916%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4"
             target="_blank"
@@ -124,87 +114,8 @@ export default function App() {
           >
             mappa collaborativa pubblica
           </a>{" "}
-          "Mappa orsi Trentino". Una segnalazione non equivale automaticamente a un
-          individuo, e il numero di punti sulla mappa non equivale automaticamente alla
-          densità della popolazione di orsi o alla probabilità di incontrarne uno.
+          "Mappa orsi Trentino" - non una mappa di dove vivono gli orsi.
         </p>
-        {loading && <p>Caricamento dati…</p>}
-        {error && (
-          <p className="callout attention">
-            Non è stato possibile caricare i dati normalizzati ({error}). Esegui{" "}
-            <code>npm run sync-data</code> dopo aver lanciato{" "}
-            <code>python scripts/acquire.py</code> nella root del progetto.
-          </p>
-        )}
-        {!loading && !error && (
-          <div className="stat-row">
-            <div className="stat-tile">
-              <span className="value">{summary.total}</span>
-              <span className="label">segnalazioni nel dataset</span>
-            </div>
-            <div className="stat-tile">
-              <span className="value">{summary.earliest ?? "—"}</span>
-              <span className="label">prima segnalazione (data completa)</span>
-            </div>
-            <div className="stat-tile">
-              <span className="value">{summary.latest ?? "—"}</span>
-              <span className="label">ultima segnalazione (data completa)</span>
-            </div>
-          </div>
-        )}
-      </section>
-
-      <section className="narrative">
-        <h2>Quando sono avvenuti?</h2>
-        <p>
-          Le date qui sotto sono estratte dal testo libero delle segnalazioni quando
-          possibile — non tutte le segnalazioni includono una data interpretabile, e
-          questo grafico lo segnala esplicitamente invece di far finta che tutte le
-          segnalazioni siano databili.
-        </p>
-        <TimelineChart features={features} />
-        <p className="callout">
-          Quando lo storico coprirà più anni, un punto di anni fa e un punto di ieri
-          potranno comparire entrambi in questa pagina: non rappresenteranno comunque
-          una presenza simultanea sul territorio, solo l'accumulo di segnalazioni nel
-          tempo. Il grafico qui sopra mostra sempre l'intero storico; usa i filtri qui
-          sotto per restringere il periodo mostrato nelle sezioni successive (tipo di
-          evidenza e mappa).
-        </p>
-        <h3>In che momento della giornata?</h3>
-        <p>
-          Anche qui, solo per le segnalazioni che riportano un orario nel testo: le
-          altre sono raggruppate come "non specificato", non nascoste.
-        </p>
-        <TimeOfDayChart features={features} />
-        <TemporalFilterControls
-          features={features}
-          filter={temporalFilter}
-          onChange={setTemporalFilter}
-        />
-        {isFiltered && (
-          <p className="legend-note">
-            Periodo selezionato: {filterLabel(temporalFilter)} — {filteredFeatures.length} su{" "}
-            {features.length} segnalazioni totali.
-          </p>
-        )}
-      </section>
-
-      <section className="narrative">
-        <h2>Che tipo di segnalazione è?</h2>
-        <p>
-          Aver visto l'orso con i propri occhi, aver trovato un'impronta o aver subito
-          un danno a un allevamento non sono la stessa cosa: hanno un peso diverso come
-          prova. Li distinguiamo sempre visivamente, anche sulla mappa (colore{" "}
-          <em>e</em> forma, mai uno solo).
-          {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
-        </p>
-        <TypeBreakdownChart features={filteredFeatures} />
-        <ClassificationTransparencyChart features={filteredFeatures} />
-      </section>
-
-      <section className="narrative">
-        <h2>Dove vengono raccolte le segnalazioni?</h2>
         <div className="map-shows-box">
           <div className="shows">
             <h4>Questa mappa mostra</h4>
@@ -221,16 +132,108 @@ export default function App() {
             </ul>
           </div>
         </div>
-        <p>
-          La mappa sotto mostra il terreno in 3D (valli, versanti, quota) solo per dare
-          un riferimento geografico reale — non per suggerire quantità: il rilievo non
-          cambia il significato dei punti. Clicca su un punto per vedere il dettaglio:
+        {loading && <p>Caricamento dati…</p>}
+        {error && (
+          <p className="callout attention">
+            Non è stato possibile caricare i dati normalizzati ({error}). Esegui{" "}
+            <code>npm run sync-data</code> dopo aver lanciato{" "}
+            <code>python scripts/acquire.py</code> nella root del progetto.
+          </p>
+        )}
+        <p style={{ textAlign: 'justify' }}>
+          La mappa mostra il terreno in 3D (valli, versanti, quota) solo per dare un
+          riferimento geografico reale - non per suggerire quantità: il rilievo non
+          cambia il significato dei punti.<br/>Clicca su un punto per vedere il dettaglio:
           il testo della segnalazione così come è stato scritto, quando è successo, e
-          come l'abbiamo classificata. Clicca una voce della legenda per mostrare o
+          come l'abbiamo classificata. <br/>Clicca una voce della legenda per mostrare o
           nascondere quel tipo di segnalazione.
           {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
         </p>
         <MapView features={filteredFeatures} />
+      </section>
+
+      <section className="narrative">
+        <h2>Il dataset in cifre</h2>
+        {!loading && !error && (
+          <div className="stat-row">
+            <div className="stat-tile">
+              <span className="value">{summary.total}</span>
+              <span className="label">segnalazioni nel dataset</span>
+            </div>
+            <div className="stat-tile">
+              <span className="value">{summary.earliest ?? "-"}</span>
+              <span className="label">prima segnalazione (data completa)</span>
+            </div>
+            <div className="stat-tile">
+              <span className="value">{summary.latest ?? "-"}</span>
+              <span className="label">ultima segnalazione (data completa)</span>
+            </div>
+          </div>
+        )}
+      </section>
+
+      <div className="mental-model">
+        <p className="mental-model-kicker">Una segnalazione dipende da</p>
+        <ul className="mental-model-factors">
+          <li>Presenza dell'orso</li>
+          <li>Possibilità di osservarlo</li>
+          <li>Propensione a segnalarlo</li>
+        </ul>
+        <p className="mental-model-result">→ ciò che compare sulla mappa</p>
+      </div>
+      <p className="mental-model-caption">
+        Non è una formula statistica: è il modo più semplice per tenere a mente perché
+        contare le segnalazioni non basta a contare gli orsi. Il resto di questa pagina
+        entra nel dettaglio di ciascuno di questi tre fattori.
+      </p>
+
+      <section className="narrative">
+        <h2>Quando sono avvenuti?</h2>
+        <p>
+          Le date qui sotto sono estratte dal testo libero delle segnalazioni quando
+          possibile - non tutte le segnalazioni includono una data interpretabile, e
+          questo grafico lo segnala esplicitamente invece di far finta che tutte le
+          segnalazioni siano databili.
+        </p>
+        <TimelineChart features={features} />
+        <p className="callout">
+          Quando lo storico coprirà più anni, un punto di anni fa e un punto di ieri
+          potranno comparire entrambi in questa pagina: non rappresenteranno comunque
+          una presenza simultanea sul territorio, solo l'accumulo di segnalazioni nel
+          tempo. Il grafico qui sopra mostra sempre l'intero storico; usa i filtri qui
+          sotto per restringere il periodo mostrato nella mappa più sopra e nella
+          prossima sezione (tipo di evidenza).
+        </p>
+        <h3>In che momento della giornata?</h3>
+        <p>
+          Anche qui, solo per le segnalazioni che riportano un orario nel testo: le
+          altre sono raggruppate come "non specificato", non nascoste.
+        </p>
+        <TimeOfDayChart features={features} />
+        <TemporalFilterControls
+          features={features}
+          filter={temporalFilter}
+          onChange={setTemporalFilter}
+        />
+        {isFiltered && (
+          <p className="legend-note">
+            Periodo selezionato: {filterLabel(temporalFilter)} - {filteredFeatures.length} su{" "}
+            {features.length} segnalazioni totali.
+          </p>
+        )}
+      </section>
+
+      <section className="narrative">
+        <h2>Che tipo di segnalazione è?</h2>
+        <p>
+          Aver visto l'orso con i propri occhi, aver trovato un'impronta o aver subito
+          un danno a un allevamento non sono la stessa cosa: hanno un peso diverso come
+          prova. Li distinguiamo sempre visivamente, anche sulla mappa (colore{" "}
+          <em>e</em> forma, mai uno solo).<br/>
+          {isFiltered && ` Dati mostrati per il periodo: ${filterLabel(temporalFilter)}.`}
+        </p>
+        <TypeBreakdownChart features={filteredFeatures} />
+        <ClassificationTransparencyChart features={filteredFeatures} />
       </section>
 
       <h2 className="act-title" id="atto-2">
@@ -242,7 +245,7 @@ export default function App() {
         <h2>Come le mappe cambiano le percezioni</h2>
         <p>
           Le stesse identiche segnalazioni, rappresentate in modi diversi, possono
-          suggerire impressioni molto diverse. Prova a passare da una modalità
+          suggerire impressioni molto diverse.<br/>Prova a passare da una modalità
           all'altra: i dati sotto non cambiano mai, cambia solo come vengono mostrati.
         </p>
         <PerceptionMap features={features} />
@@ -253,7 +256,7 @@ export default function App() {
         <p>
           Qualunque raccolta di segnalazioni fatte da persone, invece che da un
           monitoraggio scientifico organizzato, porta con sé alcune distorsioni note e
-          studiate. Elencarle non significa screditare i dati: serve a leggerli con gli
+          studiate.<br/>Elencarle non significa screditare i dati: serve a leggerli con gli
           occhi giusti. Le fonti scientifiche citate qui sotto sono riportate per
           intero, non solo linkate, nell'elenco pieghevole in fondo alla sezione.
         </p>

@@ -24,11 +24,11 @@ const GROUP_ORDER: BiasGroup[] = ["chi-osserva", "dove-osserviamo", "quando-osse
 
 // Catalog of ways this kind of data can mislead a reader (see README.md /
 // REFERENCES.md). Kept as prose here, self-contained in the deployed
-// site, rather than only linking out to REFERENCES.md — a static export
+// site, rather than only linking out to REFERENCES.md - a static export
 // of the site may not bundle the repository's other markdown files.
 // "Bias" is kept in parentheses next to a plain-language name because
 // it's the term the cited papers themselves use. Grouped into 4 families
-// (who/where/when/what) rather than shown as one flat list of 11 — same
+// (who/where/when/what) rather than shown as one flat list of 11 - same
 // content, easier to scan; each entry collapses into an accordion so the
 // page reads as 4 short groups, not a wall of open cards.
 const BIASES: BiasEntry[] = [
@@ -37,7 +37,7 @@ const BIASES: BiasEntry[] = [
     group: "chi-osserva",
     title: "Effetto di osservazione (bias)",
     body:
-      "Un orso si può osservare solo dove e quando c'è qualcuno a guardare. Uno studio (Ditmer et al. 2021) mostra che la luce artificiale notturna — che segnala quante persone vivono in una zona, non quanti orsi ci sono — da sola predice il numero di segnalazioni meglio di quasi ogni altro fattore: in una zona adatta all'orso ma poco illuminata, gli orsi previsti erano circa il 375% in più di quelli davvero segnalati.",
+      "Un orso si può osservare solo dove e quando c'è qualcuno a guardare. Uno studio (Ditmer et al. 2021) mostra che la luce artificiale notturna - che segnala quante persone vivono in una zona, non quanti orsi ci sono - da sola predice il numero di segnalazioni meglio di quasi ogni altro fattore: in una zona adatta all'orso ma poco illuminata, gli orsi previsti erano circa il 375% in più di quelli davvero segnalati.",
     seeAlso: [
       { label: "Grafico sugli orari", href: "#chart-time-of-day" },
       { label: "Ditmer et al. 2021", href: "#ref-ditmer-2021" },

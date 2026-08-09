@@ -273,6 +273,10 @@ a {
   font-size: 1.1rem;
 }
 
+.project-premise a {
+  color: var(--color-sand);
+}
+
 .project-premise p {
   margin: 0.6rem 0;
   font-size: 0.95rem;
