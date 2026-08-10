@@ -10,7 +10,7 @@ import { daysSinceEvent } from "../data/useObservations";
 import { registerCategoryIcons } from "./markerIcons";
 import { PopupContent } from "./PopupContent";
 import { Legend } from "../components/Legend";
-import { useFullscreenToggle } from "./useFullscreenToggle";
+import { STUDY_AREA_MAX_BOUNDS } from "./mapBounds";
 
 const BASEMAP_STYLE = "https://styles.maptoolkit.org/summer.json";
 // Mapterhorn: open global terrain-RGB (terrarium encoding) tiles, see
@@ -81,13 +81,68 @@ function spiderOffsets(count: number): [number, number][] {
   return offsets;
 }
 
+// A plain maplibregl.IControl (not a React component) so it lives in the
+// same top-right widget stack as the zoom and fullscreen controls,
+// instead of a button in the .map-controls bar — see the "come le mappe"
+// PerceptionMap for the same reasoning. Owns its own on/off state since
+// nothing else in the component needs to react to it.
+const RELIEF_OFF_LABEL = "Vista piatta 2D (clicca per il 3D)";
+const RELIEF_ON_LABEL = "Vista orografica 3D attiva (clicca per tornare piatta)";
+
+class ReliefToggleControl implements maplibregl.IControl {
+  private map: MapLibreMap | undefined;
+  private button: HTMLButtonElement | undefined;
+  private active = false;
+
+  onAdd(map: MapLibreMap) {
+    this.map = map;
+    const container = document.createElement("div");
+    container.className = "maplibregl-ctrl maplibregl-ctrl-group";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "relief-toggle-button";
+    button.textContent = "3D";
+    button.title = RELIEF_OFF_LABEL;
+    button.setAttribute("aria-label", RELIEF_OFF_LABEL);
+    button.setAttribute("aria-pressed", "false");
+    button.addEventListener("click", () => this.toggle());
+    container.appendChild(button);
+    this.button = button;
+    return container;
+  }
+
+  onRemove() {
+    this.button?.parentElement?.remove();
+    this.map = undefined;
+    this.button = undefined;
+  }
+
+  private toggle() {
+    const map = this.map;
+    const button = this.button;
+    if (!map || !button) return;
+    this.active = !this.active;
+    if (this.active) {
+      map.setTerrain({ source: "terrainSource", exaggeration: 1.2 });
+      map.easeTo({ pitch: 60, bearing: -12, duration: 600 });
+    } else {
+      map.setTerrain(null);
+      map.easeTo({ pitch: 0, bearing: 0, duration: 600 });
+    }
+    button.classList.toggle("relief-toggle-active", this.active);
+    button.setAttribute("aria-pressed", String(this.active));
+    const label = this.active ? RELIEF_ON_LABEL : RELIEF_OFF_LABEL;
+    button.title = label;
+    button.setAttribute("aria-label", label);
+  }
+}
+
 export function MapView({ features }: { features: ObservationFeature[] }) {
   const cardRef = useRef<HTMLDivElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const popupRootRef = useRef<Root | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
-  const [reliefEnabled, setReliefEnabled] = useState(false);
   const [skippedCount, setSkippedCount] = useState(0);
   const [visibleCategories, setVisibleCategories] = useState<Set<DisplayCategory>>(
     () => new Set(ALL_DISPLAY_CATEGORIES)
@@ -112,6 +167,7 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
       pitch: 0,
       bearing: 0,
       maxPitch: 85,
+      maxBounds: STUDY_AREA_MAX_BOUNDS,
     });
     mapRef.current = map;
 
@@ -122,13 +178,15 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
     }
 
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
+    map.addControl(new maplibregl.FullscreenControl({ container: cardRef.current ?? undefined }), "top-right");
+    map.addControl(new ReliefToggleControl(), "top-right");
 
     function showPopupAt(coordinates: [number, number], properties: Properties, clientY: number) {
       popupRootRef.current?.unmount();
       const container = document.createElement("div");
       const root = createRoot(container);
       popupRootRef.current = root;
-      root.render(<PopupContent properties={properties} />);
+      root.render(<PopupContent properties={properties} coordinates={coordinates} />);
 
       // MapLibre's automatic anchor placement measures the popup's DOM
       // size right after setDOMContent, which can race React's commit
@@ -422,37 +480,8 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
     });
   }
 
-  const { isFullscreen, toggleFullscreen } = useFullscreenToggle(cardRef, () => {
-    // The map's canvas is sized from its container at creation time;
-    // entering/exiting fullscreen changes that size without firing a
-    // window resize event, so MapLibre never notices on its own.
-    mapRef.current?.resize();
-  });
-
-  function toggleRelief() {
-    const map = mapRef.current;
-    if (!map) return;
-    const next = !reliefEnabled;
-    setReliefEnabled(next);
-    if (next) {
-      map.setTerrain({ source: "terrainSource", exaggeration: 1.2 });
-      map.easeTo({ pitch: 60, bearing: -12, duration: 600 });
-    } else {
-      map.setTerrain(null);
-      map.easeTo({ pitch: 0, bearing: 0, duration: 600 });
-    }
-  }
-
   return (
     <div className="map-card" ref={cardRef}>
-      <div className="map-controls">
-        <button type="button" aria-pressed={reliefEnabled} onClick={toggleRelief}>
-          {reliefEnabled ? "Vista orografica 3D attiva" : "Vista piatta 2D (clicca per il 3D)"}
-        </button>
-        <button type="button" aria-pressed={isFullscreen} onClick={toggleFullscreen}>
-          {isFullscreen ? "Esci da schermo intero" : "Schermo intero"}
-        </button>
-      </div>
       <div ref={containerRef} className="maplibre-map" />
       <Legend visible={visibleCategories} onToggle={toggleCategory} />
       <p className="legend-note" style={{ padding: "0 1rem 0.75rem" }}>

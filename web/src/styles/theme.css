@@ -554,6 +554,33 @@ section.narrative h2 {
 .maplibre-map {
   width: 100%;
   height: 560px;
+  /* Rounds the top corners when this is the first child of .map-card
+     (no .map-controls bar above it, e.g. MapView) so the square map
+     canvas doesn't overhang the card's own rounded border — .map-card
+     has no overflow:hidden (popups need to extend past it). When a
+     .map-controls bar does come first (e.g. PerceptionMap), this sits
+     below it and the radius has no visible edge to round. */
+  border-radius: 10px 10px 0 0;
+}
+
+/* Relief (3D) toggle widget, added to the map as a maplibregl.IControl
+   alongside the zoom/fullscreen controls — plain-text label instead of
+   an icon since there's no stock maplibre glyph for terrain toggling. */
+.relief-toggle-button {
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  color: #333;
+  background: transparent;
+}
+
+.relief-toggle-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.relief-toggle-button.relief-toggle-active {
+  background: var(--color-forest);
+  color: var(--color-ivory);
 }
 
 .map-card:fullscreen {

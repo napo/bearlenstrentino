@@ -44,9 +44,16 @@ function formatTime(properties: ObservationProperties): string | null {
   return `verso le ${hh}`;
 }
 
-export function PopupContent({ properties }: { properties: ObservationProperties }) {
+export function PopupContent({
+  properties,
+  coordinates,
+}: {
+  properties: ObservationProperties;
+  coordinates: [number, number];
+}) {
   const media = classifyMediaLinks(properties.media_links);
   const time = formatTime(properties);
+  const [lon, lat] = coordinates;
 
   return (
     <div className="popup-detail">
@@ -132,6 +139,11 @@ export function PopupContent({ properties }: { properties: ObservationProperties
         </p>
         {properties.coordinate_error && (
           <p className="popup-note">Coordinate non valide: {properties.coordinate_error}</p>
+        )}
+        {!properties.coordinate_error && (
+          <p>
+            <a href={`geo:${lat},${lon}`}>Apri questo punto nell'app mappe del dispositivo</a>
+          </p>
         )}
         <p className="popup-note">id: {properties.id}</p>
       </section>

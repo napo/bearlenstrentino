@@ -10,7 +10,14 @@
 // Flat-topped axial hex grid, formulas per the standard reference
 // (redblobgames.com/grids/hexagons).
 export interface HexBin {
+  // Geometric center of the hex cell — used to draw the cell's polygon.
+  // Deliberately NOT used to place a point symbol: it's a property of
+  // the grid, not of the data, and can fall in a spot with no nearby
+  // observations (e.g. a cell whose points all sit near one edge). Point
+  // symbols (cluster-fixed / cluster-proportional) use `centroid`
+  // instead, the mean position of the actual points in the cell.
   center: [number, number];
+  centroid: [number, number];
   count: number;
   polygon: [number, number][];
 }
@@ -48,7 +55,10 @@ export function binPointsIntoHexagons(
 ): HexBin[] {
   const lonScale = Math.cos((referenceLatitude * Math.PI) / 180) || 1;
 
-  const counts = new Map<string, { q: number; r: number; count: number }>();
+  const counts = new Map<
+    string,
+    { q: number; r: number; count: number; lonSum: number; latSum: number }
+  >();
   for (const [lon, lat] of points) {
     const x = lon * lonScale;
     const y = lat;
@@ -57,11 +67,16 @@ export function binPointsIntoHexagons(
     const { q, r } = axialRound(qf, rf);
     const key = `${q},${r}`;
     const existing = counts.get(key);
-    if (existing) existing.count += 1;
-    else counts.set(key, { q, r, count: 1 });
+    if (existing) {
+      existing.count += 1;
+      existing.lonSum += lon;
+      existing.latSum += lat;
+    } else {
+      counts.set(key, { q, r, count: 1, lonSum: lon, latSum: lat });
+    }
   }
 
-  return [...counts.values()].map(({ q, r, count }) => {
+  return [...counts.values()].map(({ q, r, count, lonSum, latSum }) => {
     const cx = (cellSizeDegrees * ((3 / 2) * q)) / lonScale;
     const cy = cellSizeDegrees * (SQRT3 * (r + q / 2));
     const polygon: [number, number][] = [];
@@ -73,6 +88,7 @@ export function binPointsIntoHexagons(
       ]);
     }
     polygon.push(polygon[0]);
-    return { center: [cx, cy] as [number, number], count, polygon };
+    const centroid: [number, number] = [lonSum / count, latSum / count];
+    return { center: [cx, cy] as [number, number], centroid, count, polygon };
   });
 }
