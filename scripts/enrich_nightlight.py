@@ -2,11 +2,11 @@
 
 Unlike the OSM enrichment (Milestone 8/10), which needs one Overpass
 query per point (and hit real scaling/rate-limit walls even at a few
-hundred points — see scripts/compare_baseline.py), a single NASA GIBS
+hundred points - see scripts/compare_baseline.py), a single NASA GIBS
 WMS request returns a raster covering the *entire* study extent. That
 raster is then sampled locally for every point, so this script enriches
 ALL observations AND ALL 10,000 baseline points from Milestone 9 in one
-fetch — no subsetting needed for this particular covariate.
+fetch - no subsetting needed for this particular covariate.
 
 See pipeline/enrichment/nightlight.py for why this is a documented
 approximation (NASA GIBS' rendered Black Marble imagery), not the
@@ -103,7 +103,7 @@ def run(args: argparse.Namespace) -> int:
             "height": args.height,
             "caveat": (
                 "Rendered visualization proxy (8-bit RGB), NOT calibrated VIIRS "
-                "radiance — see pipeline/enrichment/nightlight.py docstring."
+                "radiance - see pipeline/enrichment/nightlight.py docstring."
             ),
         }
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")

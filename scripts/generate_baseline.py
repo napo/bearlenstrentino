@@ -1,8 +1,8 @@
 """CLI entry point for Milestone 9: territorial baseline generation.
 
-Fetches (or reuses a cached) study area polygon — the administrative
+Fetches (or reuses a cached) study area polygon - the administrative
 boundary of the Provincia Autonoma di Trento, see
-pipeline/baseline/study_area.py — and samples N uniform random control
+pipeline/baseline/study_area.py - and samples N uniform random control
 points within it, writing:
 
     data/derived/study_area.geojson
@@ -11,7 +11,7 @@ points within it, writing:
 
 N defaults to 10,000 per the project brief. Note this is the sampling
 step only: OSM-enriching all 10,000 points (Milestone 10) will need its
-own, separately documented scope decision — Milestone 8 already found
+own, separately documented scope decision - Milestone 8 already found
 that even 57 points require a carefully scoped Overpass fetch strategy,
 and 10,000 points spread across the whole study area amounts to needing
 a full regional OSM extract rather than per-point queries.
@@ -37,7 +37,7 @@ from pipeline.baseline.study_area import fetch_study_area  # noqa: E402
 from shapely.geometry import mapping, shape  # noqa: E402
 
 DEFAULT_N = 10_000
-DEFAULT_SEED = 42  # arbitrary, fixed for reproducibility — see README.md
+DEFAULT_SEED = 42  # arbitrary, fixed for reproducibility - see README.md
 
 
 def _load_or_fetch_study_area(derived_dir: Path, *, refresh: bool):

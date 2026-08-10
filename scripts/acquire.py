@@ -1,5 +1,5 @@
 """CLI entry point for Milestones 1-4 (minus the GitHub Actions scheduling
-— see README.md): download, validate, redact and log a snapshot of the
+- see README.md): download, validate, redact and log a snapshot of the
 source KML, normalize it into observations.csv/.geojson (best-effort
 event dates, observation-type classification), reconcile identity against
 the previous run's state, and write a validation report.
@@ -61,7 +61,7 @@ def run(args: argparse.Namespace) -> int:
     history_dir = data_dir / "history"
     log_path = data_dir / "raw_log.jsonl"
     # Stores the *semantic* fingerprint (content only), not the raw byte
-    # hash — see pipeline.acquisition.fingerprint for why the raw hash
+    # hash - see pipeline.acquisition.fingerprint for why the raw hash
     # can't be used to decide whether anything worth republishing changed.
     state_file = local_raw_dir / "last_fingerprint.txt"
     history_state_path = history_dir / "state.json"
@@ -98,7 +98,7 @@ def run(args: argparse.Namespace) -> int:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
 
-    # Nothing is written until the plausibility gate above has passed —
+    # Nothing is written until the plausibility gate above has passed -
     # a run that would silently look like data loss aborts before
     # touching any output (see README.md, "Validazione dei dati").
     date_str = snapshot.fetched_at.strftime("%Y-%m-%d")

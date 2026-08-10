@@ -1,11 +1,11 @@
 """CLI entry point for Milestone 8: OpenStreetMap enrichment.
 
-Not run daily — a separate, manual/periodic refresh from the daily KML
+Not run daily - a separate, manual/periodic refresh from the daily KML
 acquisition (see README.md, "Strategia OSM"). Fetches roads, buildings,
 settlements and tourism features from the public Overpass API within a
 radius of every observation (see pipeline/enrichment/osm_source.py for
 why a targeted per-point fetch is used instead of one large
-bounding-box query — the latter was tested live and returned ~130k
+bounding-box query - the latter was tested live and returned ~130k
 building ways alone), caches the raw response per category under
 data/osm/snapshot-<date>/, and writes enriched observations to
 data/enriched/.
@@ -73,7 +73,7 @@ def run(args: argparse.Namespace) -> int:
 
     # A manifest is only written after all four categories succeed, so
     # its presence (not just the folder's) is what "today's snapshot is
-    # complete" means — otherwise a partially-fetched snapshot (e.g. one
+    # complete" means - otherwise a partially-fetched snapshot (e.g. one
     # category hit a timeout) would be silently treated as done.
     today_manifest = snapshot_dir / "manifest.json"
     if args.refresh or not today_manifest.exists():

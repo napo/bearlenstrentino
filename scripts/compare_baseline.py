@@ -3,7 +3,7 @@ baseline, descriptive comparison only (see README.md, "Confronti
 statistici" and "Attenzione al denominatore").
 
 OSM-enriches a deterministic SUBSET of the 10,000 baseline points from
-Milestone 9 — not all of them. Milestone 8 found that even 57
+Milestone 9 - not all of them. Milestone 8 found that even 57
 observation points need a carefully scoped per-point Overpass fetch to
 avoid overloading the shared public API; 10,000 points spread across the
 whole study area would need a full regional OSM extract instead. Using a
@@ -40,20 +40,20 @@ from pipeline.enrichment.snapshot import fetch_and_cache_snapshot, load_snapshot
 
 METRICS = ["distance_to_any_road_m", "distance_to_building_m", "distance_to_settlement_m"]
 # NASA GIBS Black Marble is an 8-bit rendered proxy (0-255), not
-# calibrated radiance — see pipeline/enrichment/nightlight.py.
+# calibrated radiance - see pipeline/enrichment/nightlight.py.
 NIGHT_LIGHT_EDGES = (10, 50, 120, 200)
 
 CAVEATS = [
     "Un divario tra segnalazioni e territorio circostante non dimostra che le persone "
     "vedano l'orso solo dove passano: puo' riflettere anche comportamento reale "
     "dell'orso (attrazione verso i margini abitati, specialmente in autunno, quando "
-    "cerca di mangiare il piu' possibile prima del letargo) — è quanto suggeriscono "
+    "cerca di mangiare il piu' possibile prima del letargo) - è quanto suggeriscono "
     "più studi scientifici sul tema (Sikdokur et al. 2024, Wilson et al. 2005, "
     "McFadden-Hiller et al. 2016).",
     "Il confronto e' descrittivo (percentuali per fascia di distanza): non è un test "
     "statistico né un modello predittivo.",
     "Il campione di controllo arricchito qui e' un sottoinsieme di punti scelti a caso "
-    "sul territorio, non l'intero campione — vedi 'subset_n' e 'subset_seed' sotto.",
+    "sul territorio, non l'intero campione - vedi 'subset_n' e 'subset_seed' sotto.",
 ]
 
 
@@ -98,7 +98,7 @@ def run(args: argparse.Namespace) -> int:
     subset_coords = rng.sample(all_baseline_coords, min(args.subset_n, len(all_baseline_coords)))
 
     # Published so the site can show, not just claim, where the "random"
-    # comparison points actually fall — including places nobody would
+    # comparison points actually fall - including places nobody would
     # expect a bear (see README.md / MethodologySection: a uniform random
     # background can land in implausible terrain, which is exactly the
     # objection a skeptical reader would raise looking at only the bar
@@ -174,8 +174,8 @@ def run(args: argparse.Namespace) -> int:
         }
 
     # Night light (Milestone 8c) is fetched once as a raster covering the
-    # whole extent, not per-point via Overpass, so — unlike the OSM
-    # metrics above — it's available for the FULL 10,000-point baseline,
+    # whole extent, not per-point via Overpass, so - unlike the OSM
+    # metrics above - it's available for the FULL 10,000-point baseline,
     # not just this run's subset. Optional: only included if
     # scripts/enrich_nightlight.py has already been run.
     baseline_nightlight_path = data_dir / "enriched" / "baseline_nightlight.csv"

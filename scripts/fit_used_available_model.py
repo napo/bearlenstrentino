@@ -1,7 +1,7 @@
 """CLI entry point for Milestone 10b: exploratory used-available
 logistic regression.
 
-ROADMAP / ADVANCED, NOT MVP — see pipeline/analysis/logistic.py and
+ROADMAP / ADVANCED, NOT MVP - see pipeline/analysis/logistic.py and
 REFERENCES.md (M10b). This script's output is written to
 data/derived/used_available_model.json for transparency and future
 review, but is deliberately NOT surfaced as a headline result on the
@@ -40,17 +40,17 @@ FEATURE = "night_light_proxy"
 
 INTERPRETIVE_CAVEATS = [
     "Questo modello e' esplorativo (Milestone 10b), non validato per pubblicazione: "
-    "richiede revisione metodologica indipendente — vedi REFERENCES.md.",
+    "richiede revisione metodologica indipendente - vedi REFERENCES.md.",
     "Un'associazione tra night_light_proxy e 'essere una segnalazione' non distingue "
     "un bias di osservazione da una reale selezione dell'habitat da parte dell'orso "
     "(vedi Sikdokur et al. 2024, Wilson et al. 2005, McFadden-Hiller et al. 2016).",
     "night_light_proxy e' un proxy visivo NASA GIBS (0-255), non radianza VIIRS "
-    "calibrata — vedi pipeline/enrichment/nightlight.py.",
+    "calibrata - vedi pipeline/enrichment/nightlight.py.",
     "Il coefficiente e' per deviazione standard del covariata standardizzato, non "
     "per unita' grezza.",
     "Un solo covariato: non e' un modello multivariato used-available completo "
     "(gli altri covariati OSM hanno raggi di ricerca disomogenei tra segnalazioni "
-    "e baseline — vedi comparison.json — e non sono inclusi qui per questo motivo).",
+    "e baseline - vedi comparison.json - e non sono inclusi qui per questo motivo).",
 ]
 
 
