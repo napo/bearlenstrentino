@@ -79,12 +79,42 @@ export default function App() {
           raccogliamo e li rappresentiamo.
         </p>
         <a className="hero-cta" href="#atto-1">
-          Esplora i dati ↓
+          Capisci cosa mostra la mappa ↓
         </a>
       </div>
 
+      <section className="first-look" aria-labelledby="first-look-heading">
+        <h2 className="first-look-heading" id="first-look-heading">
+          In breve
+        </h2>
+        <ul className="first-look-grid">
+          <li className="first-look-card">
+            <h3>Un punto non è un orso</h3>
+            <p>Una segnalazione non corrisponde necessariamente a un individuo.</p>
+          </li>
+          <li className="first-look-card">
+            <h3>Più punti non significa più orsi</h3>
+            <p>
+              Le segnalazioni dipendono anche da dove ci sono persone che possono
+              osservare e segnalare.
+            </p>
+          </li>
+          <li className="first-look-card">
+            <h3>La mappa non misura il rischio</h3>
+            <p>Dai punti non si può ricavare la probabilità di incontrare un orso.</p>
+          </li>
+          <li className="first-look-card">
+            <h3>Gli stessi dati possono sembrare diversi</h3>
+            <p>
+              Cambiare il modo di rappresentarli può cambiare anche la percezione che ne
+              abbiamo.
+            </p>
+          </li>
+        </ul>
+      </section>
+
       <div className="project-premise">
-        <h2>Cosa stai davvero guardando?</h2>
+        <h2>Di cosa si tratta</h2>
         <p>
 	BearLens Trentino parte dalle segnalazioni della mappa collaborativa pubblica "<a href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.04601685463594%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4" target="_new">Mappa avvistamento orsi Trentino</a>" per esplorare come leggere e interpretare meglio questi dati.
         </p>
