@@ -164,6 +164,32 @@ a {
   margin: 0;
 }
 
+/* An editorial statement, not a disclaimer: same "ochre rule + bold
+   forest headline" device as .hero, at section scale rather than page
+   scale, so it reads as a core idea of the page rather than a packaged
+   warning box (no filled background, unlike .callout). */
+.core-concept {
+  border-left: 4px solid var(--color-ochre);
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  margin: 1.75rem 0;
+}
+
+.core-concept p {
+  margin: 0.2rem 0;
+}
+
+.core-concept p:first-child {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-forest);
+  line-height: 1.3;
+}
+
+.core-concept p:last-child {
+  font-size: 0.92rem;
+  color: var(--color-slate);
+}
+
 .mental-model-caption {
   color: var(--color-slate);
   font-size: 0.82rem;
@@ -466,6 +492,19 @@ section.narrative h2 {
   border-radius: 10px 10px 0 0;
 }
 
+/* A .map-controls bar used as a chart mode-toggle (e.g. Totale/Per tipo
+   above TimelineChart) instead of inside a .map-card: fuses it onto the
+   chart card directly below, same "tab bar on a card" look as
+   .map-controls + .maplibre-map, instead of leaving the chart-card's own
+   top margin as a visible gap. */
+.chart-mode-toggle {
+  margin: 1rem 0 0;
+}
+
+.chart-mode-toggle + .chart-card {
+  margin-top: 0;
+}
+
 .map-controls button {
   font-family: inherit;
   font-size: 0.82rem;
@@ -514,7 +553,7 @@ section.narrative h2 {
 
 .maplibre-map {
   width: 100%;
-  height: 480px;
+  height: 560px;
 }
 
 .map-card:fullscreen {
@@ -557,6 +596,25 @@ section.narrative h2 {
 .popup-detail p.popup-note {
   font-size: 0.75rem;
   color: var(--color-slate);
+}
+
+/* Real source photos come in whatever aspect ratio the phone that took
+   them used — some render taller than the whole rest of the popup put
+   together at full width. Capping the height and cropping (not shrinking
+   to fit) keeps the popup scannable; the photo stays fully reachable at
+   full size via the link around it, so nothing about the source photo is
+   actually lost, only how much space its *preview* takes. */
+.popup-detail .popup-photo-link {
+  display: block;
+  line-height: 0;
+}
+
+.popup-detail .popup-photo-link img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .app-footer {
@@ -613,4 +671,75 @@ section.narrative h2 {
 .bibliography-citation {
   font-weight: 600;
   margin: 0 0 0.2rem;
+}
+
+.cookie-notice {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  background: var(--color-forest);
+  color: var(--color-ivory);
+  padding: 1rem 1.5rem;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cookie-notice-body {
+  flex: 1 1 480px;
+}
+
+.cookie-notice-body h4 {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+  color: var(--color-ivory);
+}
+
+.cookie-notice-body p {
+  margin: 0.3rem 0;
+  font-size: 0.85rem;
+  color: var(--color-sand);
+}
+
+.cookie-notice-body code {
+  background: color-mix(in srgb, var(--color-ivory) 15%, transparent);
+  padding: 0.05rem 0.3rem;
+  border-radius: 3px;
+}
+
+.cookie-notice-note {
+  font-size: 0.78rem !important;
+  color: color-mix(in srgb, var(--color-sand) 80%, transparent) !important;
+}
+
+.cookie-notice > button {
+  flex-shrink: 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background: var(--color-ochre);
+  color: var(--color-charcoal);
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.3rem;
+  cursor: pointer;
+}
+
+.cookie-notice > button:hover {
+  background: color-mix(in srgb, var(--color-ochre) 85%, white);
+}
+
+.footer-link-button {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--color-forest);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
 }

@@ -66,7 +66,7 @@ export function PopupContent({ properties }: { properties: ObservationProperties
                 <iframe
                   width="100%"
                   height="220"
-                  src={`https://www.youtube.com/embed/${item.videoId}`}
+                  src={`https://www.youtube-nocookie.com/embed/${item.videoId}`}
                   title="Video associato alla segnalazione"
                   style={{ border: 0, borderRadius: 6, maxWidth: "100%" }}
                   allow="encrypted-media"
@@ -83,11 +83,15 @@ export function PopupContent({ properties }: { properties: ObservationProperties
           // instead of silently dropping a photo the source did include.
           return local ? (
             <p key={i}>
-              <img
-                src={`${import.meta.env.BASE_URL}${local}`}
-                alt="Foto associata alla segnalazione"
-                style={{ maxWidth: "100%", borderRadius: 6 }}
-              />
+              <a
+                className="popup-photo-link"
+                href={`${import.meta.env.BASE_URL}${local}`}
+                target="_blank"
+                rel="noreferrer"
+                title="Apri la foto a dimensione intera"
+              >
+                <img src={`${import.meta.env.BASE_URL}${local}`} alt="Foto associata alla segnalazione" />
+              </a>
             </p>
           ) : (
             <p key={i} className="popup-note">

@@ -199,12 +199,21 @@ export function MapView({ features }: { features: ObservationFeature[] }) {
         url: TERRAIN_TILEJSON_URL,
         attribution: '<a href="https://mapterhorn.com" target="_blank" rel="noreferrer">Mapterhorn</a>',
       });
-      map.addLayer({
-        id: "hillshade",
-        type: "hillshade",
-        source: "terrainSource",
-        paint: { "hillshade-shadow-color": "#473b24" },
-      });
+      // Inserted below the basemap's text labels (not appended on top,
+      // which is what a plain addLayer() call would do) so place/road
+      // names stay legible; the slope shading still shows through
+      // underneath roads and water the same way any hillshade basemap
+      // layers it, just never over the text itself.
+      const firstSymbolLayerId = map.getStyle()?.layers?.find((l) => l.type === "symbol")?.id;
+      map.addLayer(
+        {
+          id: "hillshade",
+          type: "hillshade",
+          source: "terrainSource",
+          paint: { "hillshade-shadow-color": "#473b24" },
+        },
+        firstSymbolLayerId
+      );
 
       registerCategoryIcons(map);
 

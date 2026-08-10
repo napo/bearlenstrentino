@@ -1,4 +1,4 @@
-export function Footer() {
+export function Footer({ onShowCookieNotice }: { onShowCookieNotice: () => void }) {
   return (
     <footer className="app-footer">
       <h2>Da dove vengono i dati</h2>
@@ -52,7 +52,10 @@ export function Footer() {
       </p>
       <p className="tagline">
 BearLens Trentino — created by <a href="https://github.com/napo" target="_blank" rel="noreferrer">napo</a> ·
-<a href="https://github.com/napo/bearlenstrentino" target="_blank" rel="noreferrer">source code</a>
+<a href="https://github.com/napo/bearlenstrentino" target="_blank" rel="noreferrer">source code</a> ·{" "}
+        <button type="button" className="footer-link-button" onClick={onShowCookieNotice}>
+          informativa sui cookie
+        </button>
       </p>
     </footer>
   );

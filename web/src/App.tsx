@@ -3,6 +3,7 @@ import { useObservations } from "./data/useObservations";
 import { applyTemporalFilter, filterLabel, type TemporalFilter } from "./data/temporalFilter";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { CookieNotice, hasSeenCookieNotice } from "./components/CookieNotice";
 import { TemporalFilterControls } from "./components/TemporalFilterControls";
 import { MethodologySection } from "./components/MethodologySection";
 import { Bibliography } from "./components/Bibliography";
@@ -36,6 +37,7 @@ export default function App() {
     [features, temporalFilter]
   );
   const isFiltered = temporalFilter.kind !== "all";
+  const [cookieNoticeVisible, setCookieNoticeVisible] = useState(() => !hasSeenCookieNotice());
 
   useEffect(() => {
     // Cross-links into the bibliography point at <li> entries inside a
@@ -65,6 +67,10 @@ export default function App() {
   return (
     <div className="app-shell">
       <Header />
+
+      {cookieNoticeVisible && (
+        <CookieNotice onDismiss={() => setCookieNoticeVisible(false)} />
+      )}
 
       <div className="hero">
         <h1>Una mappa delle segnalazioni non è una mappa degli orsi.</h1>
@@ -130,6 +136,13 @@ export default function App() {
             </div>
           </div>
         )}
+        <div className="core-concept">
+          <p>Una segnalazione non corrisponde a un orso.</p>
+          <p>
+            Più segnalazioni possono riferirsi allo stesso individuo o allo stesso
+            episodio.
+          </p>
+        </div>
         <div className="map-shows-box">
           <div className="shows">
             <h4>Questa mappa mostra</h4>
@@ -294,7 +307,7 @@ export default function App() {
         </p>
       </section>
 
-      <Footer />
+      <Footer onShowCookieNotice={() => setCookieNoticeVisible(true)} />
     </div>
   );
 }
