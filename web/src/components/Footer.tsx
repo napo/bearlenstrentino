@@ -47,8 +47,7 @@ export function Footer({ onShowCookieNotice }: { onShowCookieNotice: () => void 
         >
           mappa ufficiale della Provincia Autonoma di Trento
         </a>
-        . BearLens Trentino non la sostituisce: le è complementare, e non verificato
-        sul campo.
+        . BearLens Trentino non sostituisce il monitoraggio ufficiale.
       </p>
       <p className="tagline">
 BearLens Trentino — created by <a href="https://github.com/napo" target="_blank" rel="noreferrer">napo</a> ·

@@ -84,7 +84,7 @@ export default function App() {
       </div>
 
       <div className="project-premise">
-        <h2>Perché esiste questo sito</h2>
+        <h2>Cosa stai davvero guardando?</h2>
         <p>
 	BearLens Trentino parte dalle segnalazioni della mappa collaborativa pubblica "<a href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.04601685463594%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4" target="_new">Mappa avvistamento orsi Trentino</a>" per esplorare come leggere e interpretare meglio questi dati.
         </p>
