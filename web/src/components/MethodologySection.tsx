@@ -37,7 +37,7 @@ const BIASES: BiasEntry[] = [
     group: "chi-osserva",
     title: "Effetto di osservazione (bias)",
     body:
-      "Un orso si può osservare solo dove e quando c'è qualcuno a guardare. Uno studio (Ditmer et al. 2021) mostra che la luce artificiale notturna - che segnala quante persone vivono in una zona, non quanti orsi ci sono - da sola predice il numero di segnalazioni meglio di quasi ogni altro fattore: in una zona adatta all'orso ma poco illuminata, gli orsi previsti erano circa il 375% in più di quelli davvero segnalati.",
+      "Un orso si può osservare solo dove e quando c'è qualcuno a guardare. Uno studio (Ditmer et al. 2021) mostra che la luce artificiale notturna — che segnala quante persone vivono in una zona, non quanti orsi ci sono — da sola predice il numero di segnalazioni meglio di quasi ogni altro fattore: in una zona adatta all'orso ma poco illuminata, gli orsi previsti erano circa il 375% in più di quelli davvero segnalati.",
     seeAlso: [
       { label: "Grafico sugli orari", href: "#chart-time-of-day" },
       { label: "Ditmer et al. 2021", href: "#ref-ditmer-2021" },

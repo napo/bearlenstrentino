@@ -358,12 +358,16 @@ a {
   font-size: 0.95rem;
 }
 
-.project-premise p.disclaimer {
+.project-premise .disclaimer {
   font-size: 0.85rem;
   color: var(--color-sand);
   border-top: 1px solid color-mix(in srgb, var(--color-ivory) 25%, transparent);
   padding-top: 0.75rem;
   margin-top: 1rem;
+}
+
+.project-premise .disclaimer p {
+  margin: 0.3rem 0;
 }
 
 section.narrative {

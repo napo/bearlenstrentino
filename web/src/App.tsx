@@ -95,7 +95,7 @@ export default function App() {
           <li className="first-look-card">
             <h3>Più punti non significa più orsi</h3>
             <p>
-              Le segnalazioni dipendono anche da dove ci sono persone che possono
+              Dove ci sono più persone, possono esserci anche più occasioni di
               osservare e segnalare.
             </p>
           </li>
@@ -116,11 +116,16 @@ export default function App() {
       <div className="project-premise">
         <h2>Di cosa si tratta</h2>
         <p>
-	BearLens Trentino parte dalle segnalazioni della mappa collaborativa pubblica "<a href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.04601685463594%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4" target="_new">Mappa avvistamento orsi Trentino</a>" per esplorare come leggere e interpretare meglio questi dati.
+          BearLens Trentino parte dalle segnalazioni della mappa collaborativa pubblica "<a href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.04601685463594%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4" target="_blank" rel="noreferrer">Mappa orsi Trentino</a>" per esplorare come leggere e interpretare meglio questi dati.
         </p>
-        <p className="disclaimer">
-          È un progetto personale di <a href="https://github.com/napo" target="_blank" rel="noreferrer">napo</a>, nato per curiosità e portato avanti nel tempo libero.<br/>Non è un progetto della Provincia autonoma di Trento né della Fondazione Bruno Kessler e non nasce da alcun incarico istituzionale.
-        </p>
+        <div className="disclaimer">
+          <p>
+            È un progetto personale di <a href="https://github.com/napo" target="_blank" rel="noreferrer">napo</a>, nato per curiosità e portato avanti nel tempo libero.
+          </p>
+          <p>
+            Non è un progetto della Provincia Autonoma di Trento né della Fondazione Bruno Kessler e non nasce da alcun incarico istituzionale.
+          </p>
+        </div>
       </div>
 
       <h2 className="act-title" id="atto-1">
@@ -131,7 +136,7 @@ export default function App() {
       <section className="narrative">
         <h2>Cosa stai davvero guardando?</h2>
         <p>
-          I punti sulla mappa sotto sono <strong>segnalazioni</strong> - osservazioni
+          I punti sulla mappa sotto sono <strong>segnalazioni</strong> — osservazioni
           riportate da persone, raccolte dalla{" "}
           <a
             href="https://www.google.com/maps/d/u/0/viewer?hl=it&ll=46.046016854635916%2C11.082050151280466&z=9&mid=1d43YdLzznhl-VxXOz6kg5ZKLdf5RjG4"
@@ -140,7 +145,7 @@ export default function App() {
           >
             mappa collaborativa pubblica
           </a>{" "}
-          "Mappa orsi Trentino" - non una mappa di dove vivono gli orsi.
+          "Mappa orsi Trentino" — non una mappa di dove vivono gli orsi.
         </p>
         {loading && <p>Caricamento dati…</p>}
         {error && (
@@ -211,8 +216,7 @@ export default function App() {
         <p className="mental-model-result">→ ciò che compare sulla mappa</p>
       </div>
       <p className="mental-model-caption">
-        Non è una formula statistica: è il modo più semplice per tenere a mente perché
-        contare le segnalazioni non basta a contare gli orsi. Il resto di questa pagina
+        Non è una formula statistica, solo un promemoria. Il resto di questa pagina
         entra nel dettaglio di ciascuno di questi tre fattori.
       </p>
 
@@ -220,7 +224,7 @@ export default function App() {
         <h2>Quando sono avvenuti?</h2>
         <p>
           Le date qui sotto sono estratte dal testo libero delle segnalazioni quando
-          possibile - non tutte le segnalazioni includono una data interpretabile, e
+          possibile — non tutte le segnalazioni includono una data interpretabile, e
           questo grafico lo segnala esplicitamente invece di far finta che tutte le
           segnalazioni siano databili.
         </p>
@@ -246,7 +250,7 @@ export default function App() {
         />
         {isFiltered && (
           <p className="legend-note">
-            Periodo selezionato: {filterLabel(temporalFilter)} - {filteredFeatures.length} su{" "}
+            Periodo selezionato: {filterLabel(temporalFilter)} — {filteredFeatures.length} su{" "}
             {features.length} segnalazioni totali.
           </p>
         )}
