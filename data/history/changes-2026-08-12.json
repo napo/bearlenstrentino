@@ -1,14 +1,1 @@
-[
-  {
-    "kind": "modified",
-    "id": "obs_2840f9150b3a9ef7",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "removed",
-    "id": "obs_45476eebe33329d7",
-    "previous_id": null,
-    "detail": "missing for 2 consecutive runs"
-  }
-]
+[]
