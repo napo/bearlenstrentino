@@ -1,38 +1,14 @@
 [
   {
-    "kind": "modified",
-    "id": "obs_970cd71ebb3f65d3",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "added",
-    "id": "obs_5d776d4e0ac587b5",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "added",
-    "id": "obs_14b969d18067596f",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "added",
-    "id": "obs_3920c9f6919867a8",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "candidate_removed",
-    "id": "obs_1f3a64b74a36ad90",
-    "previous_id": null,
-    "detail": "missing for 1 consecutive run(s)"
-  },
-  {
-    "kind": "candidate_removed",
+    "kind": "removed",
     "id": "obs_e5772f2ee6a3d598",
     "previous_id": null,
-    "detail": "missing for 1 consecutive run(s)"
+    "detail": "missing for 2 consecutive runs"
+  },
+  {
+    "kind": "removed",
+    "id": "obs_1f3a64b74a36ad90",
+    "previous_id": null,
+    "detail": "missing for 2 consecutive runs"
   }
 ]
