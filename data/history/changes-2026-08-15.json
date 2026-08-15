@@ -1,26 +1,8 @@
 [
   {
-    "kind": "modified",
-    "id": "obs_14b969d18067596f",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "modified",
-    "id": "obs_fd71cb675fe5bfeb",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "added",
-    "id": "obs_1ac1e3874a38adfb",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "candidate_removed",
+    "kind": "removed",
     "id": "obs_4cae45bfa5932793",
     "previous_id": null,
-    "detail": "missing for 1 consecutive run(s)"
+    "detail": "missing for 2 consecutive runs"
   }
 ]
