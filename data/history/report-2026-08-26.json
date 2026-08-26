@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-08-26T08:44:09.796617+00:00",
-  "number_of_records": 75,
-  "records_added": 0,
+  "fetched_at": "2026-08-26T12:53:39.949749+00:00",
+  "number_of_records": 76,
+  "records_added": 1,
   "records_removed": 0,
-  "records_modified": 0,
+  "records_modified": 10,
   "records_candidate_removed": 0,
-  "date_parse_success": 72,
+  "date_parse_success": 73,
   "date_parse_failed": 3,
   "classification_high": 72,
   "classification_medium": 0,
   "classification_low": 1,
-  "classification_unknown": 2,
+  "classification_unknown": 3,
   "invalid_coordinates": 0,
   "missing_descriptions": 0
 }
