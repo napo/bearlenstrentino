@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-08-29T10:53:21.489069+00:00",
+  "fetched_at": "2026-08-29T16:20:26.922410+00:00",
   "number_of_records": 77,
-  "records_added": 0,
+  "records_added": 1,
   "records_removed": 0,
   "records_modified": 1,
-  "records_candidate_removed": 0,
+  "records_candidate_removed": 1,
   "date_parse_success": 74,
   "date_parse_failed": 3,
   "classification_high": 74,
