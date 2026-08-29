@@ -1,8 +1,8 @@
 [
   {
-    "kind": "removed",
-    "id": "obs_15e1eb547a945ec8",
+    "kind": "modified",
+    "id": "obs_7e73fb69fc676b8c",
     "previous_id": null,
-    "detail": "missing for 2 consecutive runs"
+    "detail": "description or classification changed"
   }
 ]
