@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Mappa avvistamenti orsi Trentino 2026</name>
-    <description>Mappa delle segnalazioni pervenute ai social e gruppi "no orsi". Autore: PERSON_0005. Per segnalazioni (solo whatsapp PHONE_0014) </description>
+    <description>Mappa delle segnalazioni pervenute ai social e gruppi "no orsi". Autore: PERSON_0006. Per segnalazioni (solo whatsapp PHONE_0015) </description>
     <Style id="icon-1553-C2185B-normal">
       <IconStyle>
         <color>ff5b18c2</color>
@@ -343,42 +343,6 @@
         <styleUrl>#icon-1759-795548-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0288D1-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-0288D1-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1899-DB4436-normal">
       <IconStyle>
         <color>ff3644db</color>
@@ -419,11 +383,11 @@
       <name>Presso le case</name>
       <Placemark>
         <name>Vallene</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4SuK9sSP2k9YYMBBfVucnh5ff0ZZXlrPr_op5C3YI9fJsC9mwBLnasA5DrQDyAa-eDGS7F4bbLld4_zdqMH377mVkfLA3MXPZTDZxfk2Tp_SDkFrGqUelPpe9TxQECTzgjlritvzo4VzkkTxPeJMLvy6g-nip3AUJld6t96WaB99N7-yQosrJrOg1NL1hdg5R7LJO7rTq0KFroiAmCSOHAM-pznosn4wXCoL6JeBLZCBpu3ypKVkbkT2M?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;1/06/2026 - Vallene di Terlago (Vallelaghi),  giugno: un orso è fotografato mentre cammina a fianco di un’abitazione prossima al bosco</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Zb523H_H6BzfG7PfrZ-SEjRPxSnMoeMZEWrnaebyHM3XJW9WMdi8McBuEvFzKmSGgti-XdU4GcwpMLlHoN8hvgnYnImPZqDSqu4bKEnR44IygSlFQYHa2cM3BNnGQBtLhScoyMRcnKIFia_KgROUuWbaXMTvbOKc9U-nIfKvc5mdYZyJVfX6LHas5u045gs2-GN4BoRgkLCRqZkzkLqOTs8CSY1Q6QW_GJBrddTXt3hnkqKQW__Nlbjo?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;1/06/2026 - Vallene di Terlago (Vallelaghi),  giugno: un orso è fotografato mentre cammina a fianco di un’abitazione prossima al bosco</description>
         <styleUrl>#icon-1603-4E342E</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4SuK9sSP2k9YYMBBfVucnh5ff0ZZXlrPr_op5C3YI9fJsC9mwBLnasA5DrQDyAa-eDGS7F4bbLld4_zdqMH377mVkfLA3MXPZTDZxfk2Tp_SDkFrGqUelPpe9TxQECTzgjlritvzo4VzkkTxPeJMLvy6g-nip3AUJld6t96WaB99N7-yQosrJrOg1NL1hdg5R7LJO7rTq0KFroiAmCSOHAM-pznosn4wXCoL6JeBLZCBpu3ypKVkbkT2M?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Zb523H_H6BzfG7PfrZ-SEjRPxSnMoeMZEWrnaebyHM3XJW9WMdi8McBuEvFzKmSGgti-XdU4GcwpMLlHoN8hvgnYnImPZqDSqu4bKEnR44IygSlFQYHa2cM3BNnGQBtLhScoyMRcnKIFia_KgROUuWbaXMTvbOKc9U-nIfKvc5mdYZyJVfX6LHas5u045gs2-GN4BoRgkLCRqZkzkLqOTs8CSY1Q6QW_GJBrddTXt3hnkqKQW__Nlbjo?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -434,11 +398,11 @@
       </Placemark>
       <Placemark>
         <name>Cadine</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6c4yERV8Z4UlnZScOj2Bw0oAauA0DP7grYrof9F0N2bj93wnD1zy6Oet2T8yNgkksBDg-305BgntzwnDowgyhoZlPw9MGYaKNLL00d7iq-Uuo2WtFLuH_EvIvWSzZZPPWo_spNSBMyD6L_78k9Y9CUatllih8-6PAJtLPMOr7AnATtJZ-6TS9ESnLm5Pxvg0kPD5mUR93NnzfLmo8tCc7zi8yAK21vPFC8nj1WOxWgGNwkuWYAhVeRxLk?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;27/05/2026 - Una donna, PERSON_0001, ai bordi del paese riprende un orso nell'orto sottostante casa sua. La forestale, solo dopo che il video è finito sui social e dai social è rimbalzato sui quotidiani trentini comunica ufficialmente (ma erano passate due settimane) che l'orso era apparso nello stesso posto anche il 30/05/2026. Ma se è problematico cosa hanno fatto?</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6mqssFMKuQmbc7Bg8ZCzw4onrdQZPm5HOPBgyF8xwAMxZ3Jfl85dqnFIbHwAXcVRNiW8kVIrLabJWVuDxFlDri1Os_tPLFMrMQNJ-zn69IFR2SD_cMoi7BjXqw9PJXB1NRIDsVYzyqnrl8J8MdBTAYkXG53JvUEuJh4k7TSKWe0_KfgCmnVaf9i2jlX3Vx6VpLfutBwYFwXrEvPb3Tihbbj4xOkGkzByO3n3KOGXlh0TnXH3N4aqeCNe0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;27/05/2026 - Una donna, PERSON_0001, ai bordi del paese riprende un orso nell'orto sottostante casa sua. La forestale, solo dopo che il video è finito sui social e dai social è rimbalzato sui quotidiani trentini comunica ufficialmente (ma erano passate due settimane) che l'orso era apparso nello stesso posto anche il 30/05/2026. Ma se è problematico cosa hanno fatto?</description>
         <styleUrl>#icon-1603-424242</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6c4yERV8Z4UlnZScOj2Bw0oAauA0DP7grYrof9F0N2bj93wnD1zy6Oet2T8yNgkksBDg-305BgntzwnDowgyhoZlPw9MGYaKNLL00d7iq-Uuo2WtFLuH_EvIvWSzZZPPWo_spNSBMyD6L_78k9Y9CUatllih8-6PAJtLPMOr7AnATtJZ-6TS9ESnLm5Pxvg0kPD5mUR93NnzfLmo8tCc7zi8yAK21vPFC8nj1WOxWgGNwkuWYAhVeRxLk?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6mqssFMKuQmbc7Bg8ZCzw4onrdQZPm5HOPBgyF8xwAMxZ3Jfl85dqnFIbHwAXcVRNiW8kVIrLabJWVuDxFlDri1Os_tPLFMrMQNJ-zn69IFR2SD_cMoi7BjXqw9PJXB1NRIDsVYzyqnrl8J8MdBTAYkXG53JvUEuJh4k7TSKWe0_KfgCmnVaf9i2jlX3Vx6VpLfutBwYFwXrEvPb3Tihbbj4xOkGkzByO3n3KOGXlh0TnXH3N4aqeCNe0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -448,17 +412,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Sardagna</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7LIh1GQlbeqjhLFQzKIprRAg5yyjZyuMSnE41V0wrlpHWPSzzIgLTSx0LkW11uKAMJueXepmMkQCQHI7Ncdy0AD8fj7G0HuCzxknm508mb9IBe80elEJXcoaqueHuJeMsi3luWv828NkPQsPUgDZBURFF527TQ8ZjTqIID4AlIt1tKsB3A5T9-wc8JaVkJr35SbXBagzIpQTURknPlU0OLuwuG_3jGonnBqeZDkoU_g8CiaL1tY1hXs2Y?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7LIh1GQlbeqjhLFQzKIprRAg5yyjZyuMSnE41V0wrlpHWPSzzIgLTSx0LkW11uKAMJueXepmMkQCQHI7Ncdy0AD8fj7G0HuCzxknm508mb9IBe80elEJXcoaqueHuJeMsi3luWv828NkPQsPUgDZBURFF527TQ8ZjTqIID4AlIt1tKsB3A5T9-wc8JaVkJr35SbXBagzIpQTURknPlU0OLuwuG_3jGonnBqeZDkoU_g8CiaL1tY1hXs2Y?fife=s16383</value>
-          </Data>
-        </ExtendedData>
+        <name>PERSON_0002</name>
+        <description>PHONE_0001:30 Avvistamento davanti al Ristorante Cacciatori</description>
+        <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
-            11.0966619,46.0618996,0
+            10.8517915,45.6892064,0
           </coordinates>
         </Point>
       </Placemark>
@@ -516,8 +475,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>PERSON_0002 2</name>
-        <description>PHONE_0001:30 PERSON_0002 loc. Norge ragazza con il cane vede un orso a breve distanza, si mette a gridare e chiama il 112</description>
+        <name>PERSON_0003 2</name>
+        <description>PHONE_0002:30 PERSON_0003 loc. Norge ragazza con il cane vede un orso a breve distanza, si mette a gridare e chiama il 112</description>
         <styleUrl>#icon-1759-795548</styleUrl>
         <Point>
           <coordinates>
@@ -563,11 +522,11 @@
       </Placemark>
       <Placemark>
         <name>Sporminore</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR67zHYNOt7UNbGid11XUpE39TcMRCwRYBIWNJsGXZargHLbpFuVVYcBfIdPNed0lenNoJXwD9L_v7qp7xwsyB9dqYmY2vTKQG3gx8zHbsav_EyRVKhzfwa6-rOKdVnxL2pswtyGyeX8GVJkhxUssK0OfUc2iYVKTu52ik1W5XCd3aEJVhIyo7vycxUFHC9xbh0LB_QEUbnxR5uwP29vYLPhRDIYAnejaspMUsyPREpXJcUBeDJnnEautpY?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;31/07/2026. A Sporminore una capra uccisa dall'orso nonostante recinzioni a cani da protezione</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7SI3z_VfmRxLvje-Os9Qv2g2jUmRBcwtKpBg4Mis2B5e7u3x6ji_b75KY9Ygf_93946iLxlJDP6YmGSqbvlxtEW8CyOJXj17ALtTap2SSTyiSsqX0zYmByrMObMT5Aq_9tJ7iyshDiw59bcZunPh39oXdVaqvEsjyFX18zkQO07Yp6OZo06eBALK5foi0ndCOVnSGesMQY3SxQNSJFGhKHi4cAGIppRSihP10mtUQn0gtPfefMUWw2ZZY?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;31/07/2026. A Sporminore una capra uccisa dall'orso nonostante recinzioni a cani da protezione</description>
         <styleUrl>#icon-1553-C2185B</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR67zHYNOt7UNbGid11XUpE39TcMRCwRYBIWNJsGXZargHLbpFuVVYcBfIdPNed0lenNoJXwD9L_v7qp7xwsyB9dqYmY2vTKQG3gx8zHbsav_EyRVKhzfwa6-rOKdVnxL2pswtyGyeX8GVJkhxUssK0OfUc2iYVKTu52ik1W5XCd3aEJVhIyo7vycxUFHC9xbh0LB_QEUbnxR5uwP29vYLPhRDIYAnejaspMUsyPREpXJcUBeDJnnEautpY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7SI3z_VfmRxLvje-Os9Qv2g2jUmRBcwtKpBg4Mis2B5e7u3x6ji_b75KY9Ygf_93946iLxlJDP6YmGSqbvlxtEW8CyOJXj17ALtTap2SSTyiSsqX0zYmByrMObMT5Aq_9tJ7iyshDiw59bcZunPh39oXdVaqvEsjyFX18zkQO07Yp6OZo06eBALK5foi0ndCOVnSGesMQY3SxQNSJFGhKHi4cAGIppRSihP10mtUQn0gtPfefMUWw2ZZY?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -598,11 +557,11 @@
       </Placemark>
       <Placemark>
         <name>Malga Zoccol</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5r1niJFHUHyBH2BPDkoaDrzLcDTn6ryYn1WbiGVuESlpDcSbOsviXMxh1RnxmnSIW5VyoTj5vSUELe2OdQpafX3t0P7GhtGkav1AZdgSHdzKuZOig3lnX9QFBhCfBXfDR2OWms_BtHvaPw5FWXJXCLdJYrK4hzd-uwi16GKySvZvultaVcABB5M6KkW5JCuuMOh-8JygBChxt5tlr_2SmHzPPfCRSWIkrb1bd-IljWpviyi0KcSBOlA2o?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;27/07/2026. Alla Malga Zoccol in comune di Rabbi due asini gravemente feriti nella notte hanno dovuto essere successivamente soppressi</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Whwsji9ZwwbWzv7UwOOfUgrFzB2NT3Dn1Tg6_Qz9YAha_FT0Ed6XraqIbW7f9YzdRFGdFG_pPGcDIP-QFFKx5s4_V-b5Z4XAujuKP6OKTJ6rc9sH_6yM7b2BpW37TAJzg5BIHUycy-ndjHb-J-aWMS0lJ4dt5qCbuJ7Fs9RJYDaD5SiKLoQAZ1881sIUOH96qv4T9kpMFdE3OpQsPScUvENWxxglIf8f0KrbQlWoC_SoZwtF2o1HEeMA?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;27/07/2026. Alla Malga Zoccol in comune di Rabbi due asini gravemente feriti nella notte hanno dovuto essere successivamente soppressi</description>
         <styleUrl>#icon-1553-C2185B</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5r1niJFHUHyBH2BPDkoaDrzLcDTn6ryYn1WbiGVuESlpDcSbOsviXMxh1RnxmnSIW5VyoTj5vSUELe2OdQpafX3t0P7GhtGkav1AZdgSHdzKuZOig3lnX9QFBhCfBXfDR2OWms_BtHvaPw5FWXJXCLdJYrK4hzd-uwi16GKySvZvultaVcABB5M6KkW5JCuuMOh-8JygBChxt5tlr_2SmHzPPfCRSWIkrb1bd-IljWpviyi0KcSBOlA2o?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Whwsji9ZwwbWzv7UwOOfUgrFzB2NT3Dn1Tg6_Qz9YAha_FT0Ed6XraqIbW7f9YzdRFGdFG_pPGcDIP-QFFKx5s4_V-b5Z4XAujuKP6OKTJ6rc9sH_6yM7b2BpW37TAJzg5BIHUycy-ndjHb-J-aWMS0lJ4dt5qCbuJ7Fs9RJYDaD5SiKLoQAZ1881sIUOH96qv4T9kpMFdE3OpQsPScUvENWxxglIf8f0KrbQlWoC_SoZwtF2o1HEeMA?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -613,11 +572,11 @@
       </Placemark>
       <Placemark>
         <name>Malga Val Comasine</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MRY3AUApOiyOhEGOmD8eHICmC9YFAti3VccRKWVrw3K2B4og3gPdy1PJ_UZHfBmGNer9ATNbFo64cPs2fFGxvVeuOWHTmHBSvySbXSdcWr3XeBiXEH1G6K3_toCDl-TGEFG4PPSoEklhTnZlt__9VD0psyUVOB5KyBi933JSwwh_qqJfaEw1qcS_gA97ho3ojoSsqO4YgYPQcnszSenH768BnMZWcn8SLvMNauPpz2cvDa-6I8fqyIMY?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;07/07/2026- Predazione di cinque bovini. A seguito di questo grave episodio la forestale ha piazzato una trappola a tubo per radiocollarare il l'orso che aveva precedentemente attaccato alla Malga Saviana di Vermiglio</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ynnk0i2DZoEnp4YiS8pEprJvxfwG8AFvZ0FbUS5gLf8fdpoU8eTiQC32kjqFbAA2aN1jLK8yXj-tt17gmVS5F_YzOznsdsi3Rv8kCKXjm6zjxtGx83zSo74yd7GjfHX04FeyhghoPQj5ScVPcMoYz_xMSECvSZNKghAU41jU1mgPaaWBSK6-Fi3iCCCFVw9kynwDqMsLAqZsJ7xCO4DfCr0P7O9lrLFEb2CLx3enuEA_g0r9el8UE_kw?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;07/07/2026- Predazione di cinque bovini. A seguito di questo grave episodio la forestale ha piazzato una trappola a tubo per radiocollarare il l'orso che aveva precedentemente attaccato alla Malga Saviana di Vermiglio</description>
         <styleUrl>#icon-1553-C2185B</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MRY3AUApOiyOhEGOmD8eHICmC9YFAti3VccRKWVrw3K2B4og3gPdy1PJ_UZHfBmGNer9ATNbFo64cPs2fFGxvVeuOWHTmHBSvySbXSdcWr3XeBiXEH1G6K3_toCDl-TGEFG4PPSoEklhTnZlt__9VD0psyUVOB5KyBi933JSwwh_qqJfaEw1qcS_gA97ho3ojoSsqO4YgYPQcnszSenH768BnMZWcn8SLvMNauPpz2cvDa-6I8fqyIMY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ynnk0i2DZoEnp4YiS8pEprJvxfwG8AFvZ0FbUS5gLf8fdpoU8eTiQC32kjqFbAA2aN1jLK8yXj-tt17gmVS5F_YzOznsdsi3Rv8kCKXjm6zjxtGx83zSo74yd7GjfHX04FeyhghoPQj5ScVPcMoYz_xMSECvSZNKghAU41jU1mgPaaWBSK6-Fi3iCCCFVw9kynwDqMsLAqZsJ7xCO4DfCr0P7O9lrLFEb2CLx3enuEA_g0r9el8UE_kw?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -628,11 +587,11 @@
       </Placemark>
       <Placemark>
         <name>Val Saviana</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4xLX4p72RgisH7IEt_Ktq2L3ptgOt9lNVvPZl8K-kBZmxXNof8tDjU5Xrpt-DOisCX5-8VVwNnnGSwGQUXob3oNMF__HjJaF_DITFhTeCHGqi5SU1yzDGsKwGuvYV_1X0S6VxhQYgnAzW7_talmklFVzeayIZ04dsHitw6gyO-pR6ogMAvIbb5X7i5jeta5D3gULAu897XZiEwWKEySP3Z27ISijtKQK4RbSDyUno5gTpxgjMvCU27Nnk?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Azienda di bovini da latte Sablum sui pascoli della Val Saviana. Tre vitelle predate da orso nella notte del 26/06/2o26</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Ywt9Q220Qv8Vm6jJ_YwUVjXx6KSiAXNcnThjdfMf1-V0m97ZNQ_BGtUJpU_twsewPvPqhxWUxZfFp5lO6JYEnFQ0KrDW2G5IEomwBKh8J0-7AtswqFyYhUjC3QmzTOXhHWpxGY6gtyCIIPZKFpmFA-lrZAe2c-grU46o6RaaiAGoALBGx-zKnCC1NwMQTsye7jgHoRmfZSibsFRuzwqZLox-b1DHiOscS8g-Ap79JiM95AgCs3KwbiCU?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Azienda di bovini da latte Sablum sui pascoli della Val Saviana. Tre vitelle predate da orso nella notte del 26/06/2o26</description>
         <styleUrl>#icon-1553-C2185B</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4xLX4p72RgisH7IEt_Ktq2L3ptgOt9lNVvPZl8K-kBZmxXNof8tDjU5Xrpt-DOisCX5-8VVwNnnGSwGQUXob3oNMF__HjJaF_DITFhTeCHGqi5SU1yzDGsKwGuvYV_1X0S6VxhQYgnAzW7_talmklFVzeayIZ04dsHitw6gyO-pR6ogMAvIbb5X7i5jeta5D3gULAu897XZiEwWKEySP3Z27ISijtKQK4RbSDyUno5gTpxgjMvCU27Nnk?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Ywt9Q220Qv8Vm6jJ_YwUVjXx6KSiAXNcnThjdfMf1-V0m97ZNQ_BGtUJpU_twsewPvPqhxWUxZfFp5lO6JYEnFQ0KrDW2G5IEomwBKh8J0-7AtswqFyYhUjC3QmzTOXhHWpxGY6gtyCIIPZKFpmFA-lrZAe2c-grU46o6RaaiAGoALBGx-zKnCC1NwMQTsye7jgHoRmfZSibsFRuzwqZLox-b1DHiOscS8g-Ap79JiM95AgCs3KwbiCU?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -673,11 +632,11 @@
       </Placemark>
       <Placemark>
         <name>Sardagna</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7RHT09Xbc7MF8myDW-O9LNlPIcLvAEoEDVnbokn4e1rg1GtjhwEgikdebm9h9ZWIBP-bCfdY7bwMXtn6ax6H1ZH58l63nmk_x0vu_4cE3LGsYZ93GCn0NJnTIq1wSm-Jra1Wam_y27888pID_2PcG1aAH8-IuZ-mXg7pOw2MxMLA5FoOQWwI6VvaMmKSBNeUVcpuOXRdAmiltlgOzvxSaJIttafvcalRzeVu0r7-7fQXOrRzz9OiHfcA4?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;PHONE_0002:40 Orso avvistato al limite del paese</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4tbWVwXtqYhaLd_fTChq11wVvO4Dw2sbCtlMNFCuJy74QAlHFish01FDoKwV0SSJ9poAyqpVbRE5ulTfvFiyRZebdmrMfhmTqyVgrzsksUNAAi1Pw44uRMJv8PqIfz7AzsLQxeiowK4AE6Ho9g7O9qTGPzuSlVG1S8Pp5Dod6dYfaRdV2t2Z35Zsht3JhiI7O4cxJaElLcoo-hgsli8bVPvRCL3GUGwTOe3SbyJiNowOqMcCF7pJJA0qo?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;PHONE_0003:40 Orso avvistato al limite del paese</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7RHT09Xbc7MF8myDW-O9LNlPIcLvAEoEDVnbokn4e1rg1GtjhwEgikdebm9h9ZWIBP-bCfdY7bwMXtn6ax6H1ZH58l63nmk_x0vu_4cE3LGsYZ93GCn0NJnTIq1wSm-Jra1Wam_y27888pID_2PcG1aAH8-IuZ-mXg7pOw2MxMLA5FoOQWwI6VvaMmKSBNeUVcpuOXRdAmiltlgOzvxSaJIttafvcalRzeVu0r7-7fQXOrRzz9OiHfcA4?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4tbWVwXtqYhaLd_fTChq11wVvO4Dw2sbCtlMNFCuJy74QAlHFish01FDoKwV0SSJ9poAyqpVbRE5ulTfvFiyRZebdmrMfhmTqyVgrzsksUNAAi1Pw44uRMJv8PqIfz7AzsLQxeiowK4AE6Ho9g7O9qTGPzuSlVG1S8Pp5Dod6dYfaRdV2t2Z35Zsht3JhiI7O4cxJaElLcoo-hgsli8bVPvRCL3GUGwTOe3SbyJiNowOqMcCF7pJJA0qo?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -691,7 +650,7 @@
       <name>Avvistamento a distanza</name>
       <Placemark>
         <name>Lasino</name>
-        <description>PHONE_0003:00 Nella via principale</description>
+        <description>PHONE_0004:00 Nella via principale</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -701,7 +660,7 @@
       </Placemark>
       <Placemark>
         <name>Lagolo 2</name>
-        <description>PHONE_0004:00 all'ingresso del paese, sul ciglio sinistra della strada salendo</description>
+        <description>PHONE_0005:00 all'ingresso del paese, sul ciglio sinistra della strada salendo</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -711,7 +670,7 @@
       </Placemark>
       <Placemark>
         <name>Norge2</name>
-        <description>PHONE_0005:00 donna con due cani vede l'orso che si accorge di lei e si alza in piedi. Prende il cane anziano in braccio e ripara in casa (a 50 m). L'orso non l'ha seguita</description>
+        <description>PHONE_0006:00 donna con due cani vede l'orso che si accorge di lei e si alza in piedi. Prende il cane anziano in braccio e ripara in casa (a 50 m). L'orso non l'ha seguita</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -721,7 +680,7 @@
       </Placemark>
       <Placemark>
         <name>Pista Topolino</name>
-        <description>PHONE_0006:45 Sulla pista Topolino. Avvistato da un operatore degli impianti mentre si dirigeva verso alcuni colleghi. La forestale subito interpellata ha dato indicazione di rifugiarsi nei mezzi.</description>
+        <description>PHONE_0007:45 Sulla pista Topolino. Avvistato da un operatore degli impianti mentre si dirigeva verso alcuni colleghi. La forestale subito interpellata ha dato indicazione di rifugiarsi nei mezzi.</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -731,7 +690,7 @@
       </Placemark>
       <Placemark>
         <name>Lagolo</name>
-        <description>PHONE_0007, cucciolone</description>
+        <description>PHONE_0008, cucciolone</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -750,8 +709,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>PERSON_0002</name>
-        <description>&lt;a href="https://www.youtube.com/watch?v=7DHQY42YsRU"&gt;&lt;img src="https://img.youtube.com/vi/7DHQY42YsRU/hqdefault.jpg" height="200" width="auto" /&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://www.youtube.com/embed/7DHQY42YsRU"&gt;https://www.youtube.com/embed/7DHQY42YsRU&lt;/a&gt;&lt;br&gt;&lt;br&gt;PHONE_0008:20, pista cordela /snow park del Monte Bondone (loc. Norge)</description>
+        <name>PERSON_0003</name>
+        <description>&lt;a href="https://www.youtube.com/watch?v=7DHQY42YsRU"&gt;&lt;img src="https://img.youtube.com/vi/7DHQY42YsRU/hqdefault.jpg" height="200" width="auto" /&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://www.youtube.com/embed/7DHQY42YsRU"&gt;https://www.youtube.com/embed/7DHQY42YsRU&lt;/a&gt;&lt;br&gt;&lt;br&gt;PHONE_0009:20, pista cordela /snow park del Monte Bondone (loc. Norge)</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -821,11 +780,11 @@
       </Placemark>
       <Placemark>
         <name>Proves</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5dbsGnWSo2pL9TWWwDyzjDhZowvz6XixlYl_sQJCNDBAudRuolT0IIoL4Ki4yRpElU9Jw5-BBRiCM-k_7QFPYkncWtKYaVY_TdehNNePDYD2pOEJo-AQRyT-kXal3KZhie00J2glmERjeC2tx2vxMfLmzhqEdh3D6yylwiwlornxjyKPNudYPNP9kYQffO6gPZlBX6C-MZ5xNDeqojIzw2s4z6VIllew-943Os9B079SL4yo9LNh4x-uo?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;08/04/2026. Loc. Matzlaun. Orso ripreso al mattino da operai </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DwwPLu7x_3aXBNYdCSnCYuKD1ibWFUlLaxuMbTrpjzrV17Hh26M7gnvd7DSZr6OhHP_wqvYFq7816nb8azG7mUr_vBh9M6CSZarCfnCz9C4r9QZDPHigCVBtX7VGj0XAs_1tcmRvrT1bTMOH2USZDnhzBPFZzdfIWK-7SXguohKTx39Ib5NyzRwqbqATOl33uoH6MXnDk3HAZh1q7tjkHCeSt7tiBlwuOPnGFDmCvPhjVjHkZVThaW-s?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;08/04/2026. Loc. Matzlaun. Orso ripreso al mattino da operai </description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5dbsGnWSo2pL9TWWwDyzjDhZowvz6XixlYl_sQJCNDBAudRuolT0IIoL4Ki4yRpElU9Jw5-BBRiCM-k_7QFPYkncWtKYaVY_TdehNNePDYD2pOEJo-AQRyT-kXal3KZhie00J2glmERjeC2tx2vxMfLmzhqEdh3D6yylwiwlornxjyKPNudYPNP9kYQffO6gPZlBX6C-MZ5xNDeqojIzw2s4z6VIllew-943Os9B079SL4yo9LNh4x-uo?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DwwPLu7x_3aXBNYdCSnCYuKD1ibWFUlLaxuMbTrpjzrV17Hh26M7gnvd7DSZr6OhHP_wqvYFq7816nb8azG7mUr_vBh9M6CSZarCfnCz9C4r9QZDPHigCVBtX7VGj0XAs_1tcmRvrT1bTMOH2USZDnhzBPFZzdfIWK-7SXguohKTx39Ib5NyzRwqbqATOl33uoH6MXnDk3HAZh1q7tjkHCeSt7tiBlwuOPnGFDmCvPhjVjHkZVThaW-s?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -901,11 +860,11 @@
       </Placemark>
       <Placemark>
         <name>Lago di Cei?</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4LaJtNUZAMw3FQq2FpdjNF6wtSwn2it5ToQe9U8Bc-MvEpwslOxAurgEwxns5hCCpzw7Z98tmEBi-Blgxnua5H8m01jCYB2Z1RPQpccf-H7-b7XjyRTZfrXaQMggesQXlkQHPxQRksGflegyjbttjr_5s6J18wURGiQMttbgCWpxk8_hBYSdyBx0beJvUGl5OWhGbKJWEl8QqK76t--xv6U4VDKuWpn54eqqvLjy2Wk7KL74qU8Wg2iAM?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;17/05/2026 - alle 17:45 un orso è stato ripreso mentre camminava su una forestale in zona Lago di Cei.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7pw0kBIsG4195AZy9mkEMure17DIBIYScrw0jWFurfaCHp4AoK6aYhVrxD-Z2bayQvOs6Rc4To4bfm4TDVKH-8S8N3e8WY5sbcnXIThfGLhl8wWEkdft9LdODgxzPqlSYW5wCEpbphoow-Iso_K1lZCz77zWceZP-ubB3yeflJT04h5m9RiuIawbdEMtBTmdM0udYSKogm_qE1ZV5RvliUgH6Bf16fbKlvhExWAkGnGbrVeNSy5DWsZl8?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;17/05/2026 - alle 17:45 un orso è stato ripreso mentre camminava su una forestale in zona Lago di Cei.</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4LaJtNUZAMw3FQq2FpdjNF6wtSwn2it5ToQe9U8Bc-MvEpwslOxAurgEwxns5hCCpzw7Z98tmEBi-Blgxnua5H8m01jCYB2Z1RPQpccf-H7-b7XjyRTZfrXaQMggesQXlkQHPxQRksGflegyjbttjr_5s6J18wURGiQMttbgCWpxk8_hBYSdyBx0beJvUGl5OWhGbKJWEl8QqK76t--xv6U4VDKuWpn54eqqvLjy2Wk7KL74qU8Wg2iAM?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7pw0kBIsG4195AZy9mkEMure17DIBIYScrw0jWFurfaCHp4AoK6aYhVrxD-Z2bayQvOs6Rc4To4bfm4TDVKH-8S8N3e8WY5sbcnXIThfGLhl8wWEkdft9LdODgxzPqlSYW5wCEpbphoow-Iso_K1lZCz77zWceZP-ubB3yeflJT04h5m9RiuIawbdEMtBTmdM0udYSKogm_qE1ZV5RvliUgH6Bf16fbKlvhExWAkGnGbrVeNSy5DWsZl8?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -916,11 +875,11 @@
       </Placemark>
       <Placemark>
         <name>Ponte di Ragoli</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4sMSJ1D7fDkqnmILT_QTcFnfXhOVhjB0ZI8yS_2e1IP8d9WG8w2IGOCMEZ0CIhJpcyOLvuRJeLKTCX5IRZBgTpFyd3SJmuf3_-oUBAJ4afz8yExCpE0bmDgVoKBXgawGqiYQEzUqSg59r3ODkTs36LHboYQqTjr0lFrK_NVvpjHiZbpIBXx17qY9b9Mxrrc9pj_7CWR_XWuw6WvfAuVEh3kd19OfVCRgAnQmvrT5DirYiMsmZErbd_7mg?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;14/05/2026. Avvistato a lato statale alle ore 20</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4YjLK9_l_rOEOL3iWCF02BJk6XT7pwzO2sgCmZ9a8fFUoP3PDH7J6x24m8rRSBm-AgcKQIuG72sdQFGhg-H-Z4CSjAYR8nEz4QXxF1QKGu4_qYasLtkd5lmd-pPibkCuHZK6S9KXUX-3MUkF5aFUKhA2LOKGrBEcRjzQgXgZKmQ2-sWTcVcFe7-ciVHJeZHLk6BDgXAIK4QLFHCMaaqpaSk1QUMlpKycOOiGSneEJBXTBRpNVd8eVukxc?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;14/05/2026. Avvistato a lato statale alle ore 20</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4sMSJ1D7fDkqnmILT_QTcFnfXhOVhjB0ZI8yS_2e1IP8d9WG8w2IGOCMEZ0CIhJpcyOLvuRJeLKTCX5IRZBgTpFyd3SJmuf3_-oUBAJ4afz8yExCpE0bmDgVoKBXgawGqiYQEzUqSg59r3ODkTs36LHboYQqTjr0lFrK_NVvpjHiZbpIBXx17qY9b9Mxrrc9pj_7CWR_XWuw6WvfAuVEh3kd19OfVCRgAnQmvrT5DirYiMsmZErbd_7mg?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4YjLK9_l_rOEOL3iWCF02BJk6XT7pwzO2sgCmZ9a8fFUoP3PDH7J6x24m8rRSBm-AgcKQIuG72sdQFGhg-H-Z4CSjAYR8nEz4QXxF1QKGu4_qYasLtkd5lmd-pPibkCuHZK6S9KXUX-3MUkF5aFUKhA2LOKGrBEcRjzQgXgZKmQ2-sWTcVcFe7-ciVHJeZHLk6BDgXAIK4QLFHCMaaqpaSk1QUMlpKycOOiGSneEJBXTBRpNVd8eVukxc?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -931,11 +890,11 @@
       </Placemark>
       <Placemark>
         <name>Brione</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6N37_j42GcQoxcyzuGVGnYFuGmxb2zkrdI8UwlJlhO9lZufZccucMvffoSxI_5nQQtsUmr9WXhmYLbglkZPiCL_fNdsrPC1jUZfZmCBNrK-6NCgiJ5xoyfUPSKJ94hEouLRZ86hbvL7OHiKrBQDMNzCArle7Ejk6K7AHszczRE5R8fgDo8aT0JMh3BjmSV5tdS_bXqPKd76TFrV01ofycApLKbiwMaadz0uPRX1VrNvFOW5hijqoVSGto?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Primi di luglio 2026, mattino, bordo strada</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4aSiAsGXZ1eV2mUUjlTkhtN2-G0oDAaC1hPdrd2T20_A3OhVxuh3tSR1dk2JVtpyESyk6gD6RkOfR_6N_ftTAZCHTs-gu43tyuz75Si8Q1k72aj0m-1qbt7fmiXDfObglXdyDbiEzmd7FIX2I42A0S49sNw5y_cKiWY0JaGOlIt005O8Ac5VB1BQ9ZhJqPmg6wYRgmEdGEcPfdQpgg0YPu75_isxHmUqBiDN1C9HC877F993ub4J3nesw?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Primi di luglio 2026, mattino, bordo strada</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6N37_j42GcQoxcyzuGVGnYFuGmxb2zkrdI8UwlJlhO9lZufZccucMvffoSxI_5nQQtsUmr9WXhmYLbglkZPiCL_fNdsrPC1jUZfZmCBNrK-6NCgiJ5xoyfUPSKJ94hEouLRZ86hbvL7OHiKrBQDMNzCArle7Ejk6K7AHszczRE5R8fgDo8aT0JMh3BjmSV5tdS_bXqPKd76TFrV01ofycApLKbiwMaadz0uPRX1VrNvFOW5hijqoVSGto?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4aSiAsGXZ1eV2mUUjlTkhtN2-G0oDAaC1hPdrd2T20_A3OhVxuh3tSR1dk2JVtpyESyk6gD6RkOfR_6N_ftTAZCHTs-gu43tyuz75Si8Q1k72aj0m-1qbt7fmiXDfObglXdyDbiEzmd7FIX2I42A0S49sNw5y_cKiWY0JaGOlIt005O8Ac5VB1BQ9ZhJqPmg6wYRgmEdGEcPfdQpgg0YPu75_isxHmUqBiDN1C9HC877F993ub4J3nesw?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -946,11 +905,11 @@
       </Placemark>
       <Placemark>
         <name>Ranzo</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4qKr4EJbyq7zhuDjnpmUaGHzMqc8ePYfIkmyW30i_fR6TGUg45-CcJWREVXjJyzG0wKkLWiDoXW2xyvOuO4gZpxR0sUKKldufDb9uXpZSy8cZMFrfAGMU4cHq7B_Lx0XkkcQXHGD34IEB8REqCRCfY0RvFH93OqxNkkz9MpyHAtu6n0VtUWvxarv0gz_kzfABYdNpaQICJixDbdrVam7oue2o3REIqq_nGIpSt9K5AR2GRMVoUdzoMDnQ?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;29/05/2026 - un orso è stato ripreso in piemo giorno mentre correva sulla provinciale 18 dir. che sale a Ranzo da Lon.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4BOrwWaUFGUWJNlSFcsZq5T6eRn3olnecEu8sRU03xY-Zw0FCO4kdutpCe5GTEQUC8hEy5XbxGLSvpYwhPGusgRmkZkwMcQ4Z-uB3sWT8HABZ3_fv-v4JzpvClZUhVIAM7FRa2ts8mJSQx0CYrJV5pvwGXSTopPgQcV9eaIMvQ-PQEruymL1-na_kZ65yxJUKas56Q4fj76itRprbc3av2I5OtBrq1cAAhXEL5qXMXEoGn_LGVSYLMDkk?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;29/05/2026 - un orso è stato ripreso in piemo giorno mentre correva sulla provinciale 18 dir. che sale a Ranzo da Lon.</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4qKr4EJbyq7zhuDjnpmUaGHzMqc8ePYfIkmyW30i_fR6TGUg45-CcJWREVXjJyzG0wKkLWiDoXW2xyvOuO4gZpxR0sUKKldufDb9uXpZSy8cZMFrfAGMU4cHq7B_Lx0XkkcQXHGD34IEB8REqCRCfY0RvFH93OqxNkkz9MpyHAtu6n0VtUWvxarv0gz_kzfABYdNpaQICJixDbdrVam7oue2o3REIqq_nGIpSt9K5AR2GRMVoUdzoMDnQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4BOrwWaUFGUWJNlSFcsZq5T6eRn3olnecEu8sRU03xY-Zw0FCO4kdutpCe5GTEQUC8hEy5XbxGLSvpYwhPGusgRmkZkwMcQ4Z-uB3sWT8HABZ3_fv-v4JzpvClZUhVIAM7FRa2ts8mJSQx0CYrJV5pvwGXSTopPgQcV9eaIMvQ-PQEruymL1-na_kZ65yxJUKas56Q4fj76itRprbc3av2I5OtBrq1cAAhXEL5qXMXEoGn_LGVSYLMDkk?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -961,11 +920,11 @@
       </Placemark>
       <Placemark>
         <name>Maso Ariol2</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4FEX0KcadQqqachCfMht2WtwMxxcqSG09-fqk9pMJT_o8uwFdd6pUHA0HXQC1WkiYrZ7BtZu6XYVpGWxgFXzxH9McS9Iu4EEgYKh5uqr_qRpYMt0lqo2PZplFPUCsNmkMPy0v9XMoGL_t4SHiv712dFPt8Wj5g3vvTRma-HSKMHuWkZ30I5IV5AKKzc5BcXZA-Q-wpEYgRIcf-VSrHpjr9swdrQHbVCg1rlM9veOKuwhU-nko6BG4dI1U?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;03/06/2026. Alcuni ragazzi che si recano a scuola vedono dallo scuolabus un giovane orso. Ore 06:30 del mattino. Nello stesso giorno quello o un altro orso entra nel cancello di una casa. </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR58WXm8ZfrBUM4xGOEtpaC8u9_Su8m7z_fERJnHrnlRBYa0MiJgWokdIPPSHhfxkaoTzPz13EuMsVVb1nzBiaWenVKmCFwQYm_Vchvo9wW6sTUsz6YVZkJ47HkoJefzPIkgT71QjqfBPLkOiNnuP9aNlbALX6q2nNCrN6FNtl72dNwGrN_yuNslwgEN9I649G38BJTujD3HdhaXyShuGRjqsalfFYF8EZP_V4zNRddjdkoev5VScj3KuJM?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;03/06/2026. Alcuni ragazzi che si recano a scuola vedono dallo scuolabus un giovane orso. Ore 06:30 del mattino. Nello stesso giorno quello o un altro orso entra nel cancello di una casa. </description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4FEX0KcadQqqachCfMht2WtwMxxcqSG09-fqk9pMJT_o8uwFdd6pUHA0HXQC1WkiYrZ7BtZu6XYVpGWxgFXzxH9McS9Iu4EEgYKh5uqr_qRpYMt0lqo2PZplFPUCsNmkMPy0v9XMoGL_t4SHiv712dFPt8Wj5g3vvTRma-HSKMHuWkZ30I5IV5AKKzc5BcXZA-Q-wpEYgRIcf-VSrHpjr9swdrQHbVCg1rlM9veOKuwhU-nko6BG4dI1U?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR58WXm8ZfrBUM4xGOEtpaC8u9_Su8m7z_fERJnHrnlRBYa0MiJgWokdIPPSHhfxkaoTzPz13EuMsVVb1nzBiaWenVKmCFwQYm_Vchvo9wW6sTUsz6YVZkJ47HkoJefzPIkgT71QjqfBPLkOiNnuP9aNlbALX6q2nNCrN6FNtl72dNwGrN_yuNslwgEN9I649G38BJTujD3HdhaXyShuGRjqsalfFYF8EZP_V4zNRddjdkoev5VScj3KuJM?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -976,11 +935,11 @@
       </Placemark>
       <Placemark>
         <name>Mostizzolo</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR443rd-CsI39pTTeLawXt8dtZbo1jrgFzHlqQexs9krX6paNFxP9ULiFNn1uWL_9rZMCNfMUrpd8uDvJYeXPhQFCtdUa2IXGz_r3ihQLXrJhbKhURLlzt3GCDs5vLtfOXKj18WP_cq2CB6zPiWq3FrrKuXr1YyJ-mFvdYCS_thWWatAaHysfA_AzBwXMyxmzRLhJKICrF57swVz1eQWXrcDxEN6sfsQJaXkp17jJ1lASa6ksts7Fy4hl2E?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;22/06/2026 - Orso ripreso mentre cammina sulla ciclabile della Val di Sole presso Mostizzolo</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7MhAEN1zYNJCaVjXgpExU2dG63q9r4gmNnOUrN6fyLPx9IX15nBPfzRj1DhcsRU-OFcZcr5zZnVY-tnHFsDNAP19Np6D-LYQKaH6wQgl5Cc4acu1IHGRVe8yT8hnajY-0Mc_AKGObGVAEAOtyg3pNwYe3JZj8q0gxFb7W5_2Ljyp7Jwlt9qsYniYgGYIitf57ZPnuJb24siaUbigSWKm80GmF7xT8amXrXdtQd1pzlzBPE4Zk1gzekm50?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;22/06/2026 - Orso ripreso mentre cammina sulla ciclabile della Val di Sole presso Mostizzolo</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR443rd-CsI39pTTeLawXt8dtZbo1jrgFzHlqQexs9krX6paNFxP9ULiFNn1uWL_9rZMCNfMUrpd8uDvJYeXPhQFCtdUa2IXGz_r3ihQLXrJhbKhURLlzt3GCDs5vLtfOXKj18WP_cq2CB6zPiWq3FrrKuXr1YyJ-mFvdYCS_thWWatAaHysfA_AzBwXMyxmzRLhJKICrF57swVz1eQWXrcDxEN6sfsQJaXkp17jJ1lASa6ksts7Fy4hl2E?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7MhAEN1zYNJCaVjXgpExU2dG63q9r4gmNnOUrN6fyLPx9IX15nBPfzRj1DhcsRU-OFcZcr5zZnVY-tnHFsDNAP19Np6D-LYQKaH6wQgl5Cc4acu1IHGRVe8yT8hnajY-0Mc_AKGObGVAEAOtyg3pNwYe3JZj8q0gxFb7W5_2Ljyp7Jwlt9qsYniYgGYIitf57ZPnuJb24siaUbigSWKm80GmF7xT8amXrXdtQd1pzlzBPE4Zk1gzekm50?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -991,11 +950,11 @@
       </Placemark>
       <Placemark>
         <name>Cavizzana</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4iKdmMBUECgQYBDQvRE_u4cTcz_RcKficQQC-wvJ8BUoqTHiPKE-hUfBrD2US2HeoI0aJivH_ehrtTSEnuUgflW96mIpUhS1tVdp1Ky5RjdmWKSCV-U1gStDnqlWak68a4FlzupQMT-hMgsMg0l6umAYkvsKBOiCu8q4icirPLGWOynR5OBtAJ9UoqYQjkd73Iarl2pAuJ3b00F3A60dc2SKh0og9De5uD-uX0svyy4-fjCrx_40jNG_0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;21/05/2026 : un orso viene ripreso mentre cammina lungo una strada forestale sopra l'abitato</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7XR_8WrFeNgAOBN2_MI4KgwrLLHfk0VhAYXH6l_rg9LNln2C_-mn0dGUA-_WNx5uiOiPzTWGrq-NJW8zjjer0fg3uFAg3ASYBzSuwlTw5h9gy-uISLvfYO8hbTwx_Qm0S1ZsDs-4GBMBNyYCkZ9-EMo3CUT7AehJkmZQLxlhyhHS0QDk6-STu7SvFjfbKbo6myjd0UQXul1xpHKOTdxWQ1QSedB38uKzGGxivA87djLZzb34xOOwnuLqA?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;21/05/2026 : un orso viene ripreso mentre cammina lungo una strada forestale sopra l'abitato</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4iKdmMBUECgQYBDQvRE_u4cTcz_RcKficQQC-wvJ8BUoqTHiPKE-hUfBrD2US2HeoI0aJivH_ehrtTSEnuUgflW96mIpUhS1tVdp1Ky5RjdmWKSCV-U1gStDnqlWak68a4FlzupQMT-hMgsMg0l6umAYkvsKBOiCu8q4icirPLGWOynR5OBtAJ9UoqYQjkd73Iarl2pAuJ3b00F3A60dc2SKh0og9De5uD-uX0svyy4-fjCrx_40jNG_0?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7XR_8WrFeNgAOBN2_MI4KgwrLLHfk0VhAYXH6l_rg9LNln2C_-mn0dGUA-_WNx5uiOiPzTWGrq-NJW8zjjer0fg3uFAg3ASYBzSuwlTw5h9gy-uISLvfYO8hbTwx_Qm0S1ZsDs-4GBMBNyYCkZ9-EMo3CUT7AehJkmZQLxlhyhHS0QDk6-STu7SvFjfbKbo6myjd0UQXul1xpHKOTdxWQ1QSedB38uKzGGxivA87djLZzb34xOOwnuLqA?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1006,11 +965,11 @@
       </Placemark>
       <Placemark>
         <name>Borgo Valle Chiese</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR50dDrvnji95otlIt6qDQmjRq_8IVVyTDr1IPQAm9NnMhaU58XQe8sBOr5yfD1-Cqyk3ClibR2nEioHoUFiURQM8AOj93OLX2uKpQi6qjmYMXK-A7hgoznWWASkdu7L9N-M-XBbVth34dp78F5UXmHQ1aJQ4cfR2gBu0PYc6Z_wr8mfJSMGL1Kbh4nKglwPsuRldekA7KeEVtBUtwYJgwthrYvQYrWULved0Wsrl50LlABjQ5lWb2SeVh4?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;31/05/2026 - Un orso è stato ripreso accanto a un rustico ai bordi di una strada asfaltata che conduce verso il Broffione. Nel video si osserva anche una casa di abitazione. Di giorno.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4j6HUFCvQvSyt4z6cO-Fb7VCusHFCLDJt-EKXDstPNgXuOQcPrShFqtd1ow1YcQInHfUzG0ahKKo8xw7M5AXWV93oqlS0EG8tAuP7tu2r2F-O8soAJxSfrZ-2TBOcSLDCO-mvr4RnJn_nWjpZTc926C9o_fzWkltoowOct4PBU2MX-ZRjk5FmWkkztbO8OrEglpy3gNUcqiQoU32yTGDJqcA2LmesFm03qIQWQWx50-l7UJB-5x_doSbE?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;31/05/2026 - Un orso è stato ripreso accanto a un rustico ai bordi di una strada asfaltata che conduce verso il Broffione. Nel video si osserva anche una casa di abitazione. Di giorno.</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR50dDrvnji95otlIt6qDQmjRq_8IVVyTDr1IPQAm9NnMhaU58XQe8sBOr5yfD1-Cqyk3ClibR2nEioHoUFiURQM8AOj93OLX2uKpQi6qjmYMXK-A7hgoznWWASkdu7L9N-M-XBbVth34dp78F5UXmHQ1aJQ4cfR2gBu0PYc6Z_wr8mfJSMGL1Kbh4nKglwPsuRldekA7KeEVtBUtwYJgwthrYvQYrWULved0Wsrl50LlABjQ5lWb2SeVh4?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4j6HUFCvQvSyt4z6cO-Fb7VCusHFCLDJt-EKXDstPNgXuOQcPrShFqtd1ow1YcQInHfUzG0ahKKo8xw7M5AXWV93oqlS0EG8tAuP7tu2r2F-O8soAJxSfrZ-2TBOcSLDCO-mvr4RnJn_nWjpZTc926C9o_fzWkltoowOct4PBU2MX-ZRjk5FmWkkztbO8OrEglpy3gNUcqiQoU32yTGDJqcA2LmesFm03qIQWQWx50-l7UJB-5x_doSbE?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1021,11 +980,11 @@
       </Placemark>
       <Placemark>
         <name>Lamar</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DLpwiwNl6l7GeD04lw_tRq4uizLIeegu4JhU4yRKiqDU4Tyvv27lX5gk2j7snjfsVk227k8BqrrRiqS02wixEfP3C_qF5q7rsnm-ErM8tTeDsiSk-B4QWXxxZPR2a7ErrxLPUyE5HxyVfHFHZRUSFq9VG_77mDRTaZ_JKT1krUBip4j64z8MTHlNZhg5Auu9I4ZlBy7vIxRwf2ti1owMPcSG0oIONknGWpKZmL2RMna3KMoIGjmwhRdk?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;PHONE_0009 - Turisti veneti riprendono in pieno giorno un orso che nuota</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5if4HhpOf7uxe3i7toy_VOObTExqtVsW4rkfSb3IeCBo2YCy3dKcwlyyCWD_XTrlmYlNhlDyojRlomWN8cf2hmgGqHEFa0ayWP1cNbM58c8-vp35kyNG5k3kJX2Y9ibVSch3iEz5TunKQ1HtJ54VmJeC-mwwQq_Vgak8UE4XB-VT2RZBW5IJzzEiTVq6Jbq5uJjwps8f4OdKcaI9t7DoHXSoW_SZKxAy3LKfhRry2sRG266QbtrVcICr0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;PHONE_0010 - Turisti veneti riprendono in pieno giorno un orso che nuota</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DLpwiwNl6l7GeD04lw_tRq4uizLIeegu4JhU4yRKiqDU4Tyvv27lX5gk2j7snjfsVk227k8BqrrRiqS02wixEfP3C_qF5q7rsnm-ErM8tTeDsiSk-B4QWXxxZPR2a7ErrxLPUyE5HxyVfHFHZRUSFq9VG_77mDRTaZ_JKT1krUBip4j64z8MTHlNZhg5Auu9I4ZlBy7vIxRwf2ti1owMPcSG0oIONknGWpKZmL2RMna3KMoIGjmwhRdk?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5if4HhpOf7uxe3i7toy_VOObTExqtVsW4rkfSb3IeCBo2YCy3dKcwlyyCWD_XTrlmYlNhlDyojRlomWN8cf2hmgGqHEFa0ayWP1cNbM58c8-vp35kyNG5k3kJX2Y9ibVSch3iEz5TunKQ1HtJ54VmJeC-mwwQq_Vgak8UE4XB-VT2RZBW5IJzzEiTVq6Jbq5uJjwps8f4OdKcaI9t7DoHXSoW_SZKxAy3LKfhRry2sRG266QbtrVcICr0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1036,11 +995,11 @@
       </Placemark>
       <Placemark>
         <name>Lamar2</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4t0vg_cVHrjRzP5engP3WxKT25kkbyvQXHlyjq8n5yg3WqLFgACuldEzwT87inwIh2C-BEB6t9dQlPaLoL9Vq0drlrVoDecdBFRcSDHFkARTeMRLpRzD7tHSzbLfusTbGiVwMsufQaIgkhj_T_B3tYWKlUDRc1NHhUie8LWLHbKfC33xy3C5GQX-A6gZ5acgIlMGvSmcR511WOC2_LCpOAjt8k5yaINj2PfgVnn-TjaAdEzojNVtde5Po?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Lago di Lamar (Terlago, Vallelaghi), 16 maggio, ore 8: un orso viene fotografato nel bosco ai bordi della strada </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5nPygHLq9CKkOwqxnhDkdhYBiC1mH2VQJfsOyNCLQf93-fv2AfNshGzYBPhk8VCGbhnuOa9eJ-khy0h0QV8-Gb1BaZ4GdBFy0y6H8SeRo6yf0MpRvTF_ypaxNnfqw0lBQhwioOTXiiGtFkq5zQvMJ1D4k0uXnf1uZhx77y10Np_vdoZLXuxtYleDnqYEb1sk-w4buQ-F1WwzW7jKjJWfewKR0TJfP01W5C131kOYdaR-ldX0XbQhgd7P0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Lago di Lamar (Terlago, Vallelaghi), 16 maggio, ore 8: un orso viene fotografato nel bosco ai bordi della strada </description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4t0vg_cVHrjRzP5engP3WxKT25kkbyvQXHlyjq8n5yg3WqLFgACuldEzwT87inwIh2C-BEB6t9dQlPaLoL9Vq0drlrVoDecdBFRcSDHFkARTeMRLpRzD7tHSzbLfusTbGiVwMsufQaIgkhj_T_B3tYWKlUDRc1NHhUie8LWLHbKfC33xy3C5GQX-A6gZ5acgIlMGvSmcR511WOC2_LCpOAjt8k5yaINj2PfgVnn-TjaAdEzojNVtde5Po?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5nPygHLq9CKkOwqxnhDkdhYBiC1mH2VQJfsOyNCLQf93-fv2AfNshGzYBPhk8VCGbhnuOa9eJ-khy0h0QV8-Gb1BaZ4GdBFy0y6H8SeRo6yf0MpRvTF_ypaxNnfqw0lBQhwioOTXiiGtFkq5zQvMJ1D4k0uXnf1uZhx77y10Np_vdoZLXuxtYleDnqYEb1sk-w4buQ-F1WwzW7jKjJWfewKR0TJfP01W5C131kOYdaR-ldX0XbQhgd7P0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1051,11 +1010,11 @@
       </Placemark>
       <Placemark>
         <name>Molveno</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6sDa4jcZ0bcIO-A1RLBjPVjuaBEStqIBhlfMTty210IaZVdp4CCGE4_zAA0A3yHcbwCSPtakiGtOOzNPB-jokcWXNEZ-n73aPujEprI0ALNI0ytBDWoF-y_3Yx_wV6YCc9bUOYEsTTeFvOiQVcWXib2F1SRscHW-QcUNJF9pe1wAFacn4SWLAWmZGkf2QHtYCg1691oZ4rhve-xNS_ZeAmqqlYfzo4d_eyLMQjpGH1-gjnO-4B8ILDMZY?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;4/06/2026. Due orsi giovani (probabilmente in procinto di separarsi) sono stati fotografati a tarda sera ai bordi della ss 421, al km 18 (zona artigianale).  a meno di 200 m dall’Agritur Ai Castioni, a 400 m dal Bar La Perla.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6Pj6QwB8T7C1x8YuDvqAFIn9nIkfEKj_XWyE_KTllc0ZUA4z2jeO3qYX9lBMncGPZCx8E8ZQXcWw1_PP1jw2_chMOAsFp8s_tfTRo67hQp1JovwL0snBWJvHXvB4_FjrUiyblYMyVkfycewhDshtQkAQSYCcUyPaAkxLJjdu9hfTKThq6WU_IGaZ5bAcQaYgxyfM5HVEAnMgTMOR1YyNUlIu-p1tVXaoIGrtl1ZRC9IR-r4mNnIov53xI?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;4/06/2026. Due orsi giovani (probabilmente in procinto di separarsi) sono stati fotografati a tarda sera ai bordi della ss 421, al km 18 (zona artigianale).  a meno di 200 m dall’Agritur Ai Castioni, a 400 m dal Bar La Perla.</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6sDa4jcZ0bcIO-A1RLBjPVjuaBEStqIBhlfMTty210IaZVdp4CCGE4_zAA0A3yHcbwCSPtakiGtOOzNPB-jokcWXNEZ-n73aPujEprI0ALNI0ytBDWoF-y_3Yx_wV6YCc9bUOYEsTTeFvOiQVcWXib2F1SRscHW-QcUNJF9pe1wAFacn4SWLAWmZGkf2QHtYCg1691oZ4rhve-xNS_ZeAmqqlYfzo4d_eyLMQjpGH1-gjnO-4B8ILDMZY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6Pj6QwB8T7C1x8YuDvqAFIn9nIkfEKj_XWyE_KTllc0ZUA4z2jeO3qYX9lBMncGPZCx8E8ZQXcWw1_PP1jw2_chMOAsFp8s_tfTRo67hQp1JovwL0snBWJvHXvB4_FjrUiyblYMyVkfycewhDshtQkAQSYCcUyPaAkxLJjdu9hfTKThq6WU_IGaZ5bAcQaYgxyfM5HVEAnMgTMOR1YyNUlIu-p1tVXaoIGrtl1ZRC9IR-r4mNnIov53xI?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1066,11 +1025,11 @@
       </Placemark>
       <Placemark>
         <name>Vaneze</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5iVAo-Ot3ameoJxNv3aBZjJBf6CFc79pgZE44fwZZJngvUWrIDbw0R7aH6X6Lr2g2D5gxN16DetN_ofcOEiQa1pm60mpOqOKlu_M2N4JdVBzWfs3WJcITyp_-LD5CY-yQuFfWSPZ5x2oZlb-fsXN4lkFw_CyatDz34PvyIXi97REHB1Afv_CAL3qcMT1XCb66SwO_LgklMsmItb9oWZR9cYDKUpOvrueN7mEoL3WFSe5OrHHLRb-JQoec?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;(06/07/2026). In via dei Daini a Vaneze, località turistica del Bondone in comune di Trento. Ore 15:00, pieno giorno. E' nell'abitato (case e alberghi sono immersi nel verde).</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5hlXRTULYvIoHCNe8EYyOEt7ABaqXWUj_ePxmOIdi1bwq3V8UhFCBphZQlcouuFDUYSow8xMkcSyVR9W92nJyIPYf0A3iuc4QdW3u8PM3oR7UFqoo8IR-M5lYdQqvM1O0tcqdKyEOiySBGnWrwBiqeteCrBLRcYZ1_hAs7OAY8E0dTIUL2SiQXzty8eh_nCFVQHTsLAExT91XEf4vPvxhnSmj2_A_jzoHPQlCJPbvDvHbEc5tx4UmfIBc?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;(06/07/2026). In via dei Daini a Vaneze, località turistica del Bondone in comune di Trento. Ore 15:00, pieno giorno. E' nell'abitato (case e alberghi sono immersi nel verde).</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5iVAo-Ot3ameoJxNv3aBZjJBf6CFc79pgZE44fwZZJngvUWrIDbw0R7aH6X6Lr2g2D5gxN16DetN_ofcOEiQa1pm60mpOqOKlu_M2N4JdVBzWfs3WJcITyp_-LD5CY-yQuFfWSPZ5x2oZlb-fsXN4lkFw_CyatDz34PvyIXi97REHB1Afv_CAL3qcMT1XCb66SwO_LgklMsmItb9oWZR9cYDKUpOvrueN7mEoL3WFSe5OrHHLRb-JQoec?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5hlXRTULYvIoHCNe8EYyOEt7ABaqXWUj_ePxmOIdi1bwq3V8UhFCBphZQlcouuFDUYSow8xMkcSyVR9W92nJyIPYf0A3iuc4QdW3u8PM3oR7UFqoo8IR-M5lYdQqvM1O0tcqdKyEOiySBGnWrwBiqeteCrBLRcYZ1_hAs7OAY8E0dTIUL2SiQXzty8eh_nCFVQHTsLAExT91XEf4vPvxhnSmj2_A_jzoHPQlCJPbvDvHbEc5tx4UmfIBc?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1136,11 +1095,11 @@
       </Placemark>
       <Placemark>
         <name>Lavaman1</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MJeDJUFt0hhp0U_TH-ovZI5LH1y8d5kzrxEoffQUlI0hnlF1PZHv16CZe3qTS5l5NxjnpWZ944uHQVY2MHRO86QrfjCSrNdyIZUaNNbV3Ves81_g9fNDzBsHIe7VaqnLWRiIi7RLkz4jv2OySC9yIjw14e3WTUsglEkSGBggMVT5aB9Pe7Q6icNBVJVUjK779z1gaqqXs4l5nOt4kY37I0SPkTOo4NHyyL5pLxLDGv9iOrNLj6L-yk4Q?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;05/08/2026. Vason del Monte Bondone. Orso passeggiava sulla Pista Lavaman</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Q6cyXwmiuNAbYklfOnKWLte9EYnWGafaQu8BqVl1c93CZz0FEBEc9Of8dIgMm64T0i9V3NLvec6KNA3tpHqdCCpug6Dc4m61KI1TaacIjf-Dz22xwBzMWBqzcBEVsnZZCW9DofrIEQv9ycpfWJ5aQlrC-vTHXfoOb0RxM-8oQ7X2Sh0F26somjgURmy5CzoIR6TPLVMBxoGUVk-Ajri9ToRkIt2Y2KsGqy6C0Gnpc-td3wiRGHVQgTZI?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;05/08/2026. Vason del Monte Bondone. Orso passeggiava sulla Pista Lavaman</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MJeDJUFt0hhp0U_TH-ovZI5LH1y8d5kzrxEoffQUlI0hnlF1PZHv16CZe3qTS5l5NxjnpWZ944uHQVY2MHRO86QrfjCSrNdyIZUaNNbV3Ves81_g9fNDzBsHIe7VaqnLWRiIi7RLkz4jv2OySC9yIjw14e3WTUsglEkSGBggMVT5aB9Pe7Q6icNBVJVUjK779z1gaqqXs4l5nOt4kY37I0SPkTOo4NHyyL5pLxLDGv9iOrNLj6L-yk4Q?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Q6cyXwmiuNAbYklfOnKWLte9EYnWGafaQu8BqVl1c93CZz0FEBEc9Of8dIgMm64T0i9V3NLvec6KNA3tpHqdCCpug6Dc4m61KI1TaacIjf-Dz22xwBzMWBqzcBEVsnZZCW9DofrIEQv9ycpfWJ5aQlrC-vTHXfoOb0RxM-8oQ7X2Sh0F26somjgURmy5CzoIR6TPLVMBxoGUVk-Ajri9ToRkIt2Y2KsGqy6C0Gnpc-td3wiRGHVQgTZI?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1151,11 +1110,11 @@
       </Placemark>
       <Placemark>
         <name>Vason</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rWOLXg5FBMuunp1P9gD-tua2KqksLBfEvHOjayTwBsh5iJOZXMIdZEgc8riYizI9BRc_A-tOAGileA4xRAQMXVDvbSRpaRpaK25MeLNEq__2InhXMSPW78jdQy4INQlA-1aophdcbNs9NtZ6y0nyhcP7rWECsfg4Fwaguiev89kJMgKPk4wRfm_tdri-Px3cftOEBPOabvSt2tfNyAlahVFsHgWq2WrlTgxcdtOxdkyp2sX7UnMvEgZs?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;03/08/2026. Sul sentiero che da Vason scende alle Viote è stato avvistato un orso</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR45yvSWrTNYtIPNI3KqM-5AfebUv0JP7FetOkh_y3f6_Tb3IOQxwP5UharB2GR7wT8gsOpoyI4z2Z9phF7UsRlv9VElN_uB_e_s_di5DztG8JLEbcLu89FH0JDa9o7o-LXbjKQEgLJBYrKNAdTmyfkxEmBILQxUkv8L3Tp_w3ugSQcodIytnAw6sF1ZKVJruExvk6GwQt0-0WScCHp0Q4-nSLL6osCkWGH3SovYFOxewuA3BnadIodwvS4?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;03/08/2026. Sul sentiero che da Vason scende alle Viote è stato avvistato un orso</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rWOLXg5FBMuunp1P9gD-tua2KqksLBfEvHOjayTwBsh5iJOZXMIdZEgc8riYizI9BRc_A-tOAGileA4xRAQMXVDvbSRpaRpaK25MeLNEq__2InhXMSPW78jdQy4INQlA-1aophdcbNs9NtZ6y0nyhcP7rWECsfg4Fwaguiev89kJMgKPk4wRfm_tdri-Px3cftOEBPOabvSt2tfNyAlahVFsHgWq2WrlTgxcdtOxdkyp2sX7UnMvEgZs?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR45yvSWrTNYtIPNI3KqM-5AfebUv0JP7FetOkh_y3f6_Tb3IOQxwP5UharB2GR7wT8gsOpoyI4z2Z9phF7UsRlv9VElN_uB_e_s_di5DztG8JLEbcLu89FH0JDa9o7o-LXbjKQEgLJBYrKNAdTmyfkxEmBILQxUkv8L3Tp_w3ugSQcodIytnAw6sF1ZKVJruExvk6GwQt0-0WScCHp0Q4-nSLL6osCkWGH3SovYFOxewuA3BnadIodwvS4?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1186,11 +1145,11 @@
       </Placemark>
       <Placemark>
         <name>Vanese 2</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR59hD5KhfCI1Xeo-4hAFuXVLX3i9M2Bd-qBuLZjVWGBph92j4miHApqvBKA0_vbMkApU0v08Cq75njoyy70W6IPM3dPjbWrEBfkLvsB49UoXJhnjut5RaYOn8858wE7GKdseLELL8dzVtFm2JRfC759mFxIg015GXkG0v-NrKhtqrazfSRR3VUrQK9lwFM4vNzHp9YTLDkePuFMBM2Nftz63x80mfNY2_C1mor-IeJV55HVnXuwgGY9zPQ?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;(08/08/2026). 19:00. Orso avvistato a Vaneze</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5-fdKU2J2xNiMab_5c-qutL-hY3A8EtzluE2sToAZ057jdg0HWMflfz6oY2Ioq27cbW7guk-E5Xe8wUscqmMOYm2GlMTCDWvVinP-0WDJt-FHcCfOW5INm_lMEg_EVRHx7zcCSRQitxH3Vw-H3qkbcRJmp-4N1ZmverEHvU9gH2P4DJS4TZYLTnrS5sLRLjpU78bvDNnRMOa9-S5QDpEkWHuAdeTU99EozJXLYgfrrseOIpUAc-N2uzWk?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;(08/08/2026). 19:00. Orso avvistato a Vaneze</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR59hD5KhfCI1Xeo-4hAFuXVLX3i9M2Bd-qBuLZjVWGBph92j4miHApqvBKA0_vbMkApU0v08Cq75njoyy70W6IPM3dPjbWrEBfkLvsB49UoXJhnjut5RaYOn8858wE7GKdseLELL8dzVtFm2JRfC759mFxIg015GXkG0v-NrKhtqrazfSRR3VUrQK9lwFM4vNzHp9YTLDkePuFMBM2Nftz63x80mfNY2_C1mor-IeJV55HVnXuwgGY9zPQ?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5-fdKU2J2xNiMab_5c-qutL-hY3A8EtzluE2sToAZ057jdg0HWMflfz6oY2Ioq27cbW7guk-E5Xe8wUscqmMOYm2GlMTCDWvVinP-0WDJt-FHcCfOW5INm_lMEg_EVRHx7zcCSRQitxH3Vw-H3qkbcRJmp-4N1ZmverEHvU9gH2P4DJS4TZYLTnrS5sLRLjpU78bvDNnRMOa9-S5QDpEkWHuAdeTU99EozJXLYgfrrseOIpUAc-N2uzWk?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1225,8 +1184,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>PERSON_0003</name>
-        <description>&lt;a href="https://www.youtube.com/watch?v=y_U-sS5lOXI"&gt;&lt;img src="https://img.youtube.com/vi/y_U-sS5lOXI/hqdefault.jpg" height="200" width="auto" /&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://www.youtube.com/embed/y_U-sS5lOXI"&gt;https://www.youtube.com/embed/y_U-sS5lOXI&lt;/a&gt;&lt;br&gt;&lt;br&gt;Avvistamento 10/8/2026, ore 13:30. PERSON_0004 del Monte Bondone</description>
+        <name>PERSON_0004</name>
+        <description>&lt;a href="https://www.youtube.com/watch?v=y_U-sS5lOXI"&gt;&lt;img src="https://img.youtube.com/vi/y_U-sS5lOXI/hqdefault.jpg" height="200" width="auto" /&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="https://www.youtube.com/embed/y_U-sS5lOXI"&gt;https://www.youtube.com/embed/y_U-sS5lOXI&lt;/a&gt;&lt;br&gt;&lt;br&gt;Avvistamento 10/8/2026, ore 13:30. PERSON_0005 del Monte Bondone</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -1241,7 +1200,7 @@
       </Placemark>
       <Placemark>
         <name>Parolet</name>
-        <description>PHONE_0010:00 orso nel bosco avvistato dal sentiero che dalla pedemontana va al Parolet</description>
+        <description>PHONE_0011:00 orso nel bosco avvistato dal sentiero che dalla pedemontana va al Parolet</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -1251,7 +1210,7 @@
       </Placemark>
       <Placemark>
         <name>Montesel 2</name>
-        <description>PHONE_0011:00? Un gruppo di ragazzi vede un orso al Montesel e i forestali li accompagnano a valle</description>
+        <description>PHONE_0012:00? Un gruppo di ragazzi vede un orso al Montesel e i forestali li accompagnano a valle</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -1261,7 +1220,7 @@
       </Placemark>
       <Placemark>
         <name>Vallene 2</name>
-        <description>PHONE_0012:30 (poi ancora in zona alle 21:15) Vallene di Terlago (comune Vallelaghi)</description>
+        <description>PHONE_0013:30 (poi ancora in zona alle 21:15) Vallene di Terlago (comune Vallelaghi)</description>
         <styleUrl>#icon-1727-E65100</styleUrl>
         <Point>
           <coordinates>
@@ -1274,11 +1233,11 @@
       <name>Avvistamento orsa + cuccioli</name>
       <Placemark>
         <name>Val Angone</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7UX2a41RgvEs8q1GwYxz5IDgr_6CC1WvJj-Zdqmk40kTwfiM-22rKPtZpTFzilSaevgH8qFFAR9puK2l2FyvY_nxi71T9xsky2yNWVzzuEq5RxaBucTXtBg9ab_Xkfzs8UhF8SKARDV9siAqn9HNIXIoYSPpOQwiSY4o1v-ZR3qb33gBcnLVut4hSkXE3iWTe0JDoixtXvjO44Yu4nHhwu6IRZqogPIzNRwE0qzaAIaHnw0PI526GE1X0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;07/07/2026. Orsa con due cuccioli avvistata a distanza</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rDHsnwARam87gNhy5saeqb8_g6dSWkSDufuyyX3Tb3ArCLl690LcFd6seZj0ZJIf-xsJdsxrCLovHYRduyz5aEdOEZREEmHN88bpParAnHOe8ZUmbWgrgo3HT97Wv3kxRchlTfXiJKcK5HvSnuq2_5wkORftIqKUzelvydXxIFFGGRjttjyhodCohu_hEg9qhTT7O3PWXKCs8h0OX_a9QKNLmqzamwJAZg08YyIyfVFqpb5KsmyqVjp0?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;07/07/2026. Orsa con due cuccioli avvistata a distanza</description>
         <styleUrl>#icon-1727-097138</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7UX2a41RgvEs8q1GwYxz5IDgr_6CC1WvJj-Zdqmk40kTwfiM-22rKPtZpTFzilSaevgH8qFFAR9puK2l2FyvY_nxi71T9xsky2yNWVzzuEq5RxaBucTXtBg9ab_Xkfzs8UhF8SKARDV9siAqn9HNIXIoYSPpOQwiSY4o1v-ZR3qb33gBcnLVut4hSkXE3iWTe0JDoixtXvjO44Yu4nHhwu6IRZqogPIzNRwE0qzaAIaHnw0PI526GE1X0?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rDHsnwARam87gNhy5saeqb8_g6dSWkSDufuyyX3Tb3ArCLl690LcFd6seZj0ZJIf-xsJdsxrCLovHYRduyz5aEdOEZREEmHN88bpParAnHOe8ZUmbWgrgo3HT97Wv3kxRchlTfXiJKcK5HvSnuq2_5wkORftIqKUzelvydXxIFFGGRjttjyhodCohu_hEg9qhTT7O3PWXKCs8h0OX_a9QKNLmqzamwJAZg08YyIyfVFqpb5KsmyqVjp0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1289,11 +1248,11 @@
       </Placemark>
       <Placemark>
         <name>Fogolari - Terlago - Vallelaghi</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6DfQR3xdurmnlOpfqWGFZUKX1usco3DhbYdsjQHzGNIKerTwd6ebEOGn6-u0_LHHqG5CBXRd7IWQuqe-mCKKTMhHe-qIXqOBXsvY06I5zxAob1dk6ylfQ_sly3Kkmzn2SPvtbrZatsnobP70tz9ADgEQ8bipIbISbBC5BmL3vZTzw2ATVOZTI2Q0Vx8OVW6PXcpIliRg3fY862b4GydxhOt4U-ii74RAdiHrBgLV9VPcLszpNEtGD2F2s?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;17/05/2026 - Orsa con due cuccioli fotografata in località Fogolari</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7oL9yqefmaujUv2n4EYBCxV6RXRJEijNfIyesiMhNJpGFyjMEHyMzIvqHdxNRRaAlKIQnmIyxHvKglVZrtLOXSdRjnwAgCTxMpqLovWnu1Wo_ND_dhNmDW1Q6UDobA0ObTdIfW9EEWehb4qMG4d5rG3YtIDvFbmwNdisUo6DJ0fp11ONXOpyKrldeNiwEDLVllJ-WOqCnJ0a0l5jkoAYQ1Ck_XUNtXr_olxM_Se039usmi1Ntq_6zwN0g?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;17/05/2026 - Orsa con due cuccioli fotografata in località Fogolari</description>
         <styleUrl>#icon-1727-097138</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6DfQR3xdurmnlOpfqWGFZUKX1usco3DhbYdsjQHzGNIKerTwd6ebEOGn6-u0_LHHqG5CBXRd7IWQuqe-mCKKTMhHe-qIXqOBXsvY06I5zxAob1dk6ylfQ_sly3Kkmzn2SPvtbrZatsnobP70tz9ADgEQ8bipIbISbBC5BmL3vZTzw2ATVOZTI2Q0Vx8OVW6PXcpIliRg3fY862b4GydxhOt4U-ii74RAdiHrBgLV9VPcLszpNEtGD2F2s?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7oL9yqefmaujUv2n4EYBCxV6RXRJEijNfIyesiMhNJpGFyjMEHyMzIvqHdxNRRaAlKIQnmIyxHvKglVZrtLOXSdRjnwAgCTxMpqLovWnu1Wo_ND_dhNmDW1Q6UDobA0ObTdIfW9EEWehb4qMG4d5rG3YtIDvFbmwNdisUo6DJ0fp11ONXOpyKrldeNiwEDLVllJ-WOqCnJ0a0l5jkoAYQ1Ck_XUNtXr_olxM_Se039usmi1Ntq_6zwN0g?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1304,11 +1263,11 @@
       </Placemark>
       <Placemark>
         <name>Malga Stabio</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6jCHbNz-xu-qjTm8ECC9IeVbqbN6LY2pkBt7FxsHcNokZ2xB_tgbWZEBSr3Zs2XthP3lkhQ_4_fCk7qQYQzJs5bvvQ2Ds1Qhex_GGF14WnDURvxxmXoLh2rqOWzSPxajaBhwncsHas6BjX9PB5jyr4F37BDfKYMXIMgcLVCY94ivCXFYiQOz6pPLJ1RwU72COoktlboQGeZredNVwK368PCrpSxou29lBf3YrcjKg4xx6nA65A_Q6uZpU?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;30/06/2026 Orsa con due cucciolo avvistata a lato strada forestale per Malga Stabio</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4ELoBmzn1nkAEJv03-47KI6V5lgVkSSR-rGKtJa3Q73LFb_8mgu7nSJbjzWS-O_oiNKp4wy2z8tVG7ySpyd3KO_-bYIoct-X1sMezVwf-WowY5_jH0OLCqgNuaJbWI6bWoEcyk6xxlhNUMYKSpnLLYUz_8eOGoJ68l_FutrVdvGzQLkGmg4LXQG423bRYvi7BCmMW7UQT6TcM_t5tfnJ6HTR-3_TF1D5fOpEbPteZVChibFExzsYpJtLo?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;30/06/2026 Orsa con due cucciolo avvistata a lato strada forestale per Malga Stabio</description>
         <styleUrl>#icon-1727-097138</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6jCHbNz-xu-qjTm8ECC9IeVbqbN6LY2pkBt7FxsHcNokZ2xB_tgbWZEBSr3Zs2XthP3lkhQ_4_fCk7qQYQzJs5bvvQ2Ds1Qhex_GGF14WnDURvxxmXoLh2rqOWzSPxajaBhwncsHas6BjX9PB5jyr4F37BDfKYMXIMgcLVCY94ivCXFYiQOz6pPLJ1RwU72COoktlboQGeZredNVwK368PCrpSxou29lBf3YrcjKg4xx6nA65A_Q6uZpU?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4ELoBmzn1nkAEJv03-47KI6V5lgVkSSR-rGKtJa3Q73LFb_8mgu7nSJbjzWS-O_oiNKp4wy2z8tVG7ySpyd3KO_-bYIoct-X1sMezVwf-WowY5_jH0OLCqgNuaJbWI6bWoEcyk6xxlhNUMYKSpnLLYUz_8eOGoJ68l_FutrVdvGzQLkGmg4LXQG423bRYvi7BCmMW7UQT6TcM_t5tfnJ6HTR-3_TF1D5fOpEbPteZVChibFExzsYpJtLo?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1322,11 +1281,11 @@
       <name>Escrementi ambito abitato</name>
       <Placemark>
         <name>Caldes</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4kxgwaOz4CwRg-yA-5WdxCCwOCz78gr4JUjgklfByYgHctV9eOhGZ6HzRXDvWeZ-ybLaTpzbHDBCffCxVPB0OkPuP-lLmQiEZsOkjKhqP6Z8n9KKNISMmDYeIqzkqtYlw3D-EKktqKzY82XuUaufGu8AL8NZ2qnh_f9mO96DCEE0vqv2naH5cgHOnEoIyl0pgUCcxW6N8lAw89IE00CCzz3-uH9reeNNrT8MBrQHnQWGV_KqMa9AD75m8?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;25/07/2026. Caldes. Di fronte alle scuole elementari alla base della scalinata della chiesa, alle 7:30 una signora con un cane trova fatte freschissime d'orso.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6_jkN0n-wD0On8PSOzfn2gzJn71adxo9tS-s1MwEInoNJDjkPE4ibIj5rRvDv_NabkB1nhziP_ztILeJIvxcrn0vnsO9cUogfGtkmAfZLDSG_wupoIV1bpueHhxD3ioPsHG5vdqSXqIhvYXrPOF7fiRtEHCOLiauEMxOdxrLYtW8Iz8XKLgwxgV5ZhObs_GJ33qYSyqOmFYLoU8sWwM7VFj66miIYJ5yNlu_eNDaqBQvQYvr2KlO75u-w?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;25/07/2026. Caldes. Di fronte alle scuole elementari alla base della scalinata della chiesa, alle 7:30 una signora con un cane trova fatte freschissime d'orso.</description>
         <styleUrl>#icon-1714-DB4436</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4kxgwaOz4CwRg-yA-5WdxCCwOCz78gr4JUjgklfByYgHctV9eOhGZ6HzRXDvWeZ-ybLaTpzbHDBCffCxVPB0OkPuP-lLmQiEZsOkjKhqP6Z8n9KKNISMmDYeIqzkqtYlw3D-EKktqKzY82XuUaufGu8AL8NZ2qnh_f9mO96DCEE0vqv2naH5cgHOnEoIyl0pgUCcxW6N8lAw89IE00CCzz3-uH9reeNNrT8MBrQHnQWGV_KqMa9AD75m8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6_jkN0n-wD0On8PSOzfn2gzJn71adxo9tS-s1MwEInoNJDjkPE4ibIj5rRvDv_NabkB1nhziP_ztILeJIvxcrn0vnsO9cUogfGtkmAfZLDSG_wupoIV1bpueHhxD3ioPsHG5vdqSXqIhvYXrPOF7fiRtEHCOLiauEMxOdxrLYtW8Iz8XKLgwxgV5ZhObs_GJ33qYSyqOmFYLoU8sWwM7VFj66miIYJ5yNlu_eNDaqBQvQYvr2KlO75u-w?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1337,11 +1296,11 @@
       </Placemark>
       <Placemark>
         <name>Ronzone</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR55r5_E_dsX39MaSBrp_YS8US_ydprKCVscBY4E6NeLTIrUOAdp82VbxvX-YNmxIV4gLw684l6egt9QIWP7NOgKpAUheQUiDB5_H7u-E4tBNiBUPrDDdlUJbHtHrE3lUbPd1t4-RleeKka0mx_4ZTKP84i6kT218WdyDHBM6_HjOKpHsyNMs86jvopPkKusNFxUS8SANsqALZ0FEjfCB1mcwk2E3BR7xuWhTIRUii3OkTFinxH1cI98JTY?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;12/07/2026. Accanto alle case di via Toval rinvenute fatte fresche di orso </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5wrRYAAqjBWfHoibI2yEbMw2LeLKAK1HXN2FZrgEDVNIuhSkCsyBXY6fsNwLghJtNpL85aKP9ezBMQL-Y57AgCmyM2LCMsguD98_HA3ze2GijeR4m-rN9uFksVq8CXwUQIKe2MgMDzyPJJDoFpL-_3b_njO05zNgxZKLeP83md6kSvoDxeG-wUF1LvaICsCwAk42OPfy-BqyITco6hxIQT5BLKsBSFtF8q3NJkMhx_htkhun5fo8dJsx4?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;12/07/2026. Accanto alle case di via Toval rinvenute fatte fresche di orso </description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR55r5_E_dsX39MaSBrp_YS8US_ydprKCVscBY4E6NeLTIrUOAdp82VbxvX-YNmxIV4gLw684l6egt9QIWP7NOgKpAUheQUiDB5_H7u-E4tBNiBUPrDDdlUJbHtHrE3lUbPd1t4-RleeKka0mx_4ZTKP84i6kT218WdyDHBM6_HjOKpHsyNMs86jvopPkKusNFxUS8SANsqALZ0FEjfCB1mcwk2E3BR7xuWhTIRUii3OkTFinxH1cI98JTY?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5wrRYAAqjBWfHoibI2yEbMw2LeLKAK1HXN2FZrgEDVNIuhSkCsyBXY6fsNwLghJtNpL85aKP9ezBMQL-Y57AgCmyM2LCMsguD98_HA3ze2GijeR4m-rN9uFksVq8CXwUQIKe2MgMDzyPJJDoFpL-_3b_njO05zNgxZKLeP83md6kSvoDxeG-wUF1LvaICsCwAk42OPfy-BqyITco6hxIQT5BLKsBSFtF8q3NJkMhx_htkhun5fo8dJsx4?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1355,11 +1314,11 @@
       <name>Fototrappolaggio</name>
       <Placemark>
         <name>Pelugo</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5BXEZgtbQGCIlFwxiWfugfhXhDe-1AaNJlZbDjuUMS2UCAfI9mEzmv5rjke6FCkcwvP4vaItsYC4-4O6ElfWT6-9TPClk3WkU0maXOdPT9OILKqsZJNFUNVc6e6T89E9ElKThFKfTEmXUM34RSgOJk63pdQSQbS90UOaiYipZu5Zwzcr0OmB_xgUx2XkdyqImYwt1Bpd4sRRIO4VYrznEmxKnGBCA6QYNgrrJeWI_gY5t0mLPA2EbYtvo?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Pelugo PHONE_0013:50 </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR61nGG-Ie1fwEzPTPQbVknEU0qZXjPx_FJoJrL-qhMUN4W6V8HIMdWwUoKPi-hcj3YY8SR4oX3kgrLZgo1aq3lIbwlnQSZ3SaPEzNBHRCOq9c1FkPravp6Cd1Cl4XQ-LHDmvT8jiJ1Xkxp3N-DIACqZpgvmo3fTS5-5P9rkT-wMkEyZyey78Mc2g3WIDQMMmmddsZGHM0c2b3UVvkee0JQZWmOD598XzriUBfhdRRkDGnq9w83CxxWaHAE?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Pelugo PHONE_0014:50 </description>
         <styleUrl>#icon-1727-1A237E</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5BXEZgtbQGCIlFwxiWfugfhXhDe-1AaNJlZbDjuUMS2UCAfI9mEzmv5rjke6FCkcwvP4vaItsYC4-4O6ElfWT6-9TPClk3WkU0maXOdPT9OILKqsZJNFUNVc6e6T89E9ElKThFKfTEmXUM34RSgOJk63pdQSQbS90UOaiYipZu5Zwzcr0OmB_xgUx2XkdyqImYwt1Bpd4sRRIO4VYrznEmxKnGBCA6QYNgrrJeWI_gY5t0mLPA2EbYtvo?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR61nGG-Ie1fwEzPTPQbVknEU0qZXjPx_FJoJrL-qhMUN4W6V8HIMdWwUoKPi-hcj3YY8SR4oX3kgrLZgo1aq3lIbwlnQSZ3SaPEzNBHRCOq9c1FkPravp6Cd1Cl4XQ-LHDmvT8jiJ1Xkxp3N-DIACqZpgvmo3fTS5-5P9rkT-wMkEyZyey78Mc2g3WIDQMMmmddsZGHM0c2b3UVvkee0JQZWmOD598XzriUBfhdRRkDGnq9w83CxxWaHAE?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1380,11 +1339,11 @@
       </Placemark>
       <Placemark>
         <name>Iron</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5s9BTgt9NtafWJl8qxKiH-7aFfzCAwsUof7N8g9qTqbXRtPUWyacoEoIzOj8sUnXl5Ys_Dg3Dimb8PPPq8JdvWhEO5i5ifWMfGFENa1nnowMw88q9KODqyDFKs8UaoLLjrQe2Ob-8o-uyLRUeksFS0sZWkZi2g6uRunkJ_J9D5El1xCmiPB6GeXj80MyNT_NtV0rCk4P1Mm5Cn39NmTF9C2UjhA9N9DZYQxoHLmN9M6NBW5WcZy84JWvI?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;19/04/2026. Ore 23 Località Bagiron, presso il borgo di Iron.</description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Fmyb8eB9XljbclkZTPoZrGYncTv6r6lswGBgDXDONdosgOYWmENb296_IXyP4ZWfuxC-5tgZ3kTPtrtY4Smqf7Gc7f_bO9LqdUSNioXRW2nnvFcumg_SGR4cmbEq5gnsYpYf6SCdIKPtPO9QJEcBfC7iO1C6kNJELPdSLoVlkFM-Vwbb4keAXPJqgKtdJ-3m26tdDzkd_SmPuPbKgpI_M4Iy5SQlDpFIUJPh31PLgujBOrHRcClf0UBE?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;19/04/2026. Ore 23 Località Bagiron, presso il borgo di Iron.</description>
         <styleUrl>#icon-1727-1A237E</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5s9BTgt9NtafWJl8qxKiH-7aFfzCAwsUof7N8g9qTqbXRtPUWyacoEoIzOj8sUnXl5Ys_Dg3Dimb8PPPq8JdvWhEO5i5ifWMfGFENa1nnowMw88q9KODqyDFKs8UaoLLjrQe2Ob-8o-uyLRUeksFS0sZWkZi2g6uRunkJ_J9D5El1xCmiPB6GeXj80MyNT_NtV0rCk4P1Mm5Cn39NmTF9C2UjhA9N9DZYQxoHLmN9M6NBW5WcZy84JWvI?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Fmyb8eB9XljbclkZTPoZrGYncTv6r6lswGBgDXDONdosgOYWmENb296_IXyP4ZWfuxC-5tgZ3kTPtrtY4Smqf7Gc7f_bO9LqdUSNioXRW2nnvFcumg_SGR4cmbEq5gnsYpYf6SCdIKPtPO9QJEcBfC7iO1C6kNJELPdSLoVlkFM-Vwbb4keAXPJqgKtdJ-3m26tdDzkd_SmPuPbKgpI_M4Iy5SQlDpFIUJPh31PLgujBOrHRcClf0UBE?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -1413,11 +1372,11 @@
       <name>Casi controversi</name>
       <Placemark>
         <name>Ceresé</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5KhkaX2MsokIOrVTyoM3bhjFXBMuZdxHOrWyteWD4oTZY2AanY1SjZfxdc698taquT8FFPwBzNE25UwJ8A_YD6dE9sEPbULrXBQSldqgNL_Tjfotik2p6RnDZ_pcble0vOd_QzahMxGdphYkDAHqWzSUj9m9fjNGuvZ1Oqwvnie0iujWycIFTYI6hK0GQjOfe7enHGXZ6aiSeTOMS-BE-ysqbsHSPE0IFay_13EdTG8djo6LJVBuiJuE8?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;19/08/2026 Tarda sera. Apparizione presunta nell'abitato della fraz. Ceresé di Val di Rabbi. La foto è stata indicata come "scherzo di ragazzi" dal sindaco. Per gli strumenti di IA è autentica ma probabilmente non è stata scattata a Ceresè. La rimuoveremo quando il sindaco svelerà la "fonte", ovvero smetterà di coprire gli autori di uno scherzo tutt'altro che innocente, sia per la qualità del supposto falso, sia per l'allarme e le polemiche indotte. A prova di una campagna di disinformazione in atto altre foto da IA (però palesemente taroccate) son circolate negli stessi giorni. </description>
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6mX4CgX1IQ51WxAYgrDcsDEQO1xPK439F6lFQzrwMsYzcBmoP5qNYiIm1eOibmj35-NsPwNmth6rAtSgL9XRPl2VXpwm9cJDxVm1Kw0WO3P5T27ouCqMDgIUpLUqSLIWrS2qdpOLKpV7R23JNf9maD_-RhS2PpftVm1Q28k0cuyoKUXgU8GWH48zhfcu1Grg2CkkQCnmcAPb3kVvhru7k0lcOLWdQ-RkeOk0Kgte2c5Nwq2hYBQ_wEJUQ?fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;19/08/2026 Tarda sera. Apparizione presunta nell'abitato della fraz. Ceresé di Val di Rabbi. La foto è stata indicata come "scherzo di ragazzi" dal sindaco. Per gli strumenti di IA è autentica ma probabilmente non è stata scattata a Ceresè. La rimuoveremo quando il sindaco svelerà la "fonte", ovvero smetterà di coprire gli autori di uno scherzo tutt'altro che innocente, sia per la qualità del supposto falso, sia per l'allarme e le polemiche indotte. A prova di una campagna di disinformazione in atto altre foto da IA (però palesemente taroccate) son circolate negli stessi giorni. </description>
         <styleUrl>#icon-1594-424242</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5KhkaX2MsokIOrVTyoM3bhjFXBMuZdxHOrWyteWD4oTZY2AanY1SjZfxdc698taquT8FFPwBzNE25UwJ8A_YD6dE9sEPbULrXBQSldqgNL_Tjfotik2p6RnDZ_pcble0vOd_QzahMxGdphYkDAHqWzSUj9m9fjNGuvZ1Oqwvnie0iujWycIFTYI6hK0GQjOfe7enHGXZ6aiSeTOMS-BE-ysqbsHSPE0IFay_13EdTG8djo6LJVBuiJuE8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6mX4CgX1IQ51WxAYgrDcsDEQO1xPK439F6lFQzrwMsYzcBmoP5qNYiIm1eOibmj35-NsPwNmth6rAtSgL9XRPl2VXpwm9cJDxVm1Kw0WO3P5T27ouCqMDgIUpLUqSLIWrS2qdpOLKpV7R23JNf9maD_-RhS2PpftVm1Q28k0cuyoKUXgU8GWH48zhfcu1Grg2CkkQCnmcAPb3kVvhru7k0lcOLWdQ-RkeOk0Kgte2c5Nwq2hYBQ_wEJUQ?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
