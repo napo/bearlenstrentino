@@ -1,50 +1,8 @@
 [
   {
-    "kind": "modified",
-    "id": "obs_34c21d696c67a687",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "modified",
-    "id": "obs_14b969d18067596f",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "modified",
-    "id": "obs_658dfa1499cb5341",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "modified",
-    "id": "obs_c208e277a2f2a54c",
-    "previous_id": "obs_b804aaaccf6e966c",
-    "detail": "matched by proximity/text similarity (similarity=1.00); coordinates or name likely changed"
-  },
-  {
-    "kind": "added",
-    "id": "obs_1aa67858c0eb7e92",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "added",
-    "id": "obs_b2f7e13ce4947a34",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "added",
-    "id": "obs_56251400b6b8167f",
-    "previous_id": null,
-    "detail": null
-  },
-  {
-    "kind": "candidate_removed",
+    "kind": "removed",
     "id": "obs_888742ecb5d0500b",
     "previous_id": null,
-    "detail": "missing for 1 consecutive run(s)"
+    "detail": "missing for 2 consecutive runs"
   }
 ]
