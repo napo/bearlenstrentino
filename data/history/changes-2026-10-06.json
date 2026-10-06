@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "added",
+    "id": "obs_55ed92801bbf99b7",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_ced6f2a70fac2ebd",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_4139952da46a2d0d",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "candidate_removed",
+    "id": "obs_481d730a1fe2acdc",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
+  }
+]
