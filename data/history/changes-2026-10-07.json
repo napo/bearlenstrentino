@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "kind": "modified",
+    "id": "obs_942639a4c1dc5eee",
+    "previous_id": "obs_ced6f2a70fac2ebd",
+    "detail": "matched by proximity/text similarity (similarity=1.00); coordinates or name likely changed"
+  },
+  {
+    "kind": "modified",
+    "id": "obs_e28258127823de53",
+    "previous_id": "obs_55ed92801bbf99b7",
+    "detail": "matched by proximity/text similarity (similarity=1.00); coordinates or name likely changed"
+  }
+]
