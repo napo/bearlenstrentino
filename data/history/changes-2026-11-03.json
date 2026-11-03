@@ -1,7 +1,19 @@
 [
   {
-    "kind": "added",
+    "kind": "modified",
     "id": "obs_56ac4cc9ecfd72fc",
+    "previous_id": null,
+    "detail": "description or classification changed"
+  },
+  {
+    "kind": "added",
+    "id": "obs_62f768edce97a97f",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_3497277321579188",
     "previous_id": null,
     "detail": null
   }
