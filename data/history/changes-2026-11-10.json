@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "modified",
+    "id": "obs_5c3c376cee99b72d",
+    "previous_id": "obs_ab9f2676008068ff",
+    "detail": "matched by proximity/text similarity (similarity=1.00); coordinates or name likely changed"
+  },
+  {
+    "kind": "removed",
+    "id": "obs_62f768edce97a97f",
+    "previous_id": null,
+    "detail": "missing for 2 consecutive runs"
+  }
+]
