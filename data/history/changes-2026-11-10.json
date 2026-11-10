@@ -2,13 +2,31 @@
   {
     "kind": "modified",
     "id": "obs_5c3c376cee99b72d",
-    "previous_id": "obs_ab9f2676008068ff",
-    "detail": "matched by proximity/text similarity (similarity=1.00); coordinates or name likely changed"
+    "previous_id": null,
+    "detail": "description or classification changed"
   },
   {
-    "kind": "removed",
-    "id": "obs_62f768edce97a97f",
+    "kind": "added",
+    "id": "obs_f7087b1565ed91d9",
     "previous_id": null,
-    "detail": "missing for 2 consecutive runs"
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_a463a10a2bbc3f5a",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_73465524b7bedaa7",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_9050483b307acc61",
+    "previous_id": null,
+    "detail": null
   }
 ]
