@@ -1,8 +1,26 @@
 [
   {
-    "kind": "removed",
-    "id": "obs_f7087b1565ed91d9",
+    "kind": "added",
+    "id": "obs_27eabbb7a60a8fa4",
     "previous_id": null,
-    "detail": "missing for 2 consecutive runs"
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_beb793f6e83a748b",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "candidate_removed",
+    "id": "obs_f23de63fdafc36f5",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
+  },
+  {
+    "kind": "candidate_removed",
+    "id": "obs_bf8e65679ad36449",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
   }
 ]
