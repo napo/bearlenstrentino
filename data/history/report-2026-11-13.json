@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-13T11:58:09.720259+00:00",
+  "fetched_at": "2026-11-13T19:23:00.201480+00:00",
   "number_of_records": 127,
-  "records_added": 0,
+  "records_added": 1,
   "records_removed": 0,
   "records_modified": 0,
-  "records_candidate_removed": 0,
+  "records_candidate_removed": 1,
   "date_parse_success": 119,
   "date_parse_failed": 8,
   "classification_high": 121,

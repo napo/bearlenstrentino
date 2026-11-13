@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "kind": "added",
+    "id": "obs_4278ce7868a5acb3",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "candidate_removed",
+    "id": "obs_bd7b17480456d1db",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
+  }
+]
