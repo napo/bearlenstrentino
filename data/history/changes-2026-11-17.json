@@ -7,38 +7,68 @@
   },
   {
     "kind": "modified",
-    "id": "obs_d85e53b7989e41cb",
-    "previous_id": null,
-    "detail": "description or classification changed"
-  },
-  {
-    "kind": "modified",
     "id": "obs_020d01487b88c465",
     "previous_id": null,
     "detail": "description or classification changed"
   },
   {
+    "kind": "modified",
+    "id": "obs_d85e53b7989e41cb",
+    "previous_id": null,
+    "detail": "description or classification changed"
+  },
+  {
     "kind": "added",
-    "id": "obs_fb8fa148dc1e73c6",
+    "id": "obs_e7d8edad8bfaed3a",
     "previous_id": null,
     "detail": null
   },
   {
     "kind": "added",
-    "id": "obs_fb39b4ed34045756",
+    "id": "obs_242fe81474bc33c7",
     "previous_id": null,
     "detail": null
   },
   {
     "kind": "added",
+    "id": "obs_018b25f1db8ebf05",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_89faabbfd050e643",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "added",
+    "id": "obs_00c25c186c5b573b",
+    "previous_id": null,
+    "detail": null
+  },
+  {
+    "kind": "candidate_removed",
     "id": "obs_96dff9b47f2ba861",
     "previous_id": null,
-    "detail": null
+    "detail": "missing for 1 consecutive run(s)"
   },
   {
-    "kind": "added",
+    "kind": "candidate_removed",
+    "id": "obs_fb39b4ed34045756",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
+  },
+  {
+    "kind": "candidate_removed",
     "id": "obs_1f4ddf9eef9835e0",
     "previous_id": null,
-    "detail": null
+    "detail": "missing for 1 consecutive run(s)"
+  },
+  {
+    "kind": "candidate_removed",
+    "id": "obs_fb8fa148dc1e73c6",
+    "previous_id": null,
+    "detail": "missing for 1 consecutive run(s)"
   }
 ]
