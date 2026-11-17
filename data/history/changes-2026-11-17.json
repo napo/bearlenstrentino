@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "removed",
+    "id": "obs_9148a26ad684db1c",
+    "previous_id": null,
+    "detail": "missing for 2 consecutive runs"
+  },
+  {
+    "kind": "removed",
+    "id": "obs_4278ce7868a5acb3",
+    "previous_id": null,
+    "detail": "missing for 2 consecutive runs"
+  }
+]
