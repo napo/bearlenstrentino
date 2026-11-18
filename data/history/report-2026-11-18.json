@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-11-18T06:21:44.386776+00:00",
+  "number_of_records": 137,
+  "records_added": 0,
+  "records_removed": 4,
+  "records_modified": 0,
+  "records_candidate_removed": 0,
+  "date_parse_success": 126,
+  "date_parse_failed": 11,
+  "classification_high": 128,
+  "classification_medium": 0,
+  "classification_low": 1,
+  "classification_unknown": 8,
+  "invalid_coordinates": 0,
+  "missing_descriptions": 0
+}
